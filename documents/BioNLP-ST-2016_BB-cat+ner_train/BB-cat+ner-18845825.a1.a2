@@ -1,0 +1,10 @@
+T3	Bacteria	38	60	Haemophilus influenzae
+T4	Bacteria	140	162	Haemophilus influenzae
+T5	Bacteria	164	168	NTHi
+T6	Bacteria	386	390	NTHi
+T7	Bacteria	428	432	NTHi
+N1	NCBI_Taxonomy	Annotation:T3	Referent:727
+N2	NCBI_Taxonomy	Annotation:T4	Referent:727
+N3	NCBI_Taxonomy	Annotation:T5	Referent:727
+N4	NCBI_Taxonomy	Annotation:T6	Referent:727
+N5	NCBI_Taxonomy	Annotation:T7	Referent:727

@@ -1,0 +1,6 @@
+T3	Bacteria	328	347	Helicobacter pylori
+T4	Bacteria	738	757	Helicobacter pylori
+T5	Bacteria	1831	1850	Helicobacter pylori
+N1	NCBI_Taxonomy	Annotation:T3	Referent:210
+N2	NCBI_Taxonomy	Annotation:T4	Referent:210
+N3	NCBI_Taxonomy	Annotation:T5	Referent:210

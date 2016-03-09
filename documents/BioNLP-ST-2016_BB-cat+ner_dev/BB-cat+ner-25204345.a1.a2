@@ -1,0 +1,6 @@
+T3	Bacteria	199	211	Enterococcus
+T4	Bacteria	216	229	Lactobacillus
+T5	Bacteria	1470	1494	Enterococcus durans HZ28
+N1	NCBI_Taxonomy	Annotation:T3	Referent:1350
+N2	NCBI_Taxonomy	Annotation:T4	Referent:1578
+N3	NCBI_Taxonomy	Annotation:T5	Referent:53345

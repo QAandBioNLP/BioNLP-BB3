@@ -1,0 +1,28 @@
+T3	Bacteria	294	318	Streptococcus pneumoniae
+T4	Bacteria	320	342	Haemophilus influenzae
+T5	Bacteria	348	369	Mycoplasma pneumoniae
+T6	Bacteria	414	436	Neisseria meningitidis
+T7	Bacteria	438	454	Escherichia coli
+T8	Bacteria	456	480	Streptococcus agalactiae
+T9	Bacteria	482	503	Staphylococcus aureus
+T10	Bacteria	509	531	Listeria monocytogenes
+T11	Bacteria	1252	1265	H. influenzae
+T12	Bacteria	1307	1320	S. pneumoniae
+T13	Bacteria	1330	1343	S. agalactiae
+T14	Bacteria	1352	1359	E. coli
+T15	Bacteria	1368	1384	L. monocytogenes
+T16	Bacteria	1397	1410	M. pneumoniae
+N1	NCBI_Taxonomy	Annotation:T3	Referent:1313
+N2	NCBI_Taxonomy	Annotation:T4	Referent:727
+N3	NCBI_Taxonomy	Annotation:T5	Referent:2104
+N4	NCBI_Taxonomy	Annotation:T6	Referent:487
+N5	NCBI_Taxonomy	Annotation:T7	Referent:562
+N6	NCBI_Taxonomy	Annotation:T8	Referent:1311
+N7	NCBI_Taxonomy	Annotation:T9	Referent:1280
+N8	NCBI_Taxonomy	Annotation:T10	Referent:1639
+N9	NCBI_Taxonomy	Annotation:T11	Referent:727
+N10	NCBI_Taxonomy	Annotation:T12	Referent:1313
+N11	NCBI_Taxonomy	Annotation:T13	Referent:1311
+N12	NCBI_Taxonomy	Annotation:T14	Referent:562
+N13	NCBI_Taxonomy	Annotation:T15	Referent:1639
+N14	NCBI_Taxonomy	Annotation:T16	Referent:1313

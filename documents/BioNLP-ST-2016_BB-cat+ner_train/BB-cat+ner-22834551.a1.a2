@@ -1,0 +1,6 @@
+T3	Bacteria	102	125	Clostridium perfringens
+T4	Bacteria	290	320	Clostridium perfringens Type A
+T5	Bacteria	1301	1315	C. perfringens
+N1	NCBI_Taxonomy	Annotation:T3	Referent:1502
+N2	NCBI_Taxonomy	Annotation:T4	Referent:37763
+N3	NCBI_Taxonomy	Annotation:T5	Referent:1502

@@ -1,0 +1,34 @@
+T3	Bacteria	0	10	Rickettsia
+T4	Bacteria	94	105	rickettsial
+T5	Bacteria	612	628	Rickettsia felis
+T6	Bacteria	642	652	rickettsia
+T7	Bacteria	684	701	Rickettsia bellii
+T8	Bacteria	788	803	rickettsial DNA
+T9	Bacteria	885	895	rickettsia
+T10	Bacteria	906	919	R. rickettsii
+T11	Bacteria	921	931	R. parkeri
+T12	Bacteria	933	941	R. felis
+T13	Bacteria	947	956	R. bellii
+T14	Bacteria	1011	1024	R. rickettsii
+T15	Bacteria	1087	1098	rickettsial
+T16	Bacteria	1179	1192	R. rickettsii
+T17	Bacteria	1288	1298	R. parkeri
+T18	Bacteria	1377	1390	R. rickettsii
+T19	Bacteria	1395	1405	R. parkeri
+N1	NCBI_Taxonomy	Annotation:T3	Referent:780
+N2	NCBI_Taxonomy	Annotation:T4	Referent:780
+N3	NCBI_Taxonomy	Annotation:T5	Referent:42862
+N4	NCBI_Taxonomy	Annotation:T6	Referent:780
+N5	NCBI_Taxonomy	Annotation:T7	Referent:33990
+N6	NCBI_Taxonomy	Annotation:T8	Referent:780
+N7	NCBI_Taxonomy	Annotation:T9	Referent:780
+N8	NCBI_Taxonomy	Annotation:T10	Referent:783
+N9	NCBI_Taxonomy	Annotation:T11	Referent:35792
+N10	NCBI_Taxonomy	Annotation:T12	Referent:42862
+N11	NCBI_Taxonomy	Annotation:T13	Referent:33990
+N12	NCBI_Taxonomy	Annotation:T14	Referent:783
+N13	NCBI_Taxonomy	Annotation:T15	Referent:780
+N14	NCBI_Taxonomy	Annotation:T16	Referent:783
+N15	NCBI_Taxonomy	Annotation:T17	Referent:35792
+N16	NCBI_Taxonomy	Annotation:T18	Referent:783
+N17	NCBI_Taxonomy	Annotation:T19	Referent:35792

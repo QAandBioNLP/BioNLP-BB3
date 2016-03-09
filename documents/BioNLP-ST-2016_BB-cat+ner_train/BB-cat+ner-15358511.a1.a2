@@ -1,0 +1,8 @@
+T3	Bacteria	14	38	Escherichia coli O157:H7
+T4	Bacteria	301	325	Escherichia coli O157:H7
+T5	Bacteria	626	641	E. coli O157:H7
+T6	Bacteria	922	937	E. coli O157:H7
+N1	NCBI_Taxonomy	Annotation:T3	Referent:83334
+N2	NCBI_Taxonomy	Annotation:T4	Referent:83334
+N3	NCBI_Taxonomy	Annotation:T5	Referent:83334
+N4	NCBI_Taxonomy	Annotation:T6	Referent:83334

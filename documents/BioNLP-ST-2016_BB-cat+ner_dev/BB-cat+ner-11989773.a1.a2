@@ -1,0 +1,10 @@
+T3	Bacteria	58	70	Listeria sp.
+T4	Bacteria	75	97	Listeria monocytogenes
+T5	Bacteria	210	218	Listeria
+T6	Bacteria	277	289	Listeria sp.
+T7	Bacteria	294	316	Listeria monocytogenes
+N1	NCBI_Taxonomy	Annotation:T3	Referent:1637
+N2	NCBI_Taxonomy	Annotation:T4	Referent:1639
+N3	NCBI_Taxonomy	Annotation:T5	Referent:1637
+N4	NCBI_Taxonomy	Annotation:T6	Referent:1637
+N5	NCBI_Taxonomy	Annotation:T7	Referent:1639

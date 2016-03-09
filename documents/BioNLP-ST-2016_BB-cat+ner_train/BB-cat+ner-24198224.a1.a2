@@ -1,0 +1,8 @@
+T6	Bacteria	20	42	Salmonella Paratyphi A
+T7	Bacteria	96	118	Salmonella Paratyphi A
+T8	Bacteria	235	249	S. Paratyphi A
+T9	Bacteria	643	657	S. Paratyphi A
+N1	NCBI_Taxonomy	Annotation:T6	Referent:54388
+N2	NCBI_Taxonomy	Annotation:T7	Referent:54388
+N3	NCBI_Taxonomy	Annotation:T8	Referent:54388
+N4	NCBI_Taxonomy	Annotation:T9	Referent:54388

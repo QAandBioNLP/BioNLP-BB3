@@ -1,0 +1,6 @@
+T3	Bacteria	221	242	Staphylococcus aureus
+T4	Bacteria	247	263	Escherichia coli
+T5	Bacteria	308	317	S. aureus
+N1	NCBI_Taxonomy	Annotation:T3	Referent:1280
+N2	NCBI_Taxonomy	Annotation:T4	Referent:562
+N3	NCBI_Taxonomy	Annotation:T5	Referent:1280

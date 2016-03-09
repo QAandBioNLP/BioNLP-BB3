@@ -1,0 +1,4 @@
+T3	Bacteria	695	716	Chlamydia trachomatis
+T4	Bacteria	968	977	chlamydia
+N1	NCBI_Taxonomy	Annotation:T3	Referent:813
+N2	NCBI_Taxonomy	Annotation:T4	Referent:813

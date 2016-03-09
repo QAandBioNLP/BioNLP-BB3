@@ -1,0 +1,44 @@
+T3	Bacteria	11	36	Lactobacillus gasseri K 7
+T4	Bacteria	48	64	Escherichia coli
+T5	Bacteria	151	182	Lactobacillus (Lb.) gasseri K 7
+T6	Bacteria	206	229	Escherichia coli O8:K88
+T7	Bacteria	334	346	Lactobacilli
+T8	Bacteria	378	385	E. coli
+T9	Bacteria	394	401	E. coli
+T10	Bacteria	412	419	E. coli
+T11	Bacteria	493	505	lactobacilli
+T12	Bacteria	602	609	E. coli
+T13	Bacteria	673	680	E. coli
+T14	Bacteria	827	834	E. coli
+T15	Bacteria	925	932	E. coli
+T16	Bacteria	992	1004	lactobacilli
+T17	Bacteria	1050	1057	E. coli
+T18	Bacteria	1065	1072	E. coli
+T19	Bacteria	1073	1085	lactobacilli
+T20	Bacteria	1228	1235	E. coli
+T21	Bacteria	1422	1429	E. coli
+T22	Bacteria	1684	1691	E. coli
+T23	Bacteria	1695	1707	lactobacilli
+T24	Bacteria	1809	1816	E. coli
+N1	NCBI_Taxonomy	Annotation:T3	Referent:1334627
+N2	NCBI_Taxonomy	Annotation:T4	Referent:562
+N3	NCBI_Taxonomy	Annotation:T5	Referent:1334627
+N4	NCBI_Taxonomy	Annotation:T6	Referent:1010796
+N5	NCBI_Taxonomy	Annotation:T7	Referent:1334627
+N6	NCBI_Taxonomy	Annotation:T8	Referent:562
+N7	NCBI_Taxonomy	Annotation:T9	Referent:562
+N8	NCBI_Taxonomy	Annotation:T10	Referent:562
+N9	NCBI_Taxonomy	Annotation:T11	Referent:1334627
+N10	NCBI_Taxonomy	Annotation:T12	Referent:562
+N11	NCBI_Taxonomy	Annotation:T13	Referent:562
+N12	NCBI_Taxonomy	Annotation:T14	Referent:562
+N13	NCBI_Taxonomy	Annotation:T15	Referent:562
+N14	NCBI_Taxonomy	Annotation:T16	Referent:1334627
+N15	NCBI_Taxonomy	Annotation:T17	Referent:562
+N16	NCBI_Taxonomy	Annotation:T18	Referent:562
+N17	NCBI_Taxonomy	Annotation:T19	Referent:1334627
+N18	NCBI_Taxonomy	Annotation:T20	Referent:562
+N19	NCBI_Taxonomy	Annotation:T21	Referent:562
+N20	NCBI_Taxonomy	Annotation:T22	Referent:562
+N21	NCBI_Taxonomy	Annotation:T23	Referent:1334627
+N22	NCBI_Taxonomy	Annotation:T24	Referent:562

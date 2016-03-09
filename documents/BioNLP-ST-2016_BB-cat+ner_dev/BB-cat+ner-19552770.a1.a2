@@ -1,0 +1,26 @@
+T6	Bacteria	29	42	Campylobacter
+T7	Bacteria	119	137	Campylobacter spp.
+T8	Bacteria	207	214	Cloacal
+T9	Bacteria	400	418	Campylobacter spp.
+T10	Bacteria	480	498	Campylobacter spp.
+T11	Bacteria	615	633	Campylobacter spp.
+T12	Bacteria	676	683	cloacal
+T13	Bacteria	757	775	Campylobacter coli
+T14	Bacteria	857	877	Campylobacter jejuni
+T15	Bacteria	892	910	Campylobacter lari
+T16	Bacteria	1117	1135	Campylobacter spp.
+T17	Bacteria	1243	1261	Campylobacter coli
+T18	Bacteria	1348	1361	Campylobacter
+N1	NCBI_Taxonomy	Annotation:T6	Referent:194
+N2	NCBI_Taxonomy	Annotation:T7	Referent:194
+N3	NCBI_Taxonomy	Annotation:T8	Referent:547
+N4	NCBI_Taxonomy	Annotation:T9	Referent:194
+N5	NCBI_Taxonomy	Annotation:T10	Referent:194
+N6	NCBI_Taxonomy	Annotation:T11	Referent:194
+N7	NCBI_Taxonomy	Annotation:T12	Referent:547
+N8	NCBI_Taxonomy	Annotation:T13	Referent:195
+N9	NCBI_Taxonomy	Annotation:T14	Referent:197
+N10	NCBI_Taxonomy	Annotation:T15	Referent:201
+N11	NCBI_Taxonomy	Annotation:T16	Referent:194
+N12	NCBI_Taxonomy	Annotation:T17	Referent:195
+N13	NCBI_Taxonomy	Annotation:T18	Referent:194

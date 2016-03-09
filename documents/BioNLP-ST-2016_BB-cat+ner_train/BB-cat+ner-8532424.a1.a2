@@ -1,0 +1,12 @@
+T3	Bacteria	24	39	Kingella kingae
+T4	Bacteria	76	91	Kingella kingae
+T5	Bacteria	542	551	K. kingae
+T6	Bacteria	977	986	K. kingae
+T7	Bacteria	1014	1023	K. kingae
+T8	Bacteria	1343	1352	K. kingae
+N1	NCBI_Taxonomy	Annotation:T3	Referent:504
+N2	NCBI_Taxonomy	Annotation:T4	Referent:504
+N3	NCBI_Taxonomy	Annotation:T5	Referent:504
+N4	NCBI_Taxonomy	Annotation:T6	Referent:504
+N5	NCBI_Taxonomy	Annotation:T7	Referent:504
+N6	NCBI_Taxonomy	Annotation:T8	Referent:504

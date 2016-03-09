@@ -1,0 +1,34 @@
+T3	Bacteria	181	198	Coxiella burnetii
+T4	Bacteria	250	267	Coxiella burnetii
+T5	Bacteria	376	387	C. burnetii
+T6	Bacteria	537	548	C. burnetii
+T7	Bacteria	639	650	C. burnetii
+T8	Bacteria	754	765	C. burnetii
+T9	Bacteria	816	827	C. burnetii
+T10	Bacteria	973	984	C. burnetii
+T11	Bacteria	1213	1224	C. burnetii
+T12	Bacteria	1317	1328	C. burnetii
+T13	Bacteria	1381	1392	C. burnetii
+T14	Bacteria	1457	1468	C. burnetii
+T15	Bacteria	1516	1527	C. burnetii
+T16	Bacteria	1582	1593	C. burnetii
+T17	Bacteria	1634	1645	C. burnetii
+T18	Bacteria	1811	1822	C. burnetii
+T19	Bacteria	1945	1956	C. burnetii
+N1	NCBI_Taxonomy	Annotation:T3	Referent:777
+N2	NCBI_Taxonomy	Annotation:T4	Referent:777
+N3	NCBI_Taxonomy	Annotation:T5	Referent:777
+N4	NCBI_Taxonomy	Annotation:T6	Referent:777
+N5	NCBI_Taxonomy	Annotation:T7	Referent:777
+N6	NCBI_Taxonomy	Annotation:T8	Referent:777
+N7	NCBI_Taxonomy	Annotation:T9	Referent:777
+N8	NCBI_Taxonomy	Annotation:T10	Referent:777
+N9	NCBI_Taxonomy	Annotation:T11	Referent:777
+N10	NCBI_Taxonomy	Annotation:T12	Referent:777
+N11	NCBI_Taxonomy	Annotation:T13	Referent:777
+N12	NCBI_Taxonomy	Annotation:T14	Referent:777
+N13	NCBI_Taxonomy	Annotation:T15	Referent:777
+N14	NCBI_Taxonomy	Annotation:T16	Referent:777
+N15	NCBI_Taxonomy	Annotation:T17	Referent:777
+N16	NCBI_Taxonomy	Annotation:T18	Referent:777
+N17	NCBI_Taxonomy	Annotation:T19	Referent:777

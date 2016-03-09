@@ -1,0 +1,4 @@
+T3	Bacteria	750	771	Mycoplasma pneumoniae
+T4	Bacteria	950	971	Mycoplasma pneumoniae
+N1	NCBI_Taxonomy	Annotation:T3	Referent:2104
+N2	NCBI_Taxonomy	Annotation:T4	Referent:2104

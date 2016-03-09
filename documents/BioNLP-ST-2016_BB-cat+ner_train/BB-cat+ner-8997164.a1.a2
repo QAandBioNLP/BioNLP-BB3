@@ -1,0 +1,4 @@
+T3	Bacteria	194	206	mycobacteria
+T4	Bacteria	238	251	mycobacterial
+N1	NCBI_Taxonomy	Annotation:T3	Referent:1763
+N2	NCBI_Taxonomy	Annotation:T4	Referent:1763

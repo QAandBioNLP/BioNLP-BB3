@@ -1,0 +1,14 @@
+T6	Bacteria	71	97	Francisella tularensis LVS
+T7	Bacteria	140	162	Francisella tularensis
+T8	Bacteria	300	317	F. tularensis LVS
+T9	Bacteria	405	412	E. coli
+T10	Bacteria	569	582	F. tularensis
+T11	Bacteria	688	701	F. tularensis
+T12	Bacteria	839	852	F. tularensis
+N1	NCBI_Taxonomy	Annotation:T6	Referent:376619
+N2	NCBI_Taxonomy	Annotation:T7	Referent:376619
+N3	NCBI_Taxonomy	Annotation:T8	Referent:376619
+N4	NCBI_Taxonomy	Annotation:T9	Referent:562
+N5	NCBI_Taxonomy	Annotation:T10	Referent:376619
+N6	NCBI_Taxonomy	Annotation:T11	Referent:376619
+N7	NCBI_Taxonomy	Annotation:T12	Referent:376619

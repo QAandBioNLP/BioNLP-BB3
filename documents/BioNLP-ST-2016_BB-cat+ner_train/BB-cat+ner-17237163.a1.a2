@@ -1,0 +1,10 @@
+T3	Bacteria	41	64	Serratia marcescens MG1
+T4	Bacteria	87	106	Serratia marcescens
+T5	Bacteria	199	216	S. marcescens MG1
+T6	Bacteria	1513	1526	S. marcescens
+T7	Bacteria	1659	1676	S. marcescens MG1
+N1	NCBI_Taxonomy	Annotation:T3	Referent:615
+N2	NCBI_Taxonomy	Annotation:T4	Referent:615
+N3	NCBI_Taxonomy	Annotation:T5	Referent:615
+N4	NCBI_Taxonomy	Annotation:T6	Referent:615
+N5	NCBI_Taxonomy	Annotation:T7	Referent:615

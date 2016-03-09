@@ -1,0 +1,6 @@
+T3	Bacteria	674	690	Escherichia coli
+T4	Bacteria	1336	1343	E. coli
+T5	Bacteria	1387	1410	Deinococcus radiodurans
+N1	NCBI_Taxonomy	Annotation:T3	Referent:562
+N2	NCBI_Taxonomy	Annotation:T4	Referent:562
+N3	NCBI_Taxonomy	Annotation:T5	Referent:1299

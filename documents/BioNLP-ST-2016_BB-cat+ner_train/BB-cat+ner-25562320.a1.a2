@@ -1,0 +1,16 @@
+T3	Bacteria	66	92	Mycobacterium tuberculosis
+T4	Bacteria	459	485	Mycobacterium tuberculosis
+T5	Bacteria	487	490	Mtb
+T6	Bacteria	751	754	Mtb
+T7	Bacteria	788	791	Mtb
+T8	Bacteria	893	896	Mtb
+T9	Bacteria	1024	1027	Mtb
+T10	Bacteria	1105	1108	Mtb
+N1	NCBI_Taxonomy	Annotation:T3	Referent:1773
+N2	NCBI_Taxonomy	Annotation:T4	Referent:1773
+N3	NCBI_Taxonomy	Annotation:T5	Referent:1773
+N4	NCBI_Taxonomy	Annotation:T6	Referent:1773
+N5	NCBI_Taxonomy	Annotation:T7	Referent:1773
+N6	NCBI_Taxonomy	Annotation:T8	Referent:1773
+N7	NCBI_Taxonomy	Annotation:T9	Referent:1773
+N8	NCBI_Taxonomy	Annotation:T10	Referent:1773

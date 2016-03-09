@@ -1,0 +1,22 @@
+T3	Bacteria	30	53	Pseudomonas fluorescens
+T4	Bacteria	559	594	Pseudomonas fluorescens strain, TSS
+T5	Bacteria	663	666	TSS
+T6	Bacteria	726	742	Escherichia coli
+T7	Bacteria	757	760	TSS
+T8	Bacteria	812	815	TSS
+T9	Bacteria	1285	1299	P. fluorescens
+T10	Bacteria	1319	1339	Aeromonas hydrophila
+T11	Bacteria	1440	1454	Vibrio harveyi
+T12	Bacteria	1643	1653	V. harveyi
+T13	Bacteria	1658	1671	A. hydrophila
+N1	NCBI_Taxonomy	Annotation:T3	Referent:294
+N2	NCBI_Taxonomy	Annotation:T4	Referent:294
+N3	NCBI_Taxonomy	Annotation:T5	Referent:294
+N4	NCBI_Taxonomy	Annotation:T6	Referent:562
+N5	NCBI_Taxonomy	Annotation:T7	Referent:294
+N6	NCBI_Taxonomy	Annotation:T8	Referent:294
+N7	NCBI_Taxonomy	Annotation:T9	Referent:294
+N8	NCBI_Taxonomy	Annotation:T10	Referent:644
+N9	NCBI_Taxonomy	Annotation:T11	Referent:669
+N10	NCBI_Taxonomy	Annotation:T12	Referent:669
+N11	NCBI_Taxonomy	Annotation:T13	Referent:644

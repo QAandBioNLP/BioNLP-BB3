@@ -1,0 +1,6 @@
+T3	Bacteria	106	122	Escherichia coli
+T4	Bacteria	285	301	Escherichia coli
+T5	Bacteria	1054	1061	E. coli
+N1	NCBI_Taxonomy	Annotation:T3	Referent:562
+N2	NCBI_Taxonomy	Annotation:T4	Referent:562
+N3	NCBI_Taxonomy	Annotation:T5	Referent:562

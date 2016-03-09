@@ -1,0 +1,6 @@
+T3	Bacteria	214	233	Vibrio cholerae O:1
+T4	Bacteria	341	356	V. cholerae O:1
+T5	Bacteria	601	616	V. cholerae O:1
+N1	NCBI_Taxonomy	Annotation:T3	Referent:666
+N2	NCBI_Taxonomy	Annotation:T4	Referent:666
+N3	NCBI_Taxonomy	Annotation:T5	Referent:666

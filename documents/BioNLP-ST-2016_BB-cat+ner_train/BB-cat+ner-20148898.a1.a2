@@ -1,0 +1,8 @@
+T3	Bacteria	321	348	Yersinia pseudotuberculosis
+T4	Bacteria	467	488	Y. pseudotuberculosis
+T5	Bacteria	846	867	Y. pseudotuberculosis
+T6	Bacteria	1421	1442	Y. pseudotuberculosis
+N1	NCBI_Taxonomy	Annotation:T3	Referent:633
+N2	NCBI_Taxonomy	Annotation:T4	Referent:633
+N3	NCBI_Taxonomy	Annotation:T5	Referent:633
+N4	NCBI_Taxonomy	Annotation:T6	Referent:633

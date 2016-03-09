@@ -1,0 +1,20 @@
+T3	Bacteria	0	21	Arhodomonas aquaeolei
+T4	Bacteria	112	133	Arhodomonas aquaeolei
+T5	Bacteria	677	688	Arhodomonas
+T6	Bacteria	766	780	Proteobacteria
+T7	Bacteria	851	863	A. aquaeolei
+T8	Bacteria	891	913	purple sulfur bacteria
+T9	Bacteria	926	944	Ectothiorhodospira
+T10	Bacteria	949	959	Chromatium
+T11	Bacteria	1261	1272	strain HA-1
+T12	Bacteria	1276	1286	ATCC 49307
+N1	NCBI_Taxonomy	Annotation:T3	Referent:2369
+N2	NCBI_Taxonomy	Annotation:T4	Referent:2369
+N3	NCBI_Taxonomy	Annotation:T5	Referent:2369
+N4	NCBI_Taxonomy	Annotation:T6	Referent:1224
+N5	NCBI_Taxonomy	Annotation:T7	Referent:2369
+N6	NCBI_Taxonomy	Annotation:T8	Referent:1046
+N7	NCBI_Taxonomy	Annotation:T9	Referent:1051
+N8	NCBI_Taxonomy	Annotation:T10	Referent:1047
+N9	NCBI_Taxonomy	Annotation:T11	Referent:2369
+N10	NCBI_Taxonomy	Annotation:T12	Referent:2369

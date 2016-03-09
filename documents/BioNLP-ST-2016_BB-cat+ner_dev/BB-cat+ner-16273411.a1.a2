@@ -1,0 +1,6 @@
+T3	Bacteria	57	77	Klebsiella pneumonia
+T4	Bacteria	321	341	Klebsiella pneumonia
+T5	Bacteria	608	628	Klebsiella pneumonia
+N1	NCBI_Taxonomy	Annotation:T3	Referent:573
+N2	NCBI_Taxonomy	Annotation:T4	Referent:573
+N3	NCBI_Taxonomy	Annotation:T5	Referent:573

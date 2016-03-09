@@ -1,0 +1,10 @@
+T3	Bacteria	16	33	Coxiella burnetii
+T4	Bacteria	85	102	Coxiella burnetii
+T5	Bacteria	313	324	C. burnetii
+T6	Bacteria	347	358	C. burnetii
+T7	Bacteria	850	861	C. burnetii
+N1	NCBI_Taxonomy	Annotation:T3	Referent:777
+N2	NCBI_Taxonomy	Annotation:T4	Referent:777
+N3	NCBI_Taxonomy	Annotation:T5	Referent:777
+N4	NCBI_Taxonomy	Annotation:T6	Referent:777
+N5	NCBI_Taxonomy	Annotation:T7	Referent:777

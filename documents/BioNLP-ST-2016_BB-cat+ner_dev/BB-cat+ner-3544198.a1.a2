@@ -1,0 +1,4 @@
+T3	Bacteria	40	60	Mycobacterium leprae
+T4	Bacteria	163	183	Mycobacterium leprae
+N1	NCBI_Taxonomy	Annotation:T3	Referent:1769
+N2	NCBI_Taxonomy	Annotation:T4	Referent:1769

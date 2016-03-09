@@ -1,0 +1,12 @@
+T3	Bacteria	41	66	Burkholderia pseudomallei
+T4	Bacteria	258	297	Burkholderia (Pseudomonas) pseudomallei
+T5	Bacteria	272	283	Pseudomonas
+T6	Bacteria	696	711	B. pseudomallei
+T7	Bacteria	1565	1580	B. pseudomallei
+T8	Bacteria	1726	1741	B. pseudomallei
+N1	NCBI_Taxonomy	Annotation:T3	Referent:28450
+N2	NCBI_Taxonomy	Annotation:T4	Referent:28450
+N3	NCBI_Taxonomy	Annotation:T5	Referent:286
+N4	NCBI_Taxonomy	Annotation:T6	Referent:28450
+N5	NCBI_Taxonomy	Annotation:T7	Referent:28450
+N6	NCBI_Taxonomy	Annotation:T8	Referent:28450

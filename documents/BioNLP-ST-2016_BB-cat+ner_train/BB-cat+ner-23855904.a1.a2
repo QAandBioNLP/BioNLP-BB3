@@ -1,0 +1,12 @@
+T5	Bacteria	57	70	Campylobacter
+T6	Bacteria	214	227	Campylobacter
+T7	Bacteria	432	445	Campylobacter
+T8	Bacteria	1002	1020	Campylobacter coli
+T9	Bacteria	1407	1420	Campylobacter
+T10	Bacteria	1558	1571	Campylobacter
+N1	NCBI_Taxonomy	Annotation:T5	Referent:194
+N2	NCBI_Taxonomy	Annotation:T6	Referent:194
+N3	NCBI_Taxonomy	Annotation:T7	Referent:194
+N4	NCBI_Taxonomy	Annotation:T8	Referent:195
+N5	NCBI_Taxonomy	Annotation:T9	Referent:194
+N6	NCBI_Taxonomy	Annotation:T10	Referent:194

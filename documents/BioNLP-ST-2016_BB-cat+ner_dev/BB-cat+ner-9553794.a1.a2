@@ -1,0 +1,24 @@
+T3	Bacteria	26	50	Carnobacterium piscicola
+T4	Bacteria	1087	1097	Vibrio sp.
+T5	Bacteria	1110	1120	V. marinus
+T6	Bacteria	1122	1140	Enterobacteriaceae
+T7	Bacteria	1142	1166	Enterobacter agglomerans
+T8	Bacteria	1168	1189	Serratia liquefaciens
+T9	Bacteria	1194	1212	Rahnella aquatilis
+T10	Bacteria	1231	1251	Aeromonas hydrophila
+T11	Bacteria	1350	1374	Carnobacterium piscicola
+T12	Bacteria	1513	1527	Carnobacterium
+T13	Bacteria	1578	1590	C. piscicola
+T14	Bacteria	1848	1860	C. piscicola
+N1	NCBI_Taxonomy	Annotation:T3	Referent:2751
+N2	NCBI_Taxonomy	Annotation:T4	Referent:678
+N3	NCBI_Taxonomy	Annotation:T5	Referent:90736
+N4	NCBI_Taxonomy	Annotation:T6	Referent:543
+N5	NCBI_Taxonomy	Annotation:T7	Referent:549
+N6	NCBI_Taxonomy	Annotation:T8	Referent:614
+N7	NCBI_Taxonomy	Annotation:T9	Referent:34038
+N8	NCBI_Taxonomy	Annotation:T10	Referent:644
+N9	NCBI_Taxonomy	Annotation:T11	Referent:2751
+N10	NCBI_Taxonomy	Annotation:T12	Referent:2751
+N11	NCBI_Taxonomy	Annotation:T13	Referent:2751
+N12	NCBI_Taxonomy	Annotation:T14	Referent:2751

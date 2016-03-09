@@ -1,0 +1,26 @@
+T3	Bacteria	10	29	Helicobacter pylori
+T4	Bacteria	165	184	Helicobacter pylori
+T5	Bacteria	250	259	H. pylori
+T6	Bacteria	416	425	H. pylori
+T7	Bacteria	452	461	H. pylori
+T8	Bacteria	555	564	H. pylori
+T9	Bacteria	646	655	H. pylori
+T10	Bacteria	770	779	H. pylori
+T11	Bacteria	947	956	H. pylori
+T12	Bacteria	1048	1057	H. pylori
+T13	Bacteria	1181	1190	H. pylori
+T14	Bacteria	1309	1318	H. pylori
+T15	Bacteria	1552	1561	H. pylori
+N1	NCBI_Taxonomy	Annotation:T3	Referent:210
+N2	NCBI_Taxonomy	Annotation:T4	Referent:210
+N3	NCBI_Taxonomy	Annotation:T5	Referent:210
+N4	NCBI_Taxonomy	Annotation:T6	Referent:210
+N5	NCBI_Taxonomy	Annotation:T7	Referent:210
+N6	NCBI_Taxonomy	Annotation:T8	Referent:210
+N7	NCBI_Taxonomy	Annotation:T9	Referent:210
+N8	NCBI_Taxonomy	Annotation:T10	Referent:210
+N9	NCBI_Taxonomy	Annotation:T11	Referent:210
+N10	NCBI_Taxonomy	Annotation:T12	Referent:210
+N11	NCBI_Taxonomy	Annotation:T13	Referent:210
+N12	NCBI_Taxonomy	Annotation:T14	Referent:210
+N13	NCBI_Taxonomy	Annotation:T15	Referent:210

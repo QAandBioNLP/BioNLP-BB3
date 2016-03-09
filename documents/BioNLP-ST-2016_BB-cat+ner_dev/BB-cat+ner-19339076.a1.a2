@@ -1,0 +1,16 @@
+T3	Bacteria	19	37	Lactococcus lactis
+T4	Bacteria	291	301	lactococci
+T5	Bacteria	1153	1178	L. lactis subsp. cremoris
+T6	Bacteria	1478	1501	L. lactis subsp. lactis
+T7	Bacteria	2026	2036	lactococci
+T8	Bacteria	2371	2381	lactococci
+N1	NCBI_Taxonomy	Annotation:T3	Referent:1358
+N2	NCBI_Taxonomy	Annotation:T4	Referent:1358
+N3	NCBI_Taxonomy	Annotation:T5	Referent:1359
+N4	NCBI_Taxonomy	Annotation:T6	Referent:1360
+N5	NCBI_Taxonomy	Annotation:T7	Referent:1358
+N6	NCBI_Taxonomy	Annotation:T7	Referent:1359
+N7	NCBI_Taxonomy	Annotation:T7	Referent:1360
+N8	NCBI_Taxonomy	Annotation:T8	Referent:1358
+N9	NCBI_Taxonomy	Annotation:T8	Referent:1359
+N10	NCBI_Taxonomy	Annotation:T8	Referent:1360
