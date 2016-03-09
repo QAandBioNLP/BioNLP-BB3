@@ -1,26 +1,27 @@
 # BioNLP-BB3
 
-BioNLP 2016 BB3 Contest Submission
-
---------------------------------------------------------------------------------
-AUTHORS
-
-Helen Cook 1, Evangelos Pafilis 2, Lars Juhl Jensen 1
-
-1 Novo Nordisk Foundation Center for Protein Research, University of Copenhagen
-2 Institute of Marine Biology Biotechnology and Aquaculture, Hellenic Centre for Marine Research (HCMR)
+BioNLP 2016 BB3 Contest Submission (http://2016.bionlp-st.org/tasks/bb2)
 
 
+## Authors
 
---------------------------------------------------------------------------------
-LICENSE
+Helen Cook [1], Evangelos Pafilis [2], Lars Juhl Jensen [1]
+
+[1] Novo Nordisk Foundation Center for Protein Research, University of Copenhagen
+
+[2] Institute of Marine Biology Biotechnology and Aquaculture, Hellenic Centre for Marine Research (HCMR)
+
+
+
+
+## License
 
 Code distributed under a BSD license, see LICENSE for details.
 Dictionaries and output distributed under CC-BY 4.0.
 
 
---------------------------------------------------------------------------------
-MANIFEST
+
+## Manifest
 
 This distribution contains the following files:
 
@@ -44,15 +45,15 @@ tagger/LICENSE
 README -- this file
 
 
---------------------------------------------------------------------------------
-INPUT DOCUMENTS
+
+## Input Documents
 
 Download the Entity Categorization training and development files located at http://2016.bionlp-st.org/tasks/bb2
 and extract them into the documents directory.
 
 
---------------------------------------------------------------------------------
-INPUT DICTIONARIES
+
+## Input Dictionaries
 
 A dictionary is provided for bacteria.  
 
@@ -63,8 +64,7 @@ dict/bacteria_groups.tsv
 dict/bacteria_genus
 
 
---------------------------------------------------------------------------------
-OUTPUT
+## Output
 
 Under documents, this distribution also contains the precalculated output files for BioNLP BB3 Entity categorization training and dev sets.
 
@@ -80,8 +80,7 @@ documents/BioNLP-ST-2016_BB-cat+ner_train/EVAL_train -- summary of performance o
 documents/BioNLP-ST-2016_BB-cat+ner_dev/EVAL_dev -- summary of performance on the dev set
 
 
---------------------------------------------------------------------------------
-INSTALL
+## Install 
 
 The C++ code that this python wrapper relies on is distributed here: https://bitbucket.org/larsjuhljensen/tagger
 
@@ -92,8 +91,7 @@ It is known to compile under Suse Linux.  If you are compiling under another dis
 This code is known not to not compile out of the box on Mac OS X, but it is rumoured to be possible to do so with some code changes regarding the tr1 library.  Instructions and warranty not provided. 
 
 
---------------------------------------------------------------------------------
-USAGE 
+## Usage
 
 Run the tagger on a directory of files:
 
