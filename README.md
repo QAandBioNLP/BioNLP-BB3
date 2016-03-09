@@ -82,9 +82,7 @@ documents/BioNLP-ST-2016_BB-cat+ner_dev/EVAL_dev -- summary of performance on th
 
 ## Install 
 
-The C++ code that this python wrapper relies on is distributed here: https://bitbucket.org/larsjuhljensen/tagger
-
-It is known to compile under Suse Linux.  If you are compiling under another distribution of linux, you may need to install and configure the following libraries (beyond the scope of this document).
+This code is known to compile under Suse Linux.  If you are compiling under another distribution of linux, you may need to install and configure the following libraries (beyond the scope of this document).
 - swig
 - boost
 
