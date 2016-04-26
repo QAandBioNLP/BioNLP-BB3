@@ -1,3 +1,4 @@
+Habitat	41	49	children
 Bacteria	800	816	Escherichia coli
 Bacteria	818	830	Shigella spp
 Bacteria	852	872	Bacteroides fragilis
@@ -8,6 +9,15 @@ Bacteria	1089	1101	Shigella spp
 Bacteria	1123	1134	B. fragilis
 Bacteria	1189	1196	E. coli
 Bacteria	1201	1213	Shigella spp
+Habitat	1344	1353	hospitals
+Habitat	1528	1534	stools
+Habitat	1604	1613	hospitals
+Habitat	1764	1771	latrine
+Habitat	1807	1814	mothers
+Habitat	1864	1872	children
+Habitat	1894	1901	mothers
 Bacteria	2058	2074	Escherichia coli
 Bacteria	2076	2088	Shigella spp
 Bacteria	2110	2130	Bacteroides fragilis
+Habitat	2177	2185	children
+Habitat	2422	2430	children

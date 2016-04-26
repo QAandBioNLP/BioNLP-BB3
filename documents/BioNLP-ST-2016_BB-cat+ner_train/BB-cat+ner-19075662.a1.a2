@@ -1,12 +1,28 @@
-T3	Bacteria	28	42	Staphylococcus
-T4	Bacteria	53	67	Staphylococcus
-T5	Bacteria	220	246	Staphylococcus epidermidis
-T6	Bacteria	251	272	Staphylococcus aureus
-T7	Bacteria	494	503	S. aureus
-T8	Bacteria	508	522	S. epidermidis
-N1	NCBI_Taxonomy	Annotation:T3	Referent:1279
-N2	NCBI_Taxonomy	Annotation:T4	Referent:1279
-N3	NCBI_Taxonomy	Annotation:T5	Referent:1282
-N4	NCBI_Taxonomy	Annotation:T6	Referent:1280
-N5	NCBI_Taxonomy	Annotation:T7	Referent:1280
-N6	NCBI_Taxonomy	Annotation:T8	Referent:1282
+T3	Bacteria 28 42	Staphylococcus
+T4	Habitat 43 51	biofilms
+T5	Bacteria 53 67	Staphylococcus
+T6	Habitat 78 93	medical devices
+T7	Bacteria 220 246	Staphylococcus epidermidis
+T8	Bacteria 251 272	Staphylococcus aureus
+T9	Habitat 330 337	biofilm
+T10	Habitat 406 410	host
+T11	Habitat 411 424	immune system
+T12	Bacteria 494 503	S. aureus
+T13	Bacteria 508 522	S. epidermidis
+T14	Habitat 579 586	biofilm
+T15	Habitat 797 804	biofilm
+T16	Habitat 857 865	biofilms
+N1	NCBI_Taxonomy Annotation:T3 Referent:1279
+N2	OntoBiotope Annotation:T4 Referent:OBT:000037
+N3	NCBI_Taxonomy Annotation:T5 Referent:1279
+N4	OntoBiotope Annotation:T6 Referent:OBT:000063
+N5	NCBI_Taxonomy Annotation:T7 Referent:1282
+N6	NCBI_Taxonomy Annotation:T8 Referent:1280
+N7	OntoBiotope Annotation:T9 Referent:OBT:000037
+N8	OntoBiotope Annotation:T10 Referent:OBT:000036
+N9	OntoBiotope Annotation:T11 Referent:OBT:000232
+N10	NCBI_Taxonomy Annotation:T12 Referent:1280
+N11	NCBI_Taxonomy Annotation:T13 Referent:1282
+N12	OntoBiotope Annotation:T14 Referent:OBT:000037
+N13	OntoBiotope Annotation:T15 Referent:OBT:000037
+N14	OntoBiotope Annotation:T16 Referent:OBT:000037

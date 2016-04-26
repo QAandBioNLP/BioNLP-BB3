@@ -1,3 +1,8 @@
+Habitat	(89, 94, ((-20, 'OBT:001804'),))	people	(89, 95, ((-20, 'OBT:002216'),))	people
 Bacteria	(214, 232, ((-2, '666'),))	Vibrio cholerae O:1	(214, 233, ((-2, '127906'),))	Vibrio cholerae O:1
+Habitat	(277, 284, ((-20, 'OBT:002133'),))	patients	(251, 285, ((-20, 'OBT:001804'),))	household contacts of the patients
+Habitat	(329, 334, ((-20, 'OBT:001804'),))	people	(329, 366, ((-20, 'OBT:002216'),))	people with V. cholerae O:1 infection
 Bacteria	(341, 355, ((-2, '666'),))	V. cholerae O:1	(341, 356, ((-2, '127906'),))	V. cholerae O:1
+Habitat	(407, 412, ((-20, 'OBT:000078'),))	marine	(407, 422, ((-20, 'OBT:001230'),))	marine bivalves
 Bacteria	(601, 615, ((-2, '666'),))	V. cholerae O:1	(601, 616, ((-2, '127906'),))	V. cholerae O:1
+Habitat	(662, 669, ((-20, 'OBT:000903'),))	bivalves	(662, 670, ((-20, 'OBT:000903'), (-20, 'OBT:001230')))	bivalves

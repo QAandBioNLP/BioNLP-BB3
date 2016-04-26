@@ -1,8 +1,12 @@
 Bacteria	0	10	Rickettsia
 Bacteria	94	105	rickettsial
+Habitat	136	141	ticks
+Habitat	210	214	flea
+Habitat	439	443	tick
 Bacteria	612	628	Rickettsia felis
 Bacteria	642	652	rickettsia
 Bacteria	684	701	Rickettsia bellii
+Habitat	731	736	ticks
 Bacteria	885	895	rickettsia
 Bacteria	906	919	R. rickettsii
 Bacteria	921	931	R. parkeri

@@ -1,8 +1,38 @@
-T3	Bacteria	57	76	Helicobacter pylori
-T4	Bacteria	520	539	Helicobacter pylori
-T5	Bacteria	963	972	H. pylori
-T6	Bacteria	1186	1195	H. pylori
-N1	NCBI_Taxonomy	Annotation:T3	Referent:210
-N2	NCBI_Taxonomy	Annotation:T4	Referent:210
-N3	NCBI_Taxonomy	Annotation:T5	Referent:210
-N4	NCBI_Taxonomy	Annotation:T6	Referent:210
+T3	Habitat 40 55	duodenal ulcers
+T4	Bacteria 57 76	Helicobacter pylori
+T5	Habitat 161 174	parietal cell
+T6	Habitat 267 273	ulcers
+T7	Habitat 346 354	patients
+T8	Habitat 360 375	duodenal ulcers
+T9	Habitat 444 459	duodenal ulcers
+T10	Bacteria 520 539	Helicobacter pylori
+T11	Habitat 659 674	duodenal ulcers
+T12	Habitat 798 804	ulcers
+T13	Habitat 832 840	subjects
+T14	Habitat 846 852	ulcers
+T15	Habitat 870 878	patients
+T16	Habitat 884 889	ulcer
+T17	Habitat 919 927	patients
+T18	Bacteria 963 972	H. pylori
+T19	Habitat 1015 1023	patients
+T20	Habitat 1125 1133	patients
+T21	Bacteria 1186 1195	H. pylori
+N1	OntoBiotope Annotation:T3 Referent:OBT:000935
+N2	NCBI_Taxonomy Annotation:T4 Referent:210
+N3	OntoBiotope Annotation:T5 Referent:OBT:001760
+N4	OntoBiotope Annotation:T6 Referent:OBT:000538
+N5	OntoBiotope Annotation:T7 Referent:OBT:002133
+N6	OntoBiotope Annotation:T8 Referent:OBT:000935
+N7	OntoBiotope Annotation:T9 Referent:OBT:000935
+N8	NCBI_Taxonomy Annotation:T10 Referent:210
+N9	OntoBiotope Annotation:T11 Referent:OBT:000935
+N10	OntoBiotope Annotation:T12 Referent:OBT:000538
+N11	OntoBiotope Annotation:T13 Referent:OBT:001804
+N12	OntoBiotope Annotation:T14 Referent:OBT:000538
+N13	OntoBiotope Annotation:T15 Referent:OBT:002133
+N14	OntoBiotope Annotation:T16 Referent:OBT:000538
+N15	OntoBiotope Annotation:T17 Referent:OBT:002133
+N16	NCBI_Taxonomy Annotation:T18 Referent:210
+N17	OntoBiotope Annotation:T19 Referent:OBT:002133
+N18	OntoBiotope Annotation:T20 Referent:OBT:002133
+N19	NCBI_Taxonomy Annotation:T21 Referent:210

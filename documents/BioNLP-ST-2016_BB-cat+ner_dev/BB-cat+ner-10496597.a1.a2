@@ -1,6 +1,44 @@
-T3	Bacteria	328	347	Helicobacter pylori
-T4	Bacteria	738	757	Helicobacter pylori
-T5	Bacteria	1831	1850	Helicobacter pylori
-N1	NCBI_Taxonomy	Annotation:T3	Referent:210
-N2	NCBI_Taxonomy	Annotation:T4	Referent:210
-N3	NCBI_Taxonomy	Annotation:T5	Referent:210
+T3	Habitat 36 50	gastric mucosa
+T4	Habitat 211 226	gastric mucosal
+T5	Habitat 238 253	lymphoid tissue
+T6	Habitat 255 259	MALT
+T7	Habitat 317 324	B cells
+T8	Bacteria 328 347	Helicobacter pylori
+T9	Habitat 544 551	gastric
+T10	Habitat 552 556	MALT
+T11	Habitat 603 611	patients
+T12	Habitat 636 643	gastric
+T13	Habitat 672 676	MALT
+T14	Bacteria 738 757	Helicobacter pylori
+T15	Habitat 864 867	AE3
+T16	Habitat 1055 1059	MALT
+T17	Habitat 1122 1130	patients
+T18	Habitat 1438 1445	T cells
+T19	Habitat 1688 1695	lesions
+T20	Habitat 1715 1722	gastric
+T21	Habitat 1807 1814	B cells
+T22	Bacteria 1831 1850	Helicobacter pylori
+T23	Habitat 2026 2033	gastric
+T24	Habitat 2034 2038	MALT
+N1	OntoBiotope Annotation:T3 Referent:OBT:001760
+N2	OntoBiotope Annotation:T4 Referent:OBT:001760
+N3	OntoBiotope Annotation:T5 Referent:OBT:000232
+N4	OntoBiotope Annotation:T6 Referent:OBT:000232
+N5	OntoBiotope Annotation:T7 Referent:OBT:000316
+N6	NCBI_Taxonomy Annotation:T8 Referent:210
+N7	OntoBiotope Annotation:T9 Referent:OBT:000953
+N8	OntoBiotope Annotation:T10 Referent:OBT:000232
+N9	OntoBiotope Annotation:T11 Referent:OBT:002133
+N10	OntoBiotope Annotation:T12 Referent:OBT:000953
+N11	OntoBiotope Annotation:T13 Referent:OBT:000232
+N12	NCBI_Taxonomy Annotation:T14 Referent:210
+N13	OntoBiotope Annotation:T15 Referent:OBT:000308
+N14	OntoBiotope Annotation:T16 Referent:OBT:000232
+N15	OntoBiotope Annotation:T17 Referent:OBT:002133
+N16	OntoBiotope Annotation:T18 Referent:OBT:000316
+N17	OntoBiotope Annotation:T19 Referent:OBT:000231
+N18	OntoBiotope Annotation:T20 Referent:OBT:000953
+N19	OntoBiotope Annotation:T21 Referent:OBT:000316
+N20	NCBI_Taxonomy Annotation:T22 Referent:210
+N21	OntoBiotope Annotation:T23 Referent:OBT:000953
+N22	OntoBiotope Annotation:T24 Referent:OBT:000232

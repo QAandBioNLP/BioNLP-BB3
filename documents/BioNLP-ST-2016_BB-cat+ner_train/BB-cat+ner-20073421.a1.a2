@@ -1,14 +1,30 @@
-T6	Bacteria	71	97	Francisella tularensis LVS
-T7	Bacteria	140	162	Francisella tularensis
-T8	Bacteria	300	317	F. tularensis LVS
-T9	Bacteria	405	412	E. coli
-T10	Bacteria	569	582	F. tularensis
-T11	Bacteria	688	701	F. tularensis
-T12	Bacteria	839	852	F. tularensis
-N1	NCBI_Taxonomy	Annotation:T6	Referent:376619
-N2	NCBI_Taxonomy	Annotation:T7	Referent:376619
-N3	NCBI_Taxonomy	Annotation:T8	Referent:376619
-N4	NCBI_Taxonomy	Annotation:T9	Referent:562
-N5	NCBI_Taxonomy	Annotation:T10	Referent:376619
-N6	NCBI_Taxonomy	Annotation:T11	Referent:376619
-N7	NCBI_Taxonomy	Annotation:T12	Referent:376619
+T6	Bacteria 71 97	Francisella tularensis LVS
+T7	Habitat 101 107	murine
+T8	Habitat 108 118	macrophage
+T9	Habitat 124 128	cell
+T10	Bacteria 140 162	Francisella tularensis
+T11	Habitat 185 190	human
+T12	Habitat 251 256	human
+T13	Bacteria 300 317	F. tularensis LVS
+T14	Habitat 328 338	macrophage
+T15	Habitat 344 348	cell
+T16	Bacteria 405 412	E. coli
+T17	Bacteria 569 582	F. tularensis
+T18	Bacteria 688 701	F. tularensis
+T19	Habitat 733 737	cell
+T20	Bacteria 839 852	F. tularensis
+N1	NCBI_Taxonomy Annotation:T6 Referent:376619
+N2	OntoBiotope Annotation:T7 Referent:OBT:000257
+N3	OntoBiotope Annotation:T8 Referent:OBT:000232
+N4	OntoBiotope Annotation:T9 Referent:OBT:000056
+N5	NCBI_Taxonomy Annotation:T10 Referent:376619
+N6	OntoBiotope Annotation:T11 Referent:OBT:000257
+N7	OntoBiotope Annotation:T12 Referent:OBT:000257
+N8	NCBI_Taxonomy Annotation:T13 Referent:376619
+N9	OntoBiotope Annotation:T14 Referent:OBT:000232
+N10	OntoBiotope Annotation:T15 Referent:OBT:000056
+N11	NCBI_Taxonomy Annotation:T16 Referent:562
+N12	NCBI_Taxonomy Annotation:T17 Referent:376619
+N13	NCBI_Taxonomy Annotation:T18 Referent:376619
+N14	OntoBiotope Annotation:T19 Referent:OBT:000056
+N15	NCBI_Taxonomy Annotation:T20 Referent:376619

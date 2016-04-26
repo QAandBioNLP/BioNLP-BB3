@@ -1,0 +1,33 @@
+Habitat	(119, 125, ((-20, 'OBT:000061'),))	animals	(119, 126, ((-20, 'OBT:000218'),))	animals
+Habitat	(128, 133, ((-20, 'OBT:000257'),))	humans	(128, 134, ((-20, 'OBT:001804'),))	humans
+Habitat	(147, 151, ((-20, 'OBT:000874'),))	fleas	(147, 152, ((-20, 'OBT:001513'),))	fleas
+Habitat	(224, 236, ((-20, 'OBT:000874'),))	Adoratopsylla	(224, 259, ((-20, 'OBT:001513'),))	Adoratopsylla antiquorum antiquorum
+Habitat	(261, 287, ((-20, 'OBT:000874'),))	Ctenocephalides felis felis	(261, 288, ((-20, 'OBT:001513'),))	Ctenocephalides felis felis
+Habitat	(290, 298, ((-20, 'OBT:000874'),))	Polygenis	(290, 306, ((-20, 'OBT:001513'),))	Polygenis atopus
+Habitat	(308, 324, ((-20, 'OBT:000874'),))	Polygenis rimatus	(308, 325, ((-20, 'OBT:001513'),))	Polygenis rimatus
+Habitat	(327, 351, ((-20, 'OBT:000874'),))	Polygenis roberti roberti	(327, 352, ((-20, 'OBT:001513'),))	Polygenis roberti roberti
+Habitat	(354, 362, ((-20, 'OBT:000874'),))	Polygenis	(354, 370, ((-20, 'OBT:001513'),))	Polygenis tripus
+Habitat	(372, 385, ((-20, 'OBT:000874'),))	Rhopalopsyllus	(372, 395, ((-20, 'OBT:001513'),))	Rhopalopsyllus lugubris
+Habitat	(401, 414, ((-20, 'OBT:000874'),))	Rhopalopsyllus	(401, 427, ((-20, 'OBT:001513'),))	Rhopalopsyllus lutzi lutzi
+Habitat	(453, 472, ((-20, 'OBT:000887'),))	Amblyomma aureolatum	(453, 473, ((-20, 'OBT:000937'),))	Amblyomma aureolatum
+Habitat	(475, 494, ((-20, 'OBT:000887'),))	Amblyomma cajennense	(475, 495, ((-20, 'OBT:000937'),))	Amblyomma cajennense
+Habitat	(497, 515, ((-20, 'OBT:000887'),))	Amblyomma dubitatum	(497, 516, ((-20, 'OBT:000937'),))	Amblyomma dubitatum
+Habitat	(518, 533, ((-20, 'OBT:000887'),))	Ixodes loricatus	(518, 534, ((-20, 'OBT:000937'),))	Ixodes loricatus
+Habitat	(540, 563, ((-20, 'OBT:000887'),))	Rhipicephalus sanguineus	(540, 564, ((-20, 'OBT:001890'),))	Rhipicephalus sanguineus
+Habitat	(586, 589, ((-20, 'OBT:000257'),))	dogs	(586, 590, ((-20, 'OBT:002072'),))	dogs
+Habitat	(592, 595, ((-20, 'OBT:000257'),))	cats	(592, 596, ((-20, 'OBT:002075'),))	cats
+Habitat	(602, 609, ((-20, 'OBT:000257'),))	opossums	(602, 610, ((-20, 'OBT:001751'),))	opossums
+Habitat	(669, 673, ((-20, 'OBT:000874'),))	fleas	(669, 674, ((-20, 'OBT:001513'),))	fleas
+Habitat	(745, 750, ((-20, 'OBT:000061'),))	animal	(745, 751, ((-20, 'OBT:000218'),))	animal
+Habitat	(755, 759, ((-20, 'OBT:000257'),))	human	(745, 766, ((-20, 'OBT:000316'),))	animal or human blood
+Habitat	(813, 818, ((-20, 'OBT:000061'),))	animal	(813, 819, ((-20, 'OBT:000218'),))	animal
+Habitat	(824, 828, ((-20, 'OBT:000257'),))	human	(813, 834, ((-20, 'OBT:000571'), (-20, 'OBT:000001')))	animal and human sera
+Habitat	(964, 970, ((-20, 'OBT:001751'),))	opossum	(964, 999, ((-20, 'OBT:000571'), (-20, 'OBT:000001')))	opossum, dog, horse, and human sera
+Habitat	(973, 975, ((-20, 'OBT:000257'),))	dog	(973, 976, ((-20, 'OBT:002072'),))	dog
+Habitat	(978, 982, ((-20, 'OBT:000257'),))	horse	(973, 999, ((-20, 'OBT:000571'), (-20, 'OBT:000001')))	dog, horse, and human sera
+Habitat	(989, 993, ((-20, 'OBT:000257'),))	human	(978, 999, ((-20, 'OBT:000571'), (-20, 'OBT:000001')))	horse, and human sera
+Habitat	(1219, 1225, ((-20, 'OBT:001751'),))	opossum	(1219, 1247, ((-20, 'OBT:000571'), (-20, 'OBT:000001')))	opossum, dog, and horse sera
+Habitat	(1228, 1230, ((-20, 'OBT:000257'),))	dog	(1228, 1247, ((-20, 'OBT:000571'), (-20, 'OBT:000001')))	dog, and horse sera
+Habitat	(1237, 1241, ((-20, 'OBT:000257'),))	horse	(1237, 1247, ((-20, 'OBT:000571'), (-20, 'OBT:000001')))	horse sera
+Habitat	(1415, 1421, ((-20, 'OBT:000061'),))	animals	(1415, 1422, ((-20, 'OBT:000218'),))	animals
+Habitat	(1430, 1435, ((-20, 'OBT:000257'),))	humans	(1430, 1436, ((-20, 'OBT:001804'),))	humans

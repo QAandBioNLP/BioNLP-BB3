@@ -1,10 +1,22 @@
-T3	Bacteria	9	21	mycobacteria
-T4	Bacteria	181	193	mycobacteria
-T5	Bacteria	417	429	M. fortuitum
-T6	Bacteria	500	510	M. marinum
-T7	Bacteria	530	541	M. ulcerans
-N1	NCBI_Taxonomy	Annotation:T3	Referent:1763
-N2	NCBI_Taxonomy	Annotation:T4	Referent:1763
-N3	NCBI_Taxonomy	Annotation:T5	Referent:1766
-N4	NCBI_Taxonomy	Annotation:T6	Referent:1781
-N5	NCBI_Taxonomy	Annotation:T7	Referent:1809
+T3	Bacteria 9 21	mycobacteria
+T4	Habitat 34 43	pulmonary
+T5	Habitat 121 131	Laboratory
+T6	Bacteria 181 193	mycobacteria
+T7	Habitat 208 217	pulmonary
+T8	Habitat 350 360	lymph node
+T9	Habitat 375 383	children
+T10	Bacteria 417 429	M. fortuitum
+T11	Habitat 475 484	abscesses
+T12	Bacteria 500 510	M. marinum
+T13	Bacteria 530 541	M. ulcerans
+N1	NCBI_Taxonomy Annotation:T3 Referent:1763
+N2	OntoBiotope Annotation:T4 Referent:OBT:000287
+N3	OntoBiotope Annotation:T5 Referent:OBT:000609
+N4	NCBI_Taxonomy Annotation:T6 Referent:1763
+N5	OntoBiotope Annotation:T7 Referent:OBT:000287
+N6	OntoBiotope Annotation:T8 Referent:OBT:000232
+N7	OntoBiotope Annotation:T9 Referent:OBT:002146
+N8	NCBI_Taxonomy Annotation:T10 Referent:1766
+N9	OntoBiotope Annotation:T11 Referent:OBT:000506
+N10	NCBI_Taxonomy Annotation:T12 Referent:1781
+N11	NCBI_Taxonomy Annotation:T13 Referent:1809

@@ -1,0 +1,6 @@
+Habitat	(550, 557, ((-20, 'OBT:002133'),))	Patients	(550, 586, ((-20, 'OBT:002216'),))	Patients with severe-complicated CDI
+Habitat	(920, 927, ((-20, 'OBT:002133'),))	patients	(907, 928, ((-20, 'OBT:001835'), (-20, 'OBT:002216')))	hospitalized patients
+Habitat	(1388, 1396, ((-20, 'OBT:000316'),))	leukocyte	(1388, 1397, ((-20, 'OBT:000471'),))	leukocyte
+Habitat	(1646, 1653, ((-20, 'OBT:002133'),))	patients	(1646, 1654, ((-20, 'OBT:002216'),))	patients
+Habitat	(1786, 1795, ((-20, 'OBT:000316'),))	leukocytes	(1786, 1796, ((-20, 'OBT:000471'),))	leukocytes
+Habitat	(2002, 2009, ((-20, 'OBT:002133'),))	patients	(1989, 2010, ((-20, 'OBT:002216'),))	hospitalized patients

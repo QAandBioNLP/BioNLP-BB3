@@ -1,28 +1,46 @@
-T3	Bacteria	294	318	Streptococcus pneumoniae
-T4	Bacteria	320	342	Haemophilus influenzae
-T5	Bacteria	348	369	Mycoplasma pneumoniae
-T6	Bacteria	414	436	Neisseria meningitidis
-T7	Bacteria	438	454	Escherichia coli
-T8	Bacteria	456	480	Streptococcus agalactiae
-T9	Bacteria	482	503	Staphylococcus aureus
-T10	Bacteria	509	531	Listeria monocytogenes
-T11	Bacteria	1252	1265	H. influenzae
-T12	Bacteria	1307	1320	S. pneumoniae
-T13	Bacteria	1330	1343	S. agalactiae
-T14	Bacteria	1352	1359	E. coli
-T15	Bacteria	1368	1384	L. monocytogenes
-T16	Bacteria	1397	1410	M. pneumoniae
-N1	NCBI_Taxonomy	Annotation:T3	Referent:1313
-N2	NCBI_Taxonomy	Annotation:T4	Referent:727
-N3	NCBI_Taxonomy	Annotation:T5	Referent:2104
-N4	NCBI_Taxonomy	Annotation:T6	Referent:487
-N5	NCBI_Taxonomy	Annotation:T7	Referent:562
-N6	NCBI_Taxonomy	Annotation:T8	Referent:1311
-N7	NCBI_Taxonomy	Annotation:T9	Referent:1280
-N8	NCBI_Taxonomy	Annotation:T10	Referent:1639
-N9	NCBI_Taxonomy	Annotation:T11	Referent:727
-N10	NCBI_Taxonomy	Annotation:T12	Referent:1313
-N11	NCBI_Taxonomy	Annotation:T13	Referent:1311
-N12	NCBI_Taxonomy	Annotation:T14	Referent:562
-N13	NCBI_Taxonomy	Annotation:T15	Referent:1639
-N14	NCBI_Taxonomy	Annotation:T16	Referent:1313
+T3	Habitat 147 166	cerebrospinal fluid
+T4	Habitat 168 171	CSF
+T5	Habitat 188 196	patients
+T6	Bacteria 294 318	Streptococcus pneumoniae
+T7	Bacteria 320 342	Haemophilus influenzae
+T8	Bacteria 348 369	Mycoplasma pneumoniae
+T9	Bacteria 414 436	Neisseria meningitidis
+T10	Bacteria 438 454	Escherichia coli
+T11	Bacteria 456 480	Streptococcus agalactiae
+T12	Bacteria 482 503	Staphylococcus aureus
+T13	Bacteria 509 531	Listeria monocytogenes
+T14	Habitat 605 608	CSF
+T15	Habitat 614 622	neonates
+T16	Habitat 627 635	children
+T17	Habitat 815 818	CSF
+T18	Bacteria 1252 1265	H. influenzae
+T19	Habitat 1271 1274	CSF
+T20	Bacteria 1307 1320	S. pneumoniae
+T21	Bacteria 1330 1343	S. agalactiae
+T22	Bacteria 1352 1359	E. coli
+T23	Bacteria 1368 1384	L. monocytogenes
+T24	Bacteria 1397 1410	M. pneumoniae
+T25	Habitat 1499 1507	patients
+N1	OntoBiotope Annotation:T3 Referent:OBT:000284
+N2	OntoBiotope Annotation:T4 Referent:OBT:000284
+N3	OntoBiotope Annotation:T5 Referent:OBT:002133
+N4	NCBI_Taxonomy Annotation:T6 Referent:1313
+N5	NCBI_Taxonomy Annotation:T7 Referent:727
+N6	NCBI_Taxonomy Annotation:T8 Referent:2104
+N7	NCBI_Taxonomy Annotation:T9 Referent:487
+N8	NCBI_Taxonomy Annotation:T10 Referent:562
+N9	NCBI_Taxonomy Annotation:T11 Referent:1311
+N10	NCBI_Taxonomy Annotation:T12 Referent:1280
+N11	NCBI_Taxonomy Annotation:T13 Referent:1639
+N12	OntoBiotope Annotation:T14 Referent:OBT:000284
+N13	OntoBiotope Annotation:T15 Referent:OBT:002293
+N14	OntoBiotope Annotation:T16 Referent:OBT:002146
+N15	OntoBiotope Annotation:T17 Referent:OBT:000284
+N16	NCBI_Taxonomy Annotation:T18 Referent:727
+N17	OntoBiotope Annotation:T19 Referent:OBT:000284
+N18	NCBI_Taxonomy Annotation:T20 Referent:1313
+N19	NCBI_Taxonomy Annotation:T21 Referent:1311
+N20	NCBI_Taxonomy Annotation:T22 Referent:562
+N21	NCBI_Taxonomy Annotation:T23 Referent:1639
+N22	NCBI_Taxonomy Annotation:T24 Referent:1313
+N23	OntoBiotope Annotation:T25 Referent:OBT:002133

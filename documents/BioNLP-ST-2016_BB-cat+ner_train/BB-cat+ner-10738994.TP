@@ -1,8 +1,12 @@
 Bacteria	120	141	Staphylococcus aureus
+Habitat	175	187	nursing home
 Bacteria	245	266	Staphylococcus aureus
 Bacteria	268	272	MRSA
 Bacteria	513	517	MRSA
 Bacteria	593	597	MRSA
+Habitat	604	612	patients
+Habitat	697	705	patients
+Habitat	719	727	patients
 Bacteria	739	743	MRSA
 Bacteria	1090	1094	MRSA
 Bacteria	1583	1587	MRSA

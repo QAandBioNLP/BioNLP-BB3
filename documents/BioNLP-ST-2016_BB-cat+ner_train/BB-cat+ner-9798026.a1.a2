@@ -1,10 +1,48 @@
-T3	Bacteria	24	43	Helicobacter pylori
-T4	Bacteria	526	545	Helicobacter pylori
-T5	Bacteria	676	685	H. pylori
-T6	Bacteria	831	840	H. pylori
-T7	Bacteria	1161	1170	H. pylori
-N1	NCBI_Taxonomy	Annotation:T3	Referent:210
-N2	NCBI_Taxonomy	Annotation:T4	Referent:210
-N3	NCBI_Taxonomy	Annotation:T5	Referent:210
-N4	NCBI_Taxonomy	Annotation:T6	Referent:210
-N5	NCBI_Taxonomy	Annotation:T7	Referent:210
+T3	Bacteria 24 43	Helicobacter pylori
+T4	Habitat 86 93	gastric
+T5	Habitat 109 114	human
+T6	Habitat 209 216	gastric
+T7	Habitat 235 242	persons
+T8	Habitat 257 262	human
+T9	Habitat 310 318	subjects
+T10	Habitat 392 399	Gastric
+T11	Habitat 421 428	gastric
+T12	Habitat 460 468	subjects
+T13	Habitat 505 513	CD4 cell
+T14	Bacteria 526 545	Helicobacter pylori
+T15	Habitat 604 611	gastric
+T16	Habitat 616 624	Subjects
+T17	Bacteria 676 685	H. pylori
+T18	Habitat 705 713	subjects
+T19	Bacteria 831 840	H. pylori
+T20	Habitat 931 938	gastric
+T21	Habitat 1021 1025	male
+T22	Habitat 1071 1078	gastric
+T23	Habitat 1083 1091	CD4 cell
+T24	Habitat 1136 1143	gastric
+T25	Bacteria 1161 1170	H. pylori
+T26	Habitat 1271 1278	gastric
+N1	NCBI_Taxonomy Annotation:T3 Referent:210
+N2	OntoBiotope Annotation:T4 Referent:OBT:000953
+N3	OntoBiotope Annotation:T5 Referent:OBT:000257
+N4	OntoBiotope Annotation:T6 Referent:OBT:000953
+N5	OntoBiotope Annotation:T7 Referent:OBT:001804
+N6	OntoBiotope Annotation:T8 Referent:OBT:000257
+N7	OntoBiotope Annotation:T9 Referent:OBT:001804
+N8	OntoBiotope Annotation:T10 Referent:OBT:000953
+N9	OntoBiotope Annotation:T11 Referent:OBT:000953
+N10	OntoBiotope Annotation:T12 Referent:OBT:001804
+N11	OntoBiotope Annotation:T13 Referent:OBT:000316
+N12	NCBI_Taxonomy Annotation:T14 Referent:210
+N13	OntoBiotope Annotation:T15 Referent:OBT:000953
+N14	OntoBiotope Annotation:T16 Referent:OBT:001804
+N15	NCBI_Taxonomy Annotation:T17 Referent:210
+N16	OntoBiotope Annotation:T18 Referent:OBT:001804
+N17	NCBI_Taxonomy Annotation:T19 Referent:210
+N18	OntoBiotope Annotation:T20 Referent:OBT:000953
+N19	OntoBiotope Annotation:T21 Referent:OBT:000608
+N20	OntoBiotope Annotation:T22 Referent:OBT:000953
+N21	OntoBiotope Annotation:T23 Referent:OBT:000316
+N22	OntoBiotope Annotation:T24 Referent:OBT:000953
+N23	NCBI_Taxonomy Annotation:T25 Referent:210
+N24	OntoBiotope Annotation:T26 Referent:OBT:000953

@@ -1,8 +1,52 @@
-T3	Bacteria	58	77	Lactobacillus casei
-T4	Bacteria	277	296	Lactobacillus casei
-T5	Bacteria	1200	1214	bifidobacteria
-T6	Bacteria	1760	1774	bifidobacteria
-N1	NCBI_Taxonomy	Annotation:T3	Referent:1582
-N2	NCBI_Taxonomy	Annotation:T4	Referent:1582
-N3	NCBI_Taxonomy	Annotation:T5	Referent:1678
-N4	NCBI_Taxonomy	Annotation:T6	Referent:1678
+T3	Habitat 23 37	fermented milk
+T4	Bacteria 58 77	Lactobacillus casei
+T5	Habitat 118 128	intestinal
+T6	Habitat 149 171	intestinal environment
+T7	Habitat 175 194	healthy individuals
+T8	Habitat 205 211	stools
+T9	Habitat 239 253	fermented milk
+T10	Bacteria 277 296	Lactobacillus casei
+T11	Habitat 419 429	intestinal
+T12	Habitat 449 471	intestinal environment
+T13	Habitat 475 494	healthy individuals
+T14	Habitat 505 511	stools
+T15	Habitat 568 574	stools
+T16	Habitat 878 883	stool
+T17	Habitat 961 966	water
+T18	Habitat 982 988	stools
+T19	Habitat 1121 1126	stool
+T20	Bacteria 1200 1214	bifidobacteria
+T21	Habitat 1222 1228	stools
+T22	Habitat 1318 1325	organic
+T23	Habitat 1611 1625	fermented milk
+T24	Habitat 1642 1651	intestine
+T25	Habitat 1717 1722	stool
+T26	Bacteria 1760 1774	bifidobacteria
+T27	Habitat 1778 1797	healthy individuals
+T28	Habitat 1808 1813	stool
+N1	OntoBiotope Annotation:T3 Referent:OBT:002086
+N2	NCBI_Taxonomy Annotation:T4 Referent:1582
+N3	OntoBiotope Annotation:T5 Referent:OBT:001893
+N4	OntoBiotope Annotation:T6 Referent:OBT:001893
+N5	OntoBiotope Annotation:T7 Referent:OBT:001894
+N6	OntoBiotope Annotation:T8 Referent:OBT:000703
+N7	OntoBiotope Annotation:T9 Referent:OBT:002086
+N8	NCBI_Taxonomy Annotation:T10 Referent:1582
+N9	OntoBiotope Annotation:T11 Referent:OBT:001893
+N10	OntoBiotope Annotation:T12 Referent:OBT:001893
+N11	OntoBiotope Annotation:T13 Referent:OBT:001894
+N12	OntoBiotope Annotation:T14 Referent:OBT:000703
+N13	OntoBiotope Annotation:T15 Referent:OBT:000703
+N14	OntoBiotope Annotation:T16 Referent:OBT:000703
+N15	OntoBiotope Annotation:T17 Referent:OBT:000132
+N16	OntoBiotope Annotation:T18 Referent:OBT:000703
+N17	OntoBiotope Annotation:T19 Referent:OBT:000703
+N18	NCBI_Taxonomy Annotation:T20 Referent:1678
+N19	OntoBiotope Annotation:T21 Referent:OBT:000703
+N20	OntoBiotope Annotation:T22 Referent:OBT:000096
+N21	OntoBiotope Annotation:T23 Referent:OBT:002086
+N22	OntoBiotope Annotation:T24 Referent:OBT:001893
+N23	OntoBiotope Annotation:T25 Referent:OBT:000703
+N24	NCBI_Taxonomy Annotation:T26 Referent:1678
+N25	OntoBiotope Annotation:T27 Referent:OBT:001894
+N26	OntoBiotope Annotation:T28 Referent:OBT:000703

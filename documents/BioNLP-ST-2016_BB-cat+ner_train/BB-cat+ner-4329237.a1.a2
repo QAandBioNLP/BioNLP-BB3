@@ -1,2 +1,8 @@
-T2	Bacteria	156	182	Mycobacterium tuberculosis
-N1	NCBI_Taxonomy	Annotation:T2	Referent:1773
+T2	Habitat 53 67	Macaca mulatta
+T3	Habitat 108 112	cell
+T4	Habitat 118 125	vaccine
+T5	Bacteria 156 182	Mycobacterium tuberculosis
+N1	OntoBiotope Annotation:T2 Referent:OBT:000257
+N2	OntoBiotope Annotation:T3 Referent:OBT:000056
+N3	OntoBiotope Annotation:T4 Referent:OBT:000099
+N4	NCBI_Taxonomy Annotation:T5 Referent:1773

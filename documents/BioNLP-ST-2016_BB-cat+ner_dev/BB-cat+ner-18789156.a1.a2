@@ -1,14 +1,58 @@
-T5	Bacteria	47	69	Francisella tularensis
-T6	Bacteria	174	196	Francisella tularensis
-T7	Bacteria	640	653	F. tularensis
-T8	Bacteria	759	781	Francisella tularensis
-T9	Bacteria	1950	1972	Francisella tularensis
-T10	Bacteria	2189	2206	F. tularensis ssp
-T11	Bacteria	2512	2525	F. tularensis
-N1	NCBI_Taxonomy	Annotation:T5	Referent:263
-N2	NCBI_Taxonomy	Annotation:T6	Referent:263
-N3	NCBI_Taxonomy	Annotation:T7	Referent:263
-N4	NCBI_Taxonomy	Annotation:T8	Referent:263
-N5	NCBI_Taxonomy	Annotation:T9	Referent:263
-N6	NCBI_Taxonomy	Annotation:T10	Referent:263
-N7	NCBI_Taxonomy	Annotation:T11	Referent:263
+T5	Bacteria 47 69	Francisella tularensis
+T6	Habitat 73 81	monocyte
+T7	Habitat 87 98	THP-1 cells
+T8	Bacteria 174 196	Francisella tularensis
+T9	Habitat 262 267	human
+T10	Habitat 311 323	immune cells
+T11	Habitat 333 342	monocytes
+T12	Habitat 347 358	macrophages
+T13	Bacteria 640 653	F. tularensis
+T14	Habitat 708 712	cell
+T15	Bacteria 759 781	Francisella tularensis
+T16	Habitat 787 794	Vaccine
+T17	Habitat 850 855	human
+T18	Habitat 856 864	monocyte
+T19	Habitat 870 881	THP-1 cells
+T20	Habitat 1010 1018	monocyte
+T21	Habitat 1024 1035	THP-1 cells
+T22	Habitat 1280 1286	murine
+T23	Habitat 1514 1522	monocyte
+T24	Habitat 1528 1539	THP-1 cells
+T25	Habitat 1781 1785	cell
+T26	Bacteria 1950 1972	Francisella tularensis
+T27	Habitat 2041 2045	host
+T28	Habitat 2133 2142	monocytes
+T29	Habitat 2172 2177	human
+T30	Bacteria 2189 2206	F. tularensis ssp
+T31	Habitat 2247 2255	monocyte
+T32	Habitat 2261 2272	THP-1 cells
+T33	Bacteria 2512 2525	F. tularensis
+N1	NCBI_Taxonomy Annotation:T5 Referent:263
+N2	OntoBiotope Annotation:T6 Referent:OBT:000316
+N3	OntoBiotope Annotation:T7 Referent:OBT:000316
+N4	NCBI_Taxonomy Annotation:T8 Referent:263
+N5	OntoBiotope Annotation:T9 Referent:OBT:000257
+N6	OntoBiotope Annotation:T10 Referent:OBT:000316
+N7	OntoBiotope Annotation:T11 Referent:OBT:000316
+N8	OntoBiotope Annotation:T12 Referent:OBT:000232
+N9	NCBI_Taxonomy Annotation:T13 Referent:263
+N10	OntoBiotope Annotation:T14 Referent:OBT:000056
+N11	NCBI_Taxonomy Annotation:T15 Referent:263
+N12	OntoBiotope Annotation:T16 Referent:OBT:000099
+N13	OntoBiotope Annotation:T17 Referent:OBT:000257
+N14	OntoBiotope Annotation:T18 Referent:OBT:000316
+N15	OntoBiotope Annotation:T19 Referent:OBT:000316
+N16	OntoBiotope Annotation:T20 Referent:OBT:000316
+N17	OntoBiotope Annotation:T21 Referent:OBT:000316
+N18	OntoBiotope Annotation:T22 Referent:OBT:000257
+N19	OntoBiotope Annotation:T23 Referent:OBT:000316
+N20	OntoBiotope Annotation:T24 Referent:OBT:000316
+N21	OntoBiotope Annotation:T25 Referent:OBT:000056
+N22	NCBI_Taxonomy Annotation:T26 Referent:263
+N23	OntoBiotope Annotation:T27 Referent:OBT:000036
+N24	OntoBiotope Annotation:T28 Referent:OBT:000316
+N25	OntoBiotope Annotation:T29 Referent:OBT:000257
+N26	NCBI_Taxonomy Annotation:T30 Referent:263
+N27	OntoBiotope Annotation:T31 Referent:OBT:000316
+N28	OntoBiotope Annotation:T32 Referent:OBT:000316
+N29	NCBI_Taxonomy Annotation:T33 Referent:263

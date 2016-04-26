@@ -1,4 +1,17 @@
 Bacteria	(7, 21, ((-2, '666'),))	Vibrio cholerae	(0, 22, ((-2, '66861'),))	Non-O1 Vibrio cholerae
+Habitat	(37, 44, ((-20, 'OBT:002133'),))	patients	(37, 60, ((-20, 'OBT:002196'),))	patients with cirrhosis
+Habitat	(172, 179, ((-20, 'OBT:002133'),))	patients	(162, 180, ((-20, 'OBT:002196'),))	cirrhotic patients
 Bacteria	(191, 205, ((-2, '666'),))	Vibrio cholerae	(184, 206, ((-2, '66861'),))	non-O1 Vibrio cholerae
+Habitat	(314, 318, ((-20, 'OBT:000316'),))	blood	(314, 327, ((-20, 'OBT:000001'),))	blood culture
 Bacteria	(347, 357, ((-2, '666'),))	V. cholerae	(340, 358, ((-2, '66861'),))	non-O1 V. cholerae
+Habitat	(404, 413, ((-20, 'OBT:000609'),))	laboratory	(382, 414, ((-20, 'OBT:000609'), (-20, 'OBT:000009')))	clinical microbiology laboratory
+Habitat	(448, 455, ((-20, 'OBT:002133'),))	Patients	(448, 516, ((-20, 'OBT:002243'), (-20, 'OBT:002196')))	Patients with underlying cirrhosis and the aforementioned bacteremia
+Habitat	(569, 576, ((-20, 'OBT:002133'),))	patients	(559, 635, ((-20, 'OBT:002196'),))	cirrhotic patients (16 male, five female; mean age, 50.9 yr; range 28-67 yr)
+Habitat	(670, 674, ((-20, 'OBT:002146'),))	Child	(670, 677, ((-20, 'OBT:002196'),))	Child B
+Habitat	(692, 696, ((-20, 'OBT:002146'),))	Child	(692, 699, ((-20, 'OBT:002196'),))	Child C
+Habitat	(957, 963, ((-20, 'OBT:000119'),))	ascites	(957, 964, ((-20, 'OBT:000456'),))	ascites
+Habitat	(1166, 1172, ((-20, 'OBT:000119'),))	ascites	(1166, 1173, ((-20, 'OBT:000456'),))	ascites
+Habitat	(1381, 1388, ((-20, 'OBT:002133'),))	patients	(1381, 1413, ((-20, 'OBT:002196'),))	patients with skin manifestation
+Habitat	(1415, 1422, ((-20, 'OBT:002133'),))	Patients	(1415, 1452, ((-20, 'OBT:002196'),))	Patients with decompensated cirrhosis
 Bacteria	(1479, 1489, ((-2, '666'),))	V. cholerae	(1472, 1490, ((-2, '66861'),))	non-O1 V. cholerae
+Habitat	(1546, 1556, ((-20, 'OBT:002130'),))	skin wounds	(1546, 1550, ((-20, 'OBT:000282'),))	skin

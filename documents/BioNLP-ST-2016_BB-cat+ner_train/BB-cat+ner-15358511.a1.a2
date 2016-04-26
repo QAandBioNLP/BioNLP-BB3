@@ -1,8 +1,22 @@
-T3	Bacteria	14	38	Escherichia coli O157:H7
-T4	Bacteria	301	325	Escherichia coli O157:H7
-T5	Bacteria	626	641	E. coli O157:H7
-T6	Bacteria	922	937	E. coli O157:H7
-N1	NCBI_Taxonomy	Annotation:T3	Referent:83334
-N2	NCBI_Taxonomy	Annotation:T4	Referent:83334
-N3	NCBI_Taxonomy	Annotation:T5	Referent:83334
-N4	NCBI_Taxonomy	Annotation:T6	Referent:83334
+T3	Bacteria 14 38	Escherichia coli O157:H7
+T4	Habitat 56 59	soy
+T5	Habitat 88 93	apple
+T6	Habitat 129 133	cell
+T7	Habitat 246 249	soy
+T8	Bacteria 301 325	Escherichia coli O157:H7
+T9	Habitat 351 356	apple
+T10	Habitat 380 384	cell
+T11	Habitat 533 538	apple
+T12	Bacteria 626 641	E. coli O157:H7
+T13	Bacteria 922 937	E. coli O157:H7
+N1	NCBI_Taxonomy Annotation:T3 Referent:83334
+N2	OntoBiotope Annotation:T4 Referent:OBT:001818
+N3	OntoBiotope Annotation:T5 Referent:OBT:001527
+N4	OntoBiotope Annotation:T6 Referent:OBT:000056
+N5	OntoBiotope Annotation:T7 Referent:OBT:001818
+N6	NCBI_Taxonomy Annotation:T8 Referent:83334
+N7	OntoBiotope Annotation:T9 Referent:OBT:001527
+N8	OntoBiotope Annotation:T10 Referent:OBT:000056
+N9	OntoBiotope Annotation:T11 Referent:OBT:001527
+N10	NCBI_Taxonomy Annotation:T12 Referent:83334
+N11	NCBI_Taxonomy Annotation:T13 Referent:83334

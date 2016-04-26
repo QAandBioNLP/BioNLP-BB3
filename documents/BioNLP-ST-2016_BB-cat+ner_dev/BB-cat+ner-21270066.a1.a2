@@ -1,4 +1,22 @@
-T3	Bacteria	695	716	Chlamydia trachomatis
-T4	Bacteria	968	977	chlamydia
-N1	NCBI_Taxonomy	Annotation:T3	Referent:813
-N2	NCBI_Taxonomy	Annotation:T4	Referent:813
+T3	Habitat 48 58	ulceration
+T4	Habitat 263 271	Patients
+T5	Habitat 333 339	rectal
+T6	Habitat 392 399	clinics
+T7	Habitat 578 586	patients
+T8	Habitat 621 626	ulcer
+T9	Habitat 688 694	rectal
+T10	Bacteria 695 716	Chlamydia trachomatis
+T11	Bacteria 968 977	chlamydia
+T12	Habitat 1057 1062	paper
+T13	Habitat 1131 1136	ulcer
+N1	OntoBiotope Annotation:T3 Referent:OBT:000538
+N2	OntoBiotope Annotation:T4 Referent:OBT:002133
+N3	OntoBiotope Annotation:T5 Referent:OBT:000952
+N4	OntoBiotope Annotation:T6 Referent:OBT:001801
+N5	OntoBiotope Annotation:T7 Referent:OBT:002133
+N6	OntoBiotope Annotation:T8 Referent:OBT:000538
+N7	OntoBiotope Annotation:T9 Referent:OBT:000952
+N8	NCBI_Taxonomy Annotation:T10 Referent:813
+N9	NCBI_Taxonomy Annotation:T11 Referent:813
+N10	OntoBiotope Annotation:T12 Referent:OBT:000285
+N11	OntoBiotope Annotation:T13 Referent:OBT:000538

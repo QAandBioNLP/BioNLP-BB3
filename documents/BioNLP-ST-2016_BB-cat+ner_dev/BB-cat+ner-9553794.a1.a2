@@ -1,24 +1,44 @@
-T3	Bacteria	26	50	Carnobacterium piscicola
-T4	Bacteria	1087	1097	Vibrio sp.
-T5	Bacteria	1110	1120	V. marinus
-T6	Bacteria	1122	1140	Enterobacteriaceae
-T7	Bacteria	1142	1166	Enterobacter agglomerans
-T8	Bacteria	1168	1189	Serratia liquefaciens
-T9	Bacteria	1194	1212	Rahnella aquatilis
-T10	Bacteria	1231	1251	Aeromonas hydrophila
-T11	Bacteria	1350	1374	Carnobacterium piscicola
-T12	Bacteria	1513	1527	Carnobacterium
-T13	Bacteria	1578	1590	C. piscicola
-T14	Bacteria	1848	1860	C. piscicola
-N1	NCBI_Taxonomy	Annotation:T3	Referent:2751
-N2	NCBI_Taxonomy	Annotation:T4	Referent:678
-N3	NCBI_Taxonomy	Annotation:T5	Referent:90736
-N4	NCBI_Taxonomy	Annotation:T6	Referent:543
-N5	NCBI_Taxonomy	Annotation:T7	Referent:549
-N6	NCBI_Taxonomy	Annotation:T8	Referent:614
-N7	NCBI_Taxonomy	Annotation:T9	Referent:34038
-N8	NCBI_Taxonomy	Annotation:T10	Referent:644
-N9	NCBI_Taxonomy	Annotation:T11	Referent:2751
-N10	NCBI_Taxonomy	Annotation:T12	Referent:2751
-N11	NCBI_Taxonomy	Annotation:T13	Referent:2751
-N12	NCBI_Taxonomy	Annotation:T14	Referent:2751
+T3	Bacteria 26 50	Carnobacterium piscicola
+T4	Habitat 110 123	smoked salmon
+T5	Habitat 151 161	microflora
+T6	Habitat 178 191	smoked salmon
+T7	Habitat 485 498	smoked salmon
+T8	Habitat 570 580	microflora
+T9	Habitat 1061 1067	salmon
+T10	Bacteria 1087 1097	Vibrio sp.
+T11	Bacteria 1110 1120	V. marinus
+T12	Bacteria 1122 1140	Enterobacteriaceae
+T13	Bacteria 1142 1166	Enterobacter agglomerans
+T14	Bacteria 1168 1189	Serratia liquefaciens
+T15	Bacteria 1194 1212	Rahnella aquatilis
+T16	Bacteria 1231 1251	Aeromonas hydrophila
+T17	Habitat 1322 1332	microflora
+T18	Bacteria 1350 1374	Carnobacterium piscicola
+T19	Habitat 1456 1460	cell
+T20	Bacteria 1513 1527	Carnobacterium
+T21	Bacteria 1578 1590	C. piscicola
+T22	Habitat 1666 1679	smoked salmon
+T23	Habitat 1707 1713	salmon
+T24	Bacteria 1848 1860	C. piscicola
+N1	NCBI_Taxonomy Annotation:T3 Referent:2751
+N2	OntoBiotope Annotation:T4 Referent:OBT:001656
+N3	OntoBiotope Annotation:T5 Referent:OBT:000033
+N4	OntoBiotope Annotation:T6 Referent:OBT:001656
+N5	OntoBiotope Annotation:T7 Referent:OBT:001656
+N6	OntoBiotope Annotation:T8 Referent:OBT:000033
+N7	OntoBiotope Annotation:T9 Referent:OBT:000318
+N8	NCBI_Taxonomy Annotation:T10 Referent:678
+N9	NCBI_Taxonomy Annotation:T11 Referent:90736
+N10	NCBI_Taxonomy Annotation:T12 Referent:543
+N11	NCBI_Taxonomy Annotation:T13 Referent:549
+N12	NCBI_Taxonomy Annotation:T14 Referent:614
+N13	NCBI_Taxonomy Annotation:T15 Referent:34038
+N14	NCBI_Taxonomy Annotation:T16 Referent:644
+N15	OntoBiotope Annotation:T17 Referent:OBT:000033
+N16	NCBI_Taxonomy Annotation:T18 Referent:2751
+N17	OntoBiotope Annotation:T19 Referent:OBT:000056
+N18	NCBI_Taxonomy Annotation:T20 Referent:2751
+N19	NCBI_Taxonomy Annotation:T21 Referent:2751
+N20	OntoBiotope Annotation:T22 Referent:OBT:001656
+N21	OntoBiotope Annotation:T23 Referent:OBT:000318
+N22	NCBI_Taxonomy Annotation:T24 Referent:2751

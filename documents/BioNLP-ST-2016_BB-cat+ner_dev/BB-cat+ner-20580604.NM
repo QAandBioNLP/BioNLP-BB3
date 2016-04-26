@@ -1,0 +1,4 @@
+Habitat	(23, 36, ((-20, 'OBT:002086'),))	fermented milk	(13, 46, ((-20, 'OBT:002086'), (-20, 'OBT:000663')))	probiotic fermented milk beverage
+Habitat	(118, 127, ((-20, 'OBT:001893'),))	intestinal	(118, 139, ((-20, 'OBT:000033'),))	intestinal microbiota
+Habitat	(961, 965, ((-20, 'OBT:000132'),))	water	(961, 988, ((-20, 'OBT:000103'),))	water content of the stools
+Habitat	(1611, 1624, ((-20, 'OBT:002086'),))	fermented milk	(1601, 1634, ((-20, 'OBT:001277'), (-20, 'OBT:002086')))	probiotic fermented milk beverage

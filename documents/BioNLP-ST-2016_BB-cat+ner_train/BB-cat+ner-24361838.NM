@@ -1,4 +1,12 @@
+Habitat	(105, 112, ((-20, 'OBT:000257'),))	chickens	(105, 113, ((-20, 'OBT:002229'),))	chickens
+Habitat	(207, 213, ((-20, 'OBT:000257'),))	chicken	(207, 214, ((-20, 'OBT:002229'),))	chicken
 Bacteria	(279, 288, ((-2, '90371'),))	Salmonella	(279, 289, ((-2, '590'),))	Salmonella
+Habitat	(293, 300, ((-20, 'OBT:000257'),))	chickens	(293, 301, ((-20, 'OBT:002229'),))	chickens
+Habitat	(807, 810, ((-20, 'OBT:000036'),))	host	(807, 817, ((-20, 'OBT:000056'),))	host cells
+Habitat	(1239, 1242, ((-20, 'OBT:000036'),))	host	(1239, 1249, ((-20, 'OBT:000056'),))	host cells
+Habitat	(1411, 1418, ((-20, 'OBT:000257'),))	chickens	(1411, 1419, ((-20, 'OBT:000323'), (-20, 'OBT:002229')))	chickens
 Bacteria	(1557, 1566, ((-2, '90371'), (-2, '149385')))	Salmonella	(1557, 1567, ((-2, '590'),))	Salmonella
 Bacteria	(1715, 1724, ((-2, '90371'), (-2, '149385')))	Salmonella	(1715, 1725, ((-2, '590'),))	Salmonella
+Habitat	(1874, 1879, ((-20, 'OBT:000257'),))	chicks	(1855, 1880, ((-20, 'OBT:000905'),))	caecal wall of the chicks
 Bacteria	(2003, 2012, ((-2, '90371'), (-2, '149385')))	Salmonella	(2003, 2013, ((-2, '590'),))	Salmonella
+Habitat	(2041, 2048, ((-20, 'OBT:000257'),))	chickens	(2041, 2049, ((-20, 'OBT:002229'),))	chickens

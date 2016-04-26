@@ -1,2 +1,18 @@
-T3	Bacteria	357	378	Staphylococcus aureus
-N1	NCBI_Taxonomy	Annotation:T3	Referent:1280
+T3	Bacteria 357 378	Staphylococcus aureus
+T4	Habitat 575 589	amniotic fluid
+T5	Habitat 591 603	intrauterine
+T6	Habitat 604 614	secretions
+T7	Habitat 654 662	patients
+T8	Habitat 903 914	body fluids
+T9	Habitat 919 926	genital
+T10	Habitat 1756 1763	genital
+T11	Habitat 1958 1965	genital
+N1	NCBI_Taxonomy Annotation:T3 Referent:1280
+N2	OntoBiotope Annotation:T4 Referent:OBT:000315
+N3	OntoBiotope Annotation:T5 Referent:OBT:000520
+N4	OntoBiotope Annotation:T6 Referent:OBT:000492
+N5	OntoBiotope Annotation:T7 Referent:OBT:002133
+N6	OntoBiotope Annotation:T8 Referent:OBT:000103
+N7	OntoBiotope Annotation:T9 Referent:OBT:000381
+N8	OntoBiotope Annotation:T10 Referent:OBT:000381
+N9	OntoBiotope Annotation:T11 Referent:OBT:000381

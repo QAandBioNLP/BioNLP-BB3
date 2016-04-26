@@ -1,6 +1,24 @@
-T3	Bacteria	214	233	Vibrio cholerae O:1
-T4	Bacteria	341	356	V. cholerae O:1
-T5	Bacteria	601	616	V. cholerae O:1
-N1	NCBI_Taxonomy	Annotation:T3	Referent:666
-N2	NCBI_Taxonomy	Annotation:T4	Referent:666
-N3	NCBI_Taxonomy	Annotation:T5	Referent:666
+T3	Habitat 89 95	people
+T4	Bacteria 214 233	Vibrio cholerae O:1
+T5	Habitat 277 285	patients
+T6	Habitat 329 335	people
+T7	Bacteria 341 356	V. cholerae O:1
+T8	Habitat 407 413	marine
+T9	Habitat 414 422	bivalves
+T10	Bacteria 601 616	V. cholerae O:1
+T11	Habitat 652 657	water
+T12	Habitat 662 670	bivalves
+T13	Habitat 687 693	lagoon
+T14	Habitat 718 722	city
+N1	OntoBiotope Annotation:T3 Referent:OBT:001804
+N2	NCBI_Taxonomy Annotation:T4 Referent:666
+N3	OntoBiotope Annotation:T5 Referent:OBT:002133
+N4	OntoBiotope Annotation:T6 Referent:OBT:001804
+N5	NCBI_Taxonomy Annotation:T7 Referent:666
+N6	OntoBiotope Annotation:T8 Referent:OBT:000078
+N7	OntoBiotope Annotation:T9 Referent:OBT:000903
+N8	NCBI_Taxonomy Annotation:T10 Referent:666
+N9	OntoBiotope Annotation:T11 Referent:OBT:000132
+N10	OntoBiotope Annotation:T12 Referent:OBT:000903
+N11	OntoBiotope Annotation:T13 Referent:OBT:002104
+N12	OntoBiotope Annotation:T14 Referent:OBT:000114

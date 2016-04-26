@@ -1,0 +1,8 @@
+Habitat	(109, 113, ((-20, 'OBT:000257'),))	human	(109, 158, ((-20, 'OBT:002311'),))	human immunodeficiency virus-infected outpatients
+Habitat	(235, 241, ((-20, 'OBT:001804'),))	persons	(235, 285, ((-20, 'OBT:002311'),))	persons infected with human immunodeficiency virus
+Habitat	(310, 317, ((-20, 'OBT:001804'),))	subjects	(297, 318, ((-20, 'OBT:002311'),))	asymptomatic subjects
+Habitat	(505, 512, ((-20, 'OBT:000316'),))	CD4 cell	(505, 513, ((-20, 'OBT:001342'),))	CD4 cell
+Habitat	(616, 623, ((-20, 'OBT:001804'),))	Subjects	(616, 641, ((-20, 'OBT:002311'),))	Subjects with hypoacidity
+Habitat	(705, 712, ((-20, 'OBT:001804'),))	subjects	(705, 733, ((-20, 'OBT:002311'),))	subjects without hypoacidity
+Habitat	(1021, 1024, ((-20, 'OBT:000608'),))	male	(1021, 1032, ((-20, 'OBT:002294'),))	male gender
+Habitat	(1083, 1090, ((-20, 'OBT:000316'),))	CD4 cell	(1083, 1091, ((-20, 'OBT:001342'),))	CD4 cell

@@ -1,0 +1,5 @@
+Habitat	(719, 722, ((-20, 'OBT:000257'),))	mice	(700, 723, ((-20, 'OBT:002153'),))	Annexin1-deficient mice
+Habitat	(814, 819, ((-20, 'OBT:000316'),))	T cell	(809, 820, ((-20, 'OBT:001342'),))	CD8+ T cell
+Bacteria	(893, 895, ((-2, '1773'),))	Mtb	(893, 938, ((-20, 'OBT:001925'),))	Mtb-infected human blood monocyte-derived DCs
+Habitat	(906, 910, ((-20, 'OBT:000257'),))	human	(893, 917, ((-20, 'OBT:000316'),))	Mtb-infected human blood
+Habitat	(912, 916, ((-20, 'OBT:000316'),))	blood	(906, 926, ((-20, 'OBT:002023'),))	human blood monocyte

@@ -1,5 +1,7 @@
 Bacteria	0	13	Campylobacter
+Habitat	136	143	eukarya
 Bacteria	312	332	Campylobacter jejuni
 Bacteria	422	431	C. jejuni
 Bacteria	456	474	Campylobacter coli
+Habitat	567	577	eukaryotes
 Bacteria	815	828	Campylobacter

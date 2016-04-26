@@ -1,6 +1,16 @@
-T3	Bacteria	58	80	Pseudomonas aeruginosa
-T4	Bacteria	138	160	Pseudomonas aeruginosa
-T5	Bacteria	1293	1306	P. aeruginosa
-N1	NCBI_Taxonomy	Annotation:T3	Referent:287
-N2	NCBI_Taxonomy	Annotation:T4	Referent:287
-N3	NCBI_Taxonomy	Annotation:T5	Referent:287
+T3	Habitat 45 49	cell
+T4	Bacteria 58 80	Pseudomonas aeruginosa
+T5	Bacteria 138 160	Pseudomonas aeruginosa
+T6	Habitat 773 777	cell
+T7	Habitat 854 862	Electron
+T8	Habitat 989 993	cell
+T9	Bacteria 1293 1306	P. aeruginosa
+T10	Habitat 1383 1387	cell
+N1	OntoBiotope Annotation:T3 Referent:OBT:000056
+N2	NCBI_Taxonomy Annotation:T4 Referent:287
+N3	NCBI_Taxonomy Annotation:T5 Referent:287
+N4	OntoBiotope Annotation:T6 Referent:OBT:000056
+N5	OntoBiotope Annotation:T7 Referent:OBT:000257
+N6	OntoBiotope Annotation:T8 Referent:OBT:000056
+N7	NCBI_Taxonomy Annotation:T9 Referent:287
+N8	OntoBiotope Annotation:T10 Referent:OBT:000056

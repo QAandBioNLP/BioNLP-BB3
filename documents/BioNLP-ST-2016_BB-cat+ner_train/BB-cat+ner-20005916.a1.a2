@@ -1,12 +1,56 @@
-T3	Bacteria	1022	1042	Mycobacterium leprae
-T4	Bacteria	1205	1214	M. leprae
-T5	Bacteria	1576	1585	M. leprae
-T6	Bacteria	1684	1693	M. leprae
-T7	Bacteria	1748	1757	M. leprae
-T8	Bacteria	2027	2036	M. leprae
-N1	NCBI_Taxonomy	Annotation:T3	Referent:1769
-N2	NCBI_Taxonomy	Annotation:T4	Referent:1769
-N3	NCBI_Taxonomy	Annotation:T5	Referent:1769
-N4	NCBI_Taxonomy	Annotation:T6	Referent:1769
-N5	NCBI_Taxonomy	Annotation:T7	Referent:1769
-N6	NCBI_Taxonomy	Annotation:T8	Referent:1769
+T3	Habitat 60 77	peripheral nerves
+T4	Habitat 179 204	peripheral nervous system
+T5	Habitat 206 209	PNS
+T6	Habitat 259 264	nerve
+T7	Habitat 279 292	Schwann cells
+T8	Habitat 298 309	glial cells
+T9	Habitat 317 320	PNS
+T10	Habitat 533 546	Schwann cells
+T11	Habitat 629 634	nerve
+T12	Habitat 635 641	injury
+T13	Habitat 855 867	Schwann cell
+T14	Habitat 918 923	nerve
+T15	Habitat 1007 1012	human
+T16	Bacteria 1022 1042	Mycobacterium leprae
+T17	Habitat 1080 1093	Schwann cells
+T18	Habitat 1107 1110	PNS
+T19	Bacteria 1205 1214	M. leprae
+T20	Habitat 1252 1265	Schwann cells
+T21	Habitat 1475 1481	myelin
+T22	Habitat 1535 1541	injury
+T23	Bacteria 1576 1585	M. leprae
+T24	Habitat 1633 1639	myelin
+T25	Bacteria 1684 1693	M. leprae
+T26	Bacteria 1748 1757	M. leprae
+T27	Habitat 1832 1836	cell
+T28	Habitat 2013 2026	Schwann cells
+T29	Bacteria 2027 2036	M. leprae
+T30	Habitat 2110 2113	PNS
+N1	OntoBiotope Annotation:T3 Referent:OBT:000747
+N2	OntoBiotope Annotation:T4 Referent:OBT:000747
+N3	OntoBiotope Annotation:T5 Referent:OBT:000747
+N4	OntoBiotope Annotation:T6 Referent:OBT:000467
+N5	OntoBiotope Annotation:T7 Referent:OBT:000747
+N6	OntoBiotope Annotation:T8 Referent:OBT:000284
+N7	OntoBiotope Annotation:T9 Referent:OBT:000747
+N8	OntoBiotope Annotation:T10 Referent:OBT:000747
+N9	OntoBiotope Annotation:T11 Referent:OBT:000467
+N10	OntoBiotope Annotation:T12 Referent:OBT:000507
+N11	OntoBiotope Annotation:T13 Referent:OBT:000747
+N12	OntoBiotope Annotation:T14 Referent:OBT:000467
+N13	OntoBiotope Annotation:T15 Referent:OBT:000257
+N14	NCBI_Taxonomy Annotation:T16 Referent:1769
+N15	OntoBiotope Annotation:T17 Referent:OBT:000747
+N16	OntoBiotope Annotation:T18 Referent:OBT:000747
+N17	NCBI_Taxonomy Annotation:T19 Referent:1769
+N18	OntoBiotope Annotation:T20 Referent:OBT:000747
+N19	OntoBiotope Annotation:T21 Referent:OBT:000284
+N20	OntoBiotope Annotation:T22 Referent:OBT:000507
+N21	NCBI_Taxonomy Annotation:T23 Referent:1769
+N22	OntoBiotope Annotation:T24 Referent:OBT:000284
+N23	NCBI_Taxonomy Annotation:T25 Referent:1769
+N24	NCBI_Taxonomy Annotation:T26 Referent:1769
+N25	OntoBiotope Annotation:T27 Referent:OBT:000056
+N26	OntoBiotope Annotation:T28 Referent:OBT:000747
+N27	NCBI_Taxonomy Annotation:T29 Referent:1769
+N28	OntoBiotope Annotation:T30 Referent:OBT:000747

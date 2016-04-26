@@ -1,2 +1,20 @@
-T3	Bacteria	296	312	Escherichia coli
-N1	NCBI_Taxonomy	Annotation:T3	Referent:562
+T3	Habitat 34 50	Chondrus crispus
+T4	Habitat 69 84	Pichia pastoris
+T5	Habitat 180 196	Chondrus crispus
+T6	Habitat 238 242	host
+T7	Bacteria 296 312	Escherichia coli
+T8	Habitat 417 422	yeast
+T9	Habitat 423 438	Pichia pastoris
+T10	Habitat 541 552	P. pastoris
+T11	Habitat 958 982	Saccharomyces cerevisiae
+T12	Habitat 1086 1097	P. pastoris
+N1	OntoBiotope Annotation:T3 Referent:OBT:000036
+N2	OntoBiotope Annotation:T4 Referent:OBT:000154
+N3	OntoBiotope Annotation:T5 Referent:OBT:000036
+N4	OntoBiotope Annotation:T6 Referent:OBT:000036
+N5	NCBI_Taxonomy Annotation:T7 Referent:562
+N6	OntoBiotope Annotation:T8 Referent:OBT:000154
+N7	OntoBiotope Annotation:T9 Referent:OBT:000154
+N8	OntoBiotope Annotation:T10 Referent:OBT:000154
+N9	OntoBiotope Annotation:T11 Referent:OBT:000154
+N10	OntoBiotope Annotation:T12 Referent:OBT:000154

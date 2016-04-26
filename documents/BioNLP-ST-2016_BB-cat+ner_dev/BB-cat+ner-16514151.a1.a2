@@ -1,6 +1,12 @@
-T3	Bacteria	674	690	Escherichia coli
-T4	Bacteria	1336	1343	E. coli
-T5	Bacteria	1387	1410	Deinococcus radiodurans
-N1	NCBI_Taxonomy	Annotation:T3	Referent:562
-N2	NCBI_Taxonomy	Annotation:T4	Referent:562
-N3	NCBI_Taxonomy	Annotation:T5	Referent:1299
+T3	Habitat 467 471	cell
+T4	Bacteria 674 690	Escherichia coli
+T5	Habitat 691 695	cell
+T6	Habitat 1087 1091	Cell
+T7	Bacteria 1336 1343	E. coli
+T8	Bacteria 1387 1410	Deinococcus radiodurans
+N1	OntoBiotope Annotation:T3 Referent:OBT:000056
+N2	NCBI_Taxonomy Annotation:T4 Referent:562
+N3	OntoBiotope Annotation:T5 Referent:OBT:000056
+N4	OntoBiotope Annotation:T6 Referent:OBT:000056
+N5	NCBI_Taxonomy Annotation:T7 Referent:562
+N6	NCBI_Taxonomy Annotation:T8 Referent:1299

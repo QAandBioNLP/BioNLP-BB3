@@ -1,1 +1,16 @@
+Habitat	(14, 28, ((-20, 'OBT:000318'),))	Artemisia annua	(14, 29, ((-20, 'OBT:000789'),))	Artemisia annua
+Habitat	(205, 209, ((-20, 'OBT:000041'),))	plant	(185, 226, ((-20, 'OBT:000162'),))	aerial parts of the plant Artemisia annua
+Habitat	(211, 225, ((-20, 'OBT:000318'),))	Artemisia annua	(205, 226, ((-20, 'OBT:000789'),))	plant Artemisia annua
 Bacteria	(290, 319, ((-2, '37763'),))	Clostridium perfringens Type A	(290, 320, ((-2, '1502'),))	Clostridium perfringens Type A
+Habitat	(455, 462, ((-20, 'OBT:000318'),))	A. annua	(449, 470, ((-20, 'OBT:000019'), (-20, 'OBT:000849')))	dried A. annua leaves
+Habitat	(526, 533, ((-20, 'OBT:000318'),))	A. annua	(498, 541, ((-20, 'OBT:000019'),))	n-hexane extract from fresh A. annua leaves
+Habitat	(617, 630, ((-20, 'OBT:000805'),))	plant material	(611, 631, ((-20, 'OBT:000019'), (-20, 'OBT:000805'), (-20, 'OBT:000849')))	Dried plant material
+Habitat	(944, 948, ((-20, 'OBT:000257'),))	birds	(944, 949, ((-20, 'OBT:002251'),))	birds
+Habitat	(1124, 1131, ((-20, 'OBT:000318'),))	A. annua	(1118, 1139, ((-20, 'OBT:000849'), (-20, 'OBT:000805'), (-20, 'OBT:000019')))	dried A. annua leaves
+Habitat	(1180, 1187, ((-20, 'OBT:000318'),))	A. annua	(1160, 1188, ((-20, 'OBT:000805'), (-20, 'OBT:000019')))	n-hexane extract of A. annua
+Habitat	(1370, 1379, ((-20, 'OBT:001893'),))	intestinal	(1364, 1388, ((-20, 'OBT:000266'),))	small intestinal lesions
+Habitat	(1439, 1443, ((-20, 'OBT:000257'),))	birds	(1439, 1483, ((-20, 'OBT:002251'),))	birds supplemented with the n-hexane extract
+Habitat	(1536, 1540, ((-20, 'OBT:000257'),))	birds	(1517, 1541, ((-20, 'OBT:002251'),))	challenged control birds
+Habitat	(1546, 1550, ((-20, 'OBT:000257'),))	birds	(1546, 1582, ((-20, 'OBT:002251'),))	birds receiving dried plant material
+Habitat	(1568, 1581, ((-20, 'OBT:000805'),))	plant material	(1562, 1582, ((-20, 'OBT:000805'), (-20, 'OBT:000849'), (-20, 'OBT:000019')))	dried plant material
+Habitat	(1641, 1648, ((-20, 'OBT:000318'),))	A. annua	(1610, 1649, ((-20, 'OBT:000805'), (-20, 'OBT:000019')))	n-hexane extracts derived from A. annua

@@ -1,10 +1,24 @@
-T3	Bacteria	58	70	Listeria sp.
-T4	Bacteria	75	97	Listeria monocytogenes
-T5	Bacteria	210	218	Listeria
-T6	Bacteria	277	289	Listeria sp.
-T7	Bacteria	294	316	Listeria monocytogenes
-N1	NCBI_Taxonomy	Annotation:T3	Referent:1637
-N2	NCBI_Taxonomy	Annotation:T4	Referent:1639
-N3	NCBI_Taxonomy	Annotation:T5	Referent:1637
-N4	NCBI_Taxonomy	Annotation:T6	Referent:1637
-N5	NCBI_Taxonomy	Annotation:T7	Referent:1639
+T3	Bacteria 58 70	Listeria sp.
+T4	Bacteria 75 97	Listeria monocytogenes
+T5	Habitat 103 110	chicken
+T6	Habitat 129 134	plant
+T7	Bacteria 210 218	Listeria
+T8	Bacteria 277 289	Listeria sp.
+T9	Bacteria 294 316	Listeria monocytogenes
+T10	Habitat 477 481	food
+T11	Habitat 510 517	chicken
+T12	Habitat 536 541	plant
+T13	Habitat 1087 1091	food
+T14	Habitat 1200 1204	food
+N1	NCBI_Taxonomy Annotation:T3 Referent:1637
+N2	NCBI_Taxonomy Annotation:T4 Referent:1639
+N3	OntoBiotope Annotation:T5 Referent:OBT:000257
+N4	OntoBiotope Annotation:T6 Referent:OBT:000041
+N5	NCBI_Taxonomy Annotation:T7 Referent:1637
+N6	NCBI_Taxonomy Annotation:T8 Referent:1637
+N7	NCBI_Taxonomy Annotation:T9 Referent:1639
+N8	OntoBiotope Annotation:T10 Referent:OBT:000003
+N9	OntoBiotope Annotation:T11 Referent:OBT:000257
+N10	OntoBiotope Annotation:T12 Referent:OBT:000041
+N11	OntoBiotope Annotation:T13 Referent:OBT:000003
+N12	OntoBiotope Annotation:T14 Referent:OBT:000003

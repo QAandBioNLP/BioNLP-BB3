@@ -1,2 +1,5 @@
 Bacteria	67	88	Clostridium difficile
 Bacteria	100	121	Clostridium difficile
+Habitat	273	278	colon
+Habitat	652	671	intensive care unit
+Habitat	1855	1867	gastric acid

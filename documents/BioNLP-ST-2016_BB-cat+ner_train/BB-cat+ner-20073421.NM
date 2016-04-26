@@ -1,6 +1,14 @@
 Bacteria	(71, 96, ((-2, '376619'),))	Francisella tularensis LVS	(71, 97, ((-2, '263'),))	Francisella tularensis LVS
+Habitat	(101, 106, ((-20, 'OBT:000257'),))	murine	(101, 107, ((-20, 'OBT:001768'),))	murine
+Habitat	(108, 117, ((-20, 'OBT:000232'),))	macrophage	(101, 118, ((-20, 'OBT:002022'),))	murine macrophage
+Habitat	(124, 127, ((-20, 'OBT:000056'),))	cell	(101, 138, ((-20, 'OBT:000029'), (-20, 'OBT:002022')))	murine macrophage-like cell line J774
 Bacteria	(140, 161, ((-2, '376619'),))	Francisella tularensis	(140, 162, ((-2, '263'),))	Francisella tularensis
+Habitat	(185, 189, ((-20, 'OBT:000257'),))	human	(185, 190, ((-20, 'OBT:001804'),))	human
+Habitat	(251, 255, ((-20, 'OBT:000257'),))	human	(251, 262, ((-20, 'OBT:000056'),))	human cells
 Bacteria	(300, 316, ((-2, '376619'),))	F. tularensis LVS	(300, 317, ((-2, '263'),))	F. tularensis LVS
+Habitat	(328, 337, ((-20, 'OBT:000232'),))	macrophage	(328, 338, ((-20, 'OBT:002022'),))	macrophage
+Habitat	(344, 347, ((-20, 'OBT:000056'),))	cell	(328, 358, ((-20, 'OBT:000029'), (-20, 'OBT:002022')))	macrophage-like cell line J774
 Bacteria	(569, 581, ((-2, '376619'),))	F. tularensis	(569, 582, ((-2, '263'),))	F. tularensis
 Bacteria	(688, 700, ((-2, '376619'),))	F. tularensis	(688, 701, ((-2, '263'),))	F. tularensis
+Habitat	(733, 736, ((-20, 'OBT:000056'),))	cell	(728, 742, ((-20, 'OBT:002022'), (-20, 'OBT:000029')))	J774 cell line
 Bacteria	(839, 851, ((-2, '376619'),))	F. tularensis	(839, 852, ((-2, '263'),))	F. tularensis

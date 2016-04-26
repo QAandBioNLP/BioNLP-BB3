@@ -1,4 +1,36 @@
-T3	Bacteria	194	206	mycobacteria
-T4	Bacteria	238	251	mycobacterial
-N1	NCBI_Taxonomy	Annotation:T3	Referent:1763
-N2	NCBI_Taxonomy	Annotation:T4	Referent:1763
+T3	Habitat 12 25	T lymphocytes
+T4	Habitat 51 58	lesions
+T5	Habitat 86 92	animal
+T6	Habitat 147 154	T cells
+T7	Habitat 156 175	gamma delta T cells
+T8	Bacteria 194 206	mycobacteria
+T9	Bacteria 238 251	mycobacterial
+T10	Habitat 288 307	gamma delta T cells
+T11	Habitat 441 460	gamma delta T cells
+T12	Habitat 476 486	granulomas
+T13	Habitat 531 544	T-lymphocytes
+T14	Habitat 578 584	lesion
+T15	Habitat 686 705	gamma delta T cells
+T16	Habitat 747 757	granulomas
+T17	Habitat 821 840	gamma delta T cells
+T18	Habitat 868 878	granulomas
+T19	Habitat 1003 1028	gamma delta T lymphocytes
+T20	Habitat 1052 1061	granuloma
+N1	OntoBiotope Annotation:T3 Referent:OBT:000316
+N2	OntoBiotope Annotation:T4 Referent:OBT:000231
+N3	OntoBiotope Annotation:T5 Referent:OBT:000061
+N4	OntoBiotope Annotation:T6 Referent:OBT:000316
+N5	OntoBiotope Annotation:T7 Referent:OBT:000316
+N6	NCBI_Taxonomy Annotation:T8 Referent:1763
+N7	NCBI_Taxonomy Annotation:T9 Referent:1763
+N8	OntoBiotope Annotation:T10 Referent:OBT:000316
+N9	OntoBiotope Annotation:T11 Referent:OBT:000316
+N10	OntoBiotope Annotation:T12 Referent:OBT:000222
+N11	OntoBiotope Annotation:T13 Referent:OBT:000316
+N12	OntoBiotope Annotation:T14 Referent:OBT:000231
+N13	OntoBiotope Annotation:T15 Referent:OBT:000316
+N14	OntoBiotope Annotation:T16 Referent:OBT:000222
+N15	OntoBiotope Annotation:T17 Referent:OBT:000316
+N16	OntoBiotope Annotation:T18 Referent:OBT:000222
+N17	OntoBiotope Annotation:T19 Referent:OBT:000316
+N18	OntoBiotope Annotation:T20 Referent:OBT:000222

@@ -1,6 +1,10 @@
-T3	Bacteria	377	401	Zobellia galactanivorans
-T4	Bacteria	564	580	Escherichia coli
-T5	Bacteria	1476	1494	Z. galactanivorans
-N1	NCBI_Taxonomy	Annotation:T3	Referent:63186
-N2	NCBI_Taxonomy	Annotation:T4	Referent:562
-N3	NCBI_Taxonomy	Annotation:T5	Referent:63186
+T3	Habitat 120 124	food
+T4	Habitat 278 284	marine
+T5	Bacteria 377 401	Zobellia galactanivorans
+T6	Bacteria 564 580	Escherichia coli
+T7	Bacteria 1476 1494	Z. galactanivorans
+N1	OntoBiotope Annotation:T3 Referent:OBT:000003
+N2	OntoBiotope Annotation:T4 Referent:OBT:000078
+N3	NCBI_Taxonomy Annotation:T5 Referent:63186
+N4	NCBI_Taxonomy Annotation:T6 Referent:562
+N5	NCBI_Taxonomy Annotation:T7 Referent:63186

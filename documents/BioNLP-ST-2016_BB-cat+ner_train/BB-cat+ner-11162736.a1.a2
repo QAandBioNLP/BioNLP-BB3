@@ -1,4 +1,12 @@
-T3	Bacteria	369	391	Salmonella typhimurium
-T4	Bacteria	415	431	Escherichia coli
-N1	NCBI_Taxonomy	Annotation:T3	Referent:90371
-N2	NCBI_Taxonomy	Annotation:T4	Referent:562
+T3	Bacteria 369 391	Salmonella typhimurium
+T4	Bacteria 415 431	Escherichia coli
+T5	Habitat 503 507	cell
+T6	Habitat 734 738	cell
+T7	Habitat 793 797	cell
+T8	Habitat 1126 1130	cell
+N1	NCBI_Taxonomy Annotation:T3 Referent:90371
+N2	NCBI_Taxonomy Annotation:T4 Referent:562
+N3	OntoBiotope Annotation:T5 Referent:OBT:000056
+N4	OntoBiotope Annotation:T6 Referent:OBT:000056
+N5	OntoBiotope Annotation:T7 Referent:OBT:000056
+N6	OntoBiotope Annotation:T8 Referent:OBT:000056

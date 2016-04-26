@@ -1,0 +1,9 @@
+Habitat	(147, 165, ((-20, 'OBT:000284'),))	cerebrospinal fluid	(147, 166, ((-20, 'OBT:000306'),))	cerebrospinal fluid
+Habitat	(168, 170, ((-20, 'OBT:000284'),))	CSF	(168, 171, ((-20, 'OBT:000306'),))	CSF
+Habitat	(188, 195, ((-20, 'OBT:002133'),))	patients	(188, 232, ((-20, 'OBT:002216'),))	patients diagnosed with bacterial meningitis
+Habitat	(605, 607, ((-20, 'OBT:000284'),))	CSF	(605, 635, ((-20, 'OBT:000306'),))	CSF from neonates and children
+Habitat	(614, 621, ((-20, 'OBT:002293'),))	neonates	(605, 660, ((-20, 'OBT:000306'),))	CSF from neonates and children (n=150), and from adults
+Habitat	(627, 634, ((-20, 'OBT:002146'),))	children	(627, 635, ((-20, 'OBT:002146'), (-20, 'OBT:002307'), (-20, 'OBT:002216')))	children
+Habitat	(815, 817, ((-20, 'OBT:000284'),))	CSF	(815, 818, ((-20, 'OBT:000306'),))	CSF
+Habitat	(1271, 1273, ((-20, 'OBT:000284'),))	CSF	(1271, 1274, ((-20, 'OBT:000306'),))	CSF
+Habitat	(1499, 1506, ((-20, 'OBT:002133'),))	patients	(1499, 1538, ((-20, 'OBT:002201'),))	patients with antibiotic administration

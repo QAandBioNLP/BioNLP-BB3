@@ -1,10 +1,30 @@
-T3	Bacteria	41	64	Serratia marcescens MG1
-T4	Bacteria	87	106	Serratia marcescens
-T5	Bacteria	199	216	S. marcescens MG1
-T6	Bacteria	1513	1526	S. marcescens
-T7	Bacteria	1659	1676	S. marcescens MG1
-N1	NCBI_Taxonomy	Annotation:T3	Referent:615
-N2	NCBI_Taxonomy	Annotation:T4	Referent:615
-N3	NCBI_Taxonomy	Annotation:T5	Referent:615
-N4	NCBI_Taxonomy	Annotation:T6	Referent:615
-N5	NCBI_Taxonomy	Annotation:T7	Referent:615
+T3	Bacteria 41 64	Serratia marcescens MG1
+T4	Bacteria 87 106	Serratia marcescens
+T5	Bacteria 199 216	S. marcescens MG1
+T6	Habitat 233 240	biofilm
+T7	Habitat 395 402	biofilm
+T8	Habitat 642 647	human
+T9	Habitat 648 678	corneal epithelial (HCE) cells
+T10	Habitat 782 785	HCE
+T11	Habitat 786 790	cell
+T12	Habitat 916 919	HCE
+T13	Habitat 920 924	cell
+T14	Habitat 1477 1480	HCE
+T15	Bacteria 1513 1526	S. marcescens
+T16	Habitat 1553 1557	cell
+T17	Bacteria 1659 1676	S. marcescens MG1
+N1	NCBI_Taxonomy Annotation:T3 Referent:615
+N2	NCBI_Taxonomy Annotation:T4 Referent:615
+N3	NCBI_Taxonomy Annotation:T5 Referent:615
+N4	OntoBiotope Annotation:T6 Referent:OBT:000037
+N5	OntoBiotope Annotation:T7 Referent:OBT:000037
+N6	OntoBiotope Annotation:T8 Referent:OBT:000257
+N7	OntoBiotope Annotation:T9 Referent:OBT:000564
+N8	OntoBiotope Annotation:T10 Referent:OBT:001760
+N9	OntoBiotope Annotation:T11 Referent:OBT:000056
+N10	OntoBiotope Annotation:T12 Referent:OBT:001760
+N11	OntoBiotope Annotation:T13 Referent:OBT:000056
+N12	OntoBiotope Annotation:T14 Referent:OBT:001760
+N13	NCBI_Taxonomy Annotation:T15 Referent:615
+N14	OntoBiotope Annotation:T16 Referent:OBT:000056
+N15	NCBI_Taxonomy Annotation:T17 Referent:615

@@ -1,12 +1,52 @@
-T3	Bacteria	24	39	Kingella kingae
-T4	Bacteria	76	91	Kingella kingae
-T5	Bacteria	542	551	K. kingae
-T6	Bacteria	977	986	K. kingae
-T7	Bacteria	1014	1023	K. kingae
-T8	Bacteria	1343	1352	K. kingae
-N1	NCBI_Taxonomy	Annotation:T3	Referent:504
-N2	NCBI_Taxonomy	Annotation:T4	Referent:504
-N3	NCBI_Taxonomy	Annotation:T5	Referent:504
-N4	NCBI_Taxonomy	Annotation:T6	Referent:504
-N5	NCBI_Taxonomy	Annotation:T7	Referent:504
-N6	NCBI_Taxonomy	Annotation:T8	Referent:504
+T3	Habitat 0 11	Respiratory
+T4	Bacteria 24 39	Kingella kingae
+T5	Habitat 54 62	children
+T6	Bacteria 76 91	Kingella kingae
+T7	Habitat 125 133	children
+T8	Habitat 205 222	respiratory tract
+T9	Habitat 265 273	children
+T10	Habitat 323 329	throat
+T11	Habitat 406 414	children
+T12	Bacteria 542 551	K. kingae
+T13	Habitat 553 559	throat
+T14	Habitat 588 596	children
+T15	Habitat 735 742	infants
+T16	Habitat 782 786	baby
+T17	Habitat 792 798	clinic
+T18	Habitat 873 879	throat
+T19	Bacteria 977 986	K. kingae
+T20	Bacteria 1014 1023	K. kingae
+T21	Habitat 1105 1113	children
+T22	Habitat 1179 1187	children
+T23	Habitat 1310 1318	children
+T24	Bacteria 1343 1352	K. kingae
+T25	Habitat 1417 1425	patients
+T26	Habitat 1486 1493	infants
+T27	Habitat 1535 1539	baby
+T28	Habitat 1545 1551	clinic
+N1	OntoBiotope Annotation:T3 Referent:OBT:000164
+N2	NCBI_Taxonomy Annotation:T4 Referent:504
+N3	OntoBiotope Annotation:T5 Referent:OBT:002146
+N4	NCBI_Taxonomy Annotation:T6 Referent:504
+N5	OntoBiotope Annotation:T7 Referent:OBT:002146
+N6	OntoBiotope Annotation:T8 Referent:OBT:000164
+N7	OntoBiotope Annotation:T9 Referent:OBT:002146
+N8	OntoBiotope Annotation:T10 Referent:OBT:000374
+N9	OntoBiotope Annotation:T11 Referent:OBT:002146
+N10	NCBI_Taxonomy Annotation:T12 Referent:504
+N11	OntoBiotope Annotation:T13 Referent:OBT:000374
+N12	OntoBiotope Annotation:T14 Referent:OBT:002146
+N13	OntoBiotope Annotation:T15 Referent:OBT:002177
+N14	OntoBiotope Annotation:T16 Referent:OBT:002154
+N15	OntoBiotope Annotation:T17 Referent:OBT:001801
+N16	OntoBiotope Annotation:T18 Referent:OBT:000374
+N17	NCBI_Taxonomy Annotation:T19 Referent:504
+N18	NCBI_Taxonomy Annotation:T20 Referent:504
+N19	OntoBiotope Annotation:T21 Referent:OBT:002146
+N20	OntoBiotope Annotation:T22 Referent:OBT:002146
+N21	OntoBiotope Annotation:T23 Referent:OBT:002146
+N22	NCBI_Taxonomy Annotation:T24 Referent:504
+N23	OntoBiotope Annotation:T25 Referent:OBT:002133
+N24	OntoBiotope Annotation:T26 Referent:OBT:002177
+N25	OntoBiotope Annotation:T27 Referent:OBT:002154
+N26	OntoBiotope Annotation:T28 Referent:OBT:001801

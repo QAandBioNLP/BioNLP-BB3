@@ -1,6 +1,11 @@
 Bacteria	28	42	Staphylococcus
+Habitat	43	51	biofilms
 Bacteria	53	67	Staphylococcus
+Habitat	78	93	medical devices
 Bacteria	220	246	Staphylococcus epidermidis
 Bacteria	251	272	Staphylococcus aureus
+Habitat	330	337	biofilm
 Bacteria	494	503	S. aureus
 Bacteria	508	522	S. epidermidis
+Habitat	579	586	biofilm
+Habitat	797	804	biofilm

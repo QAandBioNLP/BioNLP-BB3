@@ -1,10 +1,20 @@
-T3	Bacteria	57	76	Salmonella enterica
-T4	Bacteria	175	194	Salmonella enterica
-T5	Bacteria	422	433	S. enterica
-T6	Bacteria	553	564	S. enterica
-T7	Bacteria	976	987	S. enterica
-N1	NCBI_Taxonomy	Annotation:T3	Referent:28901
-N2	NCBI_Taxonomy	Annotation:T4	Referent:28901
-N3	NCBI_Taxonomy	Annotation:T5	Referent:28901
-N4	NCBI_Taxonomy	Annotation:T6	Referent:28901
-N5	NCBI_Taxonomy	Annotation:T7	Referent:28901
+T3	Bacteria 57 76	Salmonella enterica
+T4	Habitat 140 147	animals
+T5	Habitat 152 158	humans
+T6	Bacteria 175 194	Salmonella enterica
+T7	Habitat 228 237	hospitals
+T8	Bacteria 422 433	S. enterica
+T9	Bacteria 553 564	S. enterica
+T10	Habitat 909 916	animals
+T11	Bacteria 976 987	S. enterica
+T12	Habitat 1007 1016	hospitals
+N1	NCBI_Taxonomy Annotation:T3 Referent:28901
+N2	OntoBiotope Annotation:T4 Referent:OBT:000061
+N3	OntoBiotope Annotation:T5 Referent:OBT:000257
+N4	NCBI_Taxonomy Annotation:T6 Referent:28901
+N5	OntoBiotope Annotation:T7 Referent:OBT:001835
+N6	NCBI_Taxonomy Annotation:T8 Referent:28901
+N7	NCBI_Taxonomy Annotation:T9 Referent:28901
+N8	OntoBiotope Annotation:T10 Referent:OBT:000061
+N9	NCBI_Taxonomy Annotation:T11 Referent:28901
+N10	OntoBiotope Annotation:T12 Referent:OBT:001835

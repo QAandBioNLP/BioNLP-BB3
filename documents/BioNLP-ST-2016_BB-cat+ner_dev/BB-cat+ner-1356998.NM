@@ -1,2 +1,7 @@
+Habitat	(0, 4, ((-20, 'OBT:000257'),))	Human	(0, 5, ((-20, 'OBT:001804'),))	Human
 Bacteria	(35, 44, ((-2, '114277'),))	Rickettsia	(35, 45, ((-2, '780'),))	Rickettsia
 Bacteria	(125, 135, ((-2, '114277'),))	rickettsiae	(125, 136, ((-2, '780'),))	rickettsiae
+Habitat	(218, 223, ((-20, 'OBT:000257'),))	humans	(218, 224, ((-20, 'OBT:002187'),))	humans
+Habitat	(387, 391, ((-20, 'OBT:000257'),))	human	(387, 392, ((-20, 'OBT:002187'),))	human
+Habitat	(421, 428, ((-20, 'OBT:002133'),))	patients	(421, 497, ((-20, 'OBT:002216'),))	patients suffering from rickettsial disease of different degrees of severity
+Habitat	(1201, 1206, ((-20, 'OBT:000257'),))	humans	(1201, 1207, ((-20, 'OBT:002187'),))	humans

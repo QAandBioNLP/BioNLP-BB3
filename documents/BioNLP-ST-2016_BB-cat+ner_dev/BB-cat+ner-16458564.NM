@@ -1,0 +1,10 @@
+Habitat	(307, 314, ((-20, 'OBT:002146'),))	children	(307, 329, ((-20, 'OBT:002146'), (-20, 'OBT:002115')))	children with diarrhea
+Habitat	(733, 740, ((-20, 'OBT:002146'),))	children	(733, 755, ((-20, 'OBT:002146'), (-20, 'OBT:002115')))	children with diarrhea
+Habitat	(1046, 1053, ((-20, 'OBT:002146'),))	children	(1046, 1081, ((-20, 'OBT:002115'), (-20, 'OBT:002154')))	children less than two years of age
+Habitat	(1165, 1172, ((-20, 'OBT:002146'),))	children	(1159, 1173, ((-20, 'OBT:002146'), (-20, 'OBT:002115')))	older children
+Habitat	(1321, 1328, ((-20, 'OBT:002146'),))	Children	(1321, 1353, ((-20, 'OBT:002307'), (-20, 'OBT:002216')))	Children attending the hospitals
+Habitat	(1485, 1490, ((-20, 'OBT:000640'),))	mucous	(1485, 1497, ((-20, 'OBT:000703'),))	mucous stool
+Habitat	(1631, 1638, ((-20, 'OBT:002146'),))	children	(1631, 1639, ((-20, 'OBT:002307'), (-20, 'OBT:002216'), (-20, 'OBT:002201')))	children
+Habitat	(1682, 1689, ((-20, 'OBT:002146'),))	children	(1682, 1690, ((-20, 'OBT:002307'), (-20, 'OBT:002216')))	children
+Habitat	(1752, 1756, ((-20, 'OBT:000132'),))	water	(1746, 1757, ((-20, 'OBT:001210'),))	piped water
+Habitat	(2245, 2255, ((-20, 'OBT:001697'),))	fresh water	(2245, 2263, ((-20, 'OBT:000838'),))	fresh water supply

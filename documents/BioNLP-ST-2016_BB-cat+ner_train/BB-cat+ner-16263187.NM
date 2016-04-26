@@ -1,13 +1,24 @@
+Habitat	(86, 97, ((-20, 'OBT:000930'),))	Caco-2 cells	(86, 98, ((-20, 'OBT:000029'), (-20, 'OBT:000240')))	Caco-2 cells
+Habitat	(120, 126, ((-20, 'OBT:001289'),))	jejunal	(114, 134, ((-20, 'OBT:002020'),))	pigs' jejunal tissue
+Habitat	(233, 249, ((-20, 'OBT:001760'),))	intestinal mucosa	(233, 243, ((-20, 'OBT:001893'),))	intestinal
+Habitat	(275, 286, ((-20, 'OBT:000930'),))	Caco-2 cells	(266, 287, ((-20, 'OBT:000240'), (-20, 'OBT:000029')))	cultured Caco-2 cells
+Habitat	(315, 324, ((-20, 'OBT:001893'),))	intestinal	(303, 332, ((-20, 'OBT:002020'),))	pigs' small intestinal tissue
 Bacteria	(378, 384, ((-2, '562'),))	E. coli	(378, 385, ((-2, '1010796'),))	E. coli
 Bacteria	(394, 400, ((-2, '562'),))	E. coli	(394, 401, ((-2, '1010796'),))	E. coli
 Bacteria	(412, 418, ((-2, '562'),))	E. coli	(412, 419, ((-2, '1010796'),))	E. coli
+Habitat	(530, 541, ((-20, 'OBT:000930'),))	Caco-2 cells	(509, 542, ((-20, 'OBT:000056'),))	fully differentiated Caco-2 cells
 Bacteria	(602, 608, ((-2, '562'),))	E. coli	(602, 609, ((-2, '1010796'),))	E. coli
 Bacteria	(673, 679, ((-2, '562'),))	E. coli	(673, 680, ((-2, '1010796'),))	E. coli
+Habitat	(692, 697, ((-20, 'OBT:000930'),))	Caco-2	(692, 698, ((-20, 'OBT:000056'),))	Caco-2
 Bacteria	(827, 833, ((-2, '562'),))	E. coli	(827, 834, ((-2, '1010796'),))	E. coli
 Bacteria	(925, 931, ((-2, '562'),))	E. coli	(925, 932, ((-2, '1010796'),))	E. coli
 Bacteria	(1050, 1056, ((-2, '562'),))	E. coli	(1050, 1057, ((-2, '1010796'),))	E. coli
 Bacteria	(1065, 1071, ((-2, '562'),))	E. coli	(1065, 1072, ((-2, '1010796'),))	E. coli
 Bacteria	(1228, 1234, ((-2, '562'),))	E. coli	(1228, 1235, ((-2, '1010796'),))	E. coli
 Bacteria	(1422, 1428, ((-2, '562'),))	E. coli	(1422, 1429, ((-2, '1010796'),))	E. coli
+Habitat	(1459, 1472, ((-20, 'OBT:001760'),))	jejunal mucosa	(1459, 1473, ((-20, 'OBT:002020'),))	jejunal mucosa
 Bacteria	(1684, 1690, ((-2, '562'),))	E. coli	(1684, 1691, ((-2, '1010796'),))	E. coli
 Bacteria	(1809, 1815, ((-2, '562'),))	E. coli	(1809, 1816, ((-2, '1010796'),))	E. coli
+Habitat	(1829, 1834, ((-20, 'OBT:000930'),))	Caco-2	(1829, 1847, ((-20, 'OBT:000240'),))	Caco-2 enterocytes
+Habitat	(1911, 1913, ((-20, 'OBT:000257'),))	pig	(1911, 1914, ((-20, 'OBT:002257'),))	pig
+Habitat	(1915, 1921, ((-20, 'OBT:001289'),))	jejunal	(1911, 1929, ((-20, 'OBT:002020'),))	pig jejunal tissue

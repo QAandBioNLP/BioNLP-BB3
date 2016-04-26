@@ -1,0 +1,14 @@
+Habitat	(16, 19, ((-20, 'OBT:000257'),))	fish	(16, 20, ((-20, 'OBT:001902'),))	fish
+Habitat	(62, 70, ((-20, 'OBT:000704'),))	sediments	(52, 71, ((-20, 'OBT:000974'),))	fish farm sediments
+Habitat	(96, 99, ((-20, 'OBT:000257'),))	fish	(96, 100, ((-20, 'OBT:001902'),))	fish
+Habitat	(142, 150, ((-20, 'OBT:000704'),))	sediments	(132, 151, ((-20, 'OBT:000974'),))	fish farm sediments
+Habitat	(269, 274, ((-20, 'OBT:000257'),))	rabbit	(258, 281, ((-20, 'OBT:000571'),))	polyclonal rabbit serum
+Habitat	(374, 390, ((-20, 'OBT:001893'),))	intestinal tracts	(374, 407, ((-20, 'OBT:000286'),))	intestinal tracts of healthy fish
+Habitat	(403, 406, ((-20, 'OBT:000257'),))	fish	(395, 407, ((-20, 'OBT:001902'),))	healthy fish
+Habitat	(429, 437, ((-20, 'OBT:000704'),))	sediments	(429, 438, ((-20, 'OBT:000974'),))	sediments
+Habitat	(471, 478, ((-20, 'OBT:000704'),))	sediment	(471, 507, ((-20, 'OBT:000974'),))	sediment samples from diseased farms
+Habitat	(594, 601, ((-20, 'OBT:000704'),))	sediment	(594, 639, ((-20, 'OBT:000974'),))	sediment sample from a disease-free fish farm
+Habitat	(680, 688, ((-20, 'OBT:000704'),))	sediments	(680, 689, ((-20, 'OBT:000974'),))	sediments
+Habitat	(708, 711, ((-20, 'OBT:000257'),))	fish	(708, 720, ((-20, 'OBT:000295'),))	fish farming
+Habitat	(794, 799, ((-20, 'OBT:000257'),))	rabbit	(794, 800, ((-20, 'OBT:001773'),))	rabbit
+Habitat	(871, 876, ((-20, 'OBT:000257'),))	rabbit	(871, 883, ((-20, 'OBT:000571'),))	rabbit serum

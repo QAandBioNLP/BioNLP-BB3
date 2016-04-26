@@ -1,1 +1,3 @@
+Habitat	(350, 359, ((-20, 'OBT:000232'),))	lymph node	(350, 360, ((-20, 'OBT:000548'),))	lymph node
+Habitat	(375, 382, ((-20, 'OBT:002146'),))	children	(375, 383, ((-20, 'OBT:002146'), (-20, 'OBT:002187')))	children
 Bacteria	(417, 428, ((-2, '1766'),))	M. fortuitum	(417, 446, ((-2, '1766'), (-2, '1774')))	M. fortuitum-chelonei complex

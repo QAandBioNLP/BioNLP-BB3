@@ -1,10 +1,15 @@
 Bacteria	79	98	Helicobacter pylori
+Habitat	165	179	duodenal ulcer
 Bacteria	196	215	Helicobacter pylori
+Habitat	546	553	patient
 Bacteria	712	720	H pylori
 Bacteria	783	796	Campylobacter
 Bacteria	1271	1279	H pylori
 Bacteria	1419	1427	H pylori
 Bacteria	1627	1635	H pylori
 Bacteria	1651	1659	H pylori
+Habitat	1776	1781	ulcer
+Habitat	2232	2240	patients
 Bacteria	2358	2366	H pylori
+Habitat	2508	2522	duodenal ulcer
 Bacteria	2539	2547	H pylori

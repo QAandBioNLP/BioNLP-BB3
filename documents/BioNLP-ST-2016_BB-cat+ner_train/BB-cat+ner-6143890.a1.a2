@@ -1,2 +1,8 @@
-T2	Bacteria	46	67	Chlamydia trachomatis
-N1	NCBI_Taxonomy	Annotation:T2	Referent:813
+T2	Bacteria 46 67	Chlamydia trachomatis
+T3	Habitat 71 79	urethral
+T4	Habitat 91 96	urine
+T5	Habitat 97 106	sediments
+N1	NCBI_Taxonomy Annotation:T2 Referent:813
+N2	OntoBiotope Annotation:T3 Referent:OBT:001760
+N3	OntoBiotope Annotation:T4 Referent:OBT:000706
+N4	OntoBiotope Annotation:T5 Referent:OBT:000704

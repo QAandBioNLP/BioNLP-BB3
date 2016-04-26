@@ -1,6 +1,12 @@
-T3	Bacteria	79	101	Pseudomonas aeruginosa
-T4	Bacteria	103	125	Pseudomonas aeruginosa
-T5	Bacteria	373	391	P. aeruginosa PAO1
-N1	NCBI_Taxonomy	Annotation:T3	Referent:287
-N2	NCBI_Taxonomy	Annotation:T4	Referent:287
-N3	NCBI_Taxonomy	Annotation:T5	Referent:208964
+T3	Bacteria 79 101	Pseudomonas aeruginosa
+T4	Bacteria 103 125	Pseudomonas aeruginosa
+T5	Habitat 210 221	individuals
+T6	Bacteria 373 391	P. aeruginosa PAO1
+T7	Habitat 870 874	cell
+T8	Habitat 1131 1135	cell
+N1	NCBI_Taxonomy Annotation:T3 Referent:287
+N2	NCBI_Taxonomy Annotation:T4 Referent:287
+N3	OntoBiotope Annotation:T5 Referent:OBT:001804
+N4	NCBI_Taxonomy Annotation:T6 Referent:208964
+N5	OntoBiotope Annotation:T7 Referent:OBT:000056
+N6	OntoBiotope Annotation:T8 Referent:OBT:000056

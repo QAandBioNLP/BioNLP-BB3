@@ -1,0 +1,12 @@
+Habitat	(58, 70, ((-20, 'OBT:000257'),))	Perdix perdix	(58, 71, ((-20, 'OBT:002065'),))	Perdix perdix
+Habitat	(161, 170, ((-20, 'OBT:002065'),))	partridges	(141, 171, ((-20, 'OBT:002065'), (-20, 'OBT:001799')))	commercially reared partridges
+Habitat	(173, 185, ((-20, 'OBT:000257'),))	Perdix perdix	(173, 186, ((-20, 'OBT:002065'),))	Perdix perdix
+Bacteria	(207, 213, ((-2, '547'),))	Cloacal	(207, 234, ((-20, 'OBT:001117'),))	Cloacal swabs of partridges
+Habitat	(224, 233, ((-20, 'OBT:002065'),))	partridges	(224, 234, ((-20, 'OBT:002065'), (-20, 'OBT:001799')))	partridges
+Habitat	(274, 277, ((-20, 'OBT:000608'),))	male	(274, 295, ((-20, 'OBT:000608'), (-20, 'OBT:002065'), (-20, 'OBT:001799')))	male and female birds
+Habitat	(290, 294, ((-20, 'OBT:000257'),))	birds	(283, 295, ((-20, 'OBT:000724'), (-20, 'OBT:002065'), (-20, 'OBT:001799')))	female birds
+Bacteria	(676, 682, ((-2, '547'),))	cloacal	(676, 689, ((-20, 'OBT:001117'),))	cloacal swabs
+Habitat	(937, 946, ((-20, 'OBT:002065'),))	partridges	(931, 947, ((-20, 'OBT:000989'), (-20, 'OBT:001799'), (-20, 'OBT:002065')))	Adult partridges
+Habitat	(1068, 1072, ((-20, 'OBT:000257'),))	birds	(1063, 1073, ((-20, 'OBT:001181'),))	game birds
+Habitat	(1140, 1144, ((-20, 'OBT:000257'),))	human	(1140, 1145, ((-20, 'OBT:001804'),))	human
+Habitat	(1285, 1294, ((-20, 'OBT:002065'),))	partridges	(1265, 1295, ((-20, 'OBT:002065'), (-20, 'OBT:001799')))	commercially reared partridges

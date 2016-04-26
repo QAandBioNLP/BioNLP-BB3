@@ -1,10 +1,18 @@
-T3	Bacteria	16	33	Coxiella burnetii
-T4	Bacteria	85	102	Coxiella burnetii
-T5	Bacteria	313	324	C. burnetii
-T6	Bacteria	347	358	C. burnetii
-T7	Bacteria	850	861	C. burnetii
-N1	NCBI_Taxonomy	Annotation:T3	Referent:777
-N2	NCBI_Taxonomy	Annotation:T4	Referent:777
-N3	NCBI_Taxonomy	Annotation:T5	Referent:777
-N4	NCBI_Taxonomy	Annotation:T6	Referent:777
-N5	NCBI_Taxonomy	Annotation:T7	Referent:777
+T3	Bacteria 16 33	Coxiella burnetii
+T4	Bacteria 85 102	Coxiella burnetii
+T5	Bacteria 313 324	C. burnetii
+T6	Bacteria 347 358	C. burnetii
+T7	Habitat 380 389	yolk sacs
+T8	Habitat 582 586	host
+T9	Habitat 624 633	yolk sacs
+T10	Habitat 784 793	yolk sacs
+T11	Bacteria 850 861	C. burnetii
+N1	NCBI_Taxonomy Annotation:T3 Referent:777
+N2	NCBI_Taxonomy Annotation:T4 Referent:777
+N3	NCBI_Taxonomy Annotation:T5 Referent:777
+N4	NCBI_Taxonomy Annotation:T6 Referent:777
+N5	OntoBiotope Annotation:T7 Referent:OBT:000918
+N6	OntoBiotope Annotation:T8 Referent:OBT:000036
+N7	OntoBiotope Annotation:T9 Referent:OBT:000918
+N8	OntoBiotope Annotation:T10 Referent:OBT:000918
+N9	NCBI_Taxonomy Annotation:T11 Referent:777

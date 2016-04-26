@@ -1,0 +1,4 @@
+Habitat	(402, 409, ((-20, 'OBT:002133'),))	patients	(402, 410, ((-20, 'OBT:002216'),))	patients
+Habitat	(771, 774, ((-20, 'OBT:000003'),))	food	(771, 781, ((-20, 'OBT:000242'),))	food venue
+Habitat	(903, 910, ((-20, 'OBT:002133'),))	patients	(903, 911, ((-20, 'OBT:002216'),))	patients
+Habitat	(973, 980, ((-20, 'OBT:002133'),))	patients	(973, 1035, ((-20, 'OBT:002216'), (-20, 'OBT:002201')))	patients treated with ceftriaxone and azithromycin combination

@@ -1,12 +1,42 @@
-T3	Bacteria	22	41	Chlamydia muridarum
-T4	Bacteria	100	121	Chlamydia trachomatis
-T5	Bacteria	255	264	chlamydia
-T6	Bacteria	551	563	C. muridarum
-T7	Bacteria	953	962	Chlamydia
-N1	NCBI_Taxonomy	Annotation:T3	Referent:83560
-N2	NCBI_Taxonomy	Annotation:T4	Referent:813
-N3	NCBI_Taxonomy	Annotation:T5	Referent:83560
-N4	NCBI_Taxonomy	Annotation:T5	Referent:813
-N5	NCBI_Taxonomy	Annotation:T6	Referent:83560
-N6	NCBI_Taxonomy	Annotation:T7	Referent:83560
-N7	NCBI_Taxonomy	Annotation:T7	Referent:813
+T3	Bacteria 22 41	Chlamydia muridarum
+T4	Habitat 42 53	respiratory
+T5	Bacteria 100 121	Chlamydia trachomatis
+T6	Habitat 187 193	infant
+T7	Habitat 226 231	mouse
+T8	Habitat 241 254	genital tract
+T9	Bacteria 255 264	chlamydia
+T10	Habitat 364 371	oviduct
+T11	Habitat 435 442	mucosal
+T12	Habitat 516 520	mice
+T13	Bacteria 551 563	C. muridarum
+T14	Habitat 617 621	mice
+T15	Habitat 654 658	lung
+T16	Habitat 705 716	neutrophils
+T17	Habitat 721 728	T-cells
+T18	Habitat 823 827	mice
+T19	Habitat 941 945	lung
+T20	Bacteria 953 962	Chlamydia
+T21	Habitat 1003 1010	mucosal
+T22	Habitat 1044 1060	mucosal surfaces
+N1	NCBI_Taxonomy Annotation:T3 Referent:83560
+N2	OntoBiotope Annotation:T4 Referent:OBT:000164
+N3	NCBI_Taxonomy Annotation:T5 Referent:813
+N4	OntoBiotope Annotation:T6 Referent:OBT:002177
+N5	OntoBiotope Annotation:T7 Referent:OBT:000257
+N6	OntoBiotope Annotation:T8 Referent:OBT:000381
+N7	NCBI_Taxonomy Annotation:T9 Referent:83560
+N8	NCBI_Taxonomy Annotation:T9 Referent:813
+N9	OntoBiotope Annotation:T10 Referent:OBT:000421
+N10	OntoBiotope Annotation:T11 Referent:OBT:001760
+N11	OntoBiotope Annotation:T12 Referent:OBT:000257
+N12	NCBI_Taxonomy Annotation:T13 Referent:83560
+N13	OntoBiotope Annotation:T14 Referent:OBT:000257
+N14	OntoBiotope Annotation:T15 Referent:OBT:000164
+N15	OntoBiotope Annotation:T16 Referent:OBT:000316
+N16	OntoBiotope Annotation:T17 Referent:OBT:000316
+N17	OntoBiotope Annotation:T18 Referent:OBT:000257
+N18	OntoBiotope Annotation:T19 Referent:OBT:000164
+N19	NCBI_Taxonomy Annotation:T20 Referent:83560
+N20	NCBI_Taxonomy Annotation:T20 Referent:813
+N21	OntoBiotope Annotation:T21 Referent:OBT:001760
+N22	OntoBiotope Annotation:T22 Referent:OBT:001333

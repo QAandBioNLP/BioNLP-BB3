@@ -1,4 +1,10 @@
-T3	Bacteria	72	88	Escherichia coli
-T4	Bacteria	319	335	Escherichia coli
-N1	NCBI_Taxonomy	Annotation:T3	Referent:562
-N2	NCBI_Taxonomy	Annotation:T4	Referent:562
+T3	Bacteria 72 88	Escherichia coli
+T4	Habitat 160 164	cell
+T5	Bacteria 319 335	Escherichia coli
+T6	Habitat 497 501	cell
+T7	Habitat 763 774	respiratory
+N1	NCBI_Taxonomy Annotation:T3 Referent:562
+N2	OntoBiotope Annotation:T4 Referent:OBT:000056
+N3	NCBI_Taxonomy Annotation:T5 Referent:562
+N4	OntoBiotope Annotation:T6 Referent:OBT:000056
+N5	OntoBiotope Annotation:T7 Referent:OBT:000164

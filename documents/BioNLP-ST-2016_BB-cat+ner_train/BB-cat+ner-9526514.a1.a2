@@ -1,8 +1,16 @@
-T3	Bacteria	38	69	Agrobacterium rhizogenes TR-DNA
-T4	Bacteria	129	153	Agrobacterium rhizogenes
-T5	Bacteria	248	254	TR-DNA
-T6	Bacteria	519	525	TR-DNA
-N1	NCBI_Taxonomy	Annotation:T3	Referent:359
-N2	NCBI_Taxonomy	Annotation:T4	Referent:359
-N3	NCBI_Taxonomy	Annotation:T5	Referent:359
-N4	NCBI_Taxonomy	Annotation:T6	Referent:359
+T3	Bacteria 38 69	Agrobacterium rhizogenes TR-DNA
+T4	Bacteria 129 153	Agrobacterium rhizogenes
+T5	Bacteria 248 254	TR-DNA
+T6	Habitat 408 413	plant
+T7	Bacteria 519 525	TR-DNA
+T8	Habitat 580 585	plant
+T9	Habitat 665 675	leaf discs
+T10	Habitat 677 691	Tobacco plants
+N1	NCBI_Taxonomy Annotation:T3 Referent:359
+N2	NCBI_Taxonomy Annotation:T4 Referent:359
+N3	NCBI_Taxonomy Annotation:T5 Referent:359
+N4	OntoBiotope Annotation:T6 Referent:OBT:000041
+N5	NCBI_Taxonomy Annotation:T7 Referent:359
+N6	OntoBiotope Annotation:T8 Referent:OBT:000041
+N7	OntoBiotope Annotation:T9 Referent:OBT:002048
+N8	OntoBiotope Annotation:T10 Referent:OBT:001923

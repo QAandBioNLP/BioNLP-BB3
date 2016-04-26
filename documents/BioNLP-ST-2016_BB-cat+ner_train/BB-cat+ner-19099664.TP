@@ -1,6 +1,10 @@
+Habitat	587	597	nosocomial
 Bacteria	609	631	Pseudomonas aeruginosa
 Bacteria	633	653	Enterobacter cloacae
 Bacteria	655	662	E. coli
 Bacteria	770	793	Acinetobacter baumannii
+Habitat	863	868	fungi
 Bacteria	902	914	Enterococcus
 Bacteria	928	940	Enterococcus
+Habitat	1103	1113	nosocomial
+Habitat	1196	1201	fungi

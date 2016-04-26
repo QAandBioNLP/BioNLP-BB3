@@ -1,16 +1,52 @@
-T3	Bacteria	19	37	Lactococcus lactis
-T4	Bacteria	291	301	lactococci
-T5	Bacteria	1153	1178	L. lactis subsp. cremoris
-T6	Bacteria	1478	1501	L. lactis subsp. lactis
-T7	Bacteria	2026	2036	lactococci
-T8	Bacteria	2371	2381	lactococci
-N1	NCBI_Taxonomy	Annotation:T3	Referent:1358
-N2	NCBI_Taxonomy	Annotation:T4	Referent:1358
-N3	NCBI_Taxonomy	Annotation:T5	Referent:1359
-N4	NCBI_Taxonomy	Annotation:T6	Referent:1360
-N5	NCBI_Taxonomy	Annotation:T7	Referent:1358
-N6	NCBI_Taxonomy	Annotation:T7	Referent:1359
-N7	NCBI_Taxonomy	Annotation:T7	Referent:1360
-N8	NCBI_Taxonomy	Annotation:T8	Referent:1358
-N9	NCBI_Taxonomy	Annotation:T8	Referent:1359
-N10	NCBI_Taxonomy	Annotation:T8	Referent:1360
+T3	Habitat 0 4	Bile
+T4	Bacteria 19 37	Lactococcus lactis
+T5	Habitat 133 137	Bile
+T6	Habitat 272 276	bile
+T7	Bacteria 291 301	lactococci
+T8	Habitat 339 343	bile
+T9	Habitat 450 454	bile
+T10	Habitat 819 823	bile
+T11	Habitat 935 939	bile
+T12	Habitat 1083 1087	bile
+T13	Bacteria 1153 1178	L. lactis subsp. cremoris
+T14	Habitat 1213 1217	bile
+T15	Habitat 1286 1290	bile
+T16	Habitat 1326 1330	bile
+T17	Habitat 1451 1455	bile
+T18	Bacteria 1478 1501	L. lactis subsp. lactis
+T19	Habitat 1511 1515	bile
+T20	Habitat 1620 1624	bile
+T21	Habitat 1657 1661	bile
+T22	Habitat 2011 2015	bile
+T23	Bacteria 2026 2036	lactococci
+T24	Habitat 2064 2068	bile
+T25	Habitat 2352 2356	bile
+T26	Bacteria 2371 2381	lactococci
+N1	OntoBiotope Annotation:T3 Referent:OBT:000313
+N2	NCBI_Taxonomy Annotation:T4 Referent:1358
+N3	OntoBiotope Annotation:T5 Referent:OBT:000313
+N4	OntoBiotope Annotation:T6 Referent:OBT:000313
+N5	NCBI_Taxonomy Annotation:T7 Referent:1358
+N6	OntoBiotope Annotation:T8 Referent:OBT:000313
+N7	OntoBiotope Annotation:T9 Referent:OBT:000313
+N8	OntoBiotope Annotation:T10 Referent:OBT:000313
+N9	OntoBiotope Annotation:T11 Referent:OBT:000313
+N10	OntoBiotope Annotation:T12 Referent:OBT:000313
+N11	NCBI_Taxonomy Annotation:T13 Referent:1359
+N12	OntoBiotope Annotation:T14 Referent:OBT:000313
+N13	OntoBiotope Annotation:T15 Referent:OBT:000313
+N14	OntoBiotope Annotation:T16 Referent:OBT:000313
+N15	OntoBiotope Annotation:T17 Referent:OBT:000313
+N16	NCBI_Taxonomy Annotation:T18 Referent:1360
+N17	OntoBiotope Annotation:T19 Referent:OBT:000313
+N18	OntoBiotope Annotation:T20 Referent:OBT:000313
+N19	OntoBiotope Annotation:T21 Referent:OBT:000313
+N20	OntoBiotope Annotation:T22 Referent:OBT:000313
+N21	NCBI_Taxonomy Annotation:T23 Referent:1358
+N22	NCBI_Taxonomy Annotation:T23 Referent:1359
+N23	NCBI_Taxonomy Annotation:T23 Referent:1360
+N24	OntoBiotope Annotation:T24 Referent:OBT:000313
+N25	OntoBiotope Annotation:T25 Referent:OBT:000313
+N26	NCBI_Taxonomy Annotation:T26 Referent:1358
+N27	NCBI_Taxonomy Annotation:T26 Referent:1359
+N28	NCBI_Taxonomy Annotation:T26 Referent:1360

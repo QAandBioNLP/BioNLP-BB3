@@ -1,8 +1,34 @@
-T3	Bacteria	18	40	Pseudomonas aeruginosa
-T4	Bacteria	132	154	Pseudomonas aeruginosa
-T5	Bacteria	398	411	P. aeruginosa
-T6	Bacteria	655	668	P. aeruginosa
-N1	NCBI_Taxonomy	Annotation:T3	Referent:287
-N2	NCBI_Taxonomy	Annotation:T4	Referent:287
-N3	NCBI_Taxonomy	Annotation:T5	Referent:287
-N4	NCBI_Taxonomy	Annotation:T6	Referent:287
+T3	Bacteria 18 40	Pseudomonas aeruginosa
+T4	Bacteria 132 154	Pseudomonas aeruginosa
+T5	Habitat 257 263	Sputum
+T6	Habitat 308 316	patients
+T7	Bacteria 398 411	P. aeruginosa
+T8	Habitat 579 585	sputum
+T9	Habitat 604 612	patients
+T10	Habitat 621 627	clinic
+T11	Bacteria 655 668	P. aeruginosa
+T12	Habitat 684 692	patients
+T13	Habitat 734 742	patients
+T14	Habitat 783 790	patient
+T15	Habitat 798 806	patients
+T16	Habitat 839 847	patients
+T17	Habitat 985 993	patients
+T18	Habitat 1045 1049	lung
+T19	Habitat 1177 1185	patients
+N1	NCBI_Taxonomy Annotation:T3 Referent:287
+N2	NCBI_Taxonomy Annotation:T4 Referent:287
+N3	OntoBiotope Annotation:T5 Referent:OBT:000740
+N4	OntoBiotope Annotation:T6 Referent:OBT:002133
+N5	NCBI_Taxonomy Annotation:T7 Referent:287
+N6	OntoBiotope Annotation:T8 Referent:OBT:000740
+N7	OntoBiotope Annotation:T9 Referent:OBT:002133
+N8	OntoBiotope Annotation:T10 Referent:OBT:001801
+N9	NCBI_Taxonomy Annotation:T11 Referent:287
+N10	OntoBiotope Annotation:T12 Referent:OBT:002133
+N11	OntoBiotope Annotation:T13 Referent:OBT:002133
+N12	OntoBiotope Annotation:T14 Referent:OBT:002133
+N13	OntoBiotope Annotation:T15 Referent:OBT:002133
+N14	OntoBiotope Annotation:T16 Referent:OBT:002133
+N15	OntoBiotope Annotation:T17 Referent:OBT:002133
+N16	OntoBiotope Annotation:T18 Referent:OBT:000287
+N17	OntoBiotope Annotation:T19 Referent:OBT:002133

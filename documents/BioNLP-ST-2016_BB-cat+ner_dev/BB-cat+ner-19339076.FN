@@ -1,1 +1,9 @@
 Bacteria	394	405	lactococcci
+Habitat	483	551	lactose-free M17 medium supplemented with either glucose only (GM17)
+Habitat	483	574	lactose-free M17 medium supplemented with either glucose only (GM17) or lactose only (LM17)
+Habitat	1196	1207	GM17 medium
+Habitat	1313	1324	LM17 medium
+Habitat	1628	1639	GM17 medium
+Habitat	1665	1676	LM17 medium
+Habitat	1749	1760	GM17 medium
+Habitat	1948	1959	LM17 medium

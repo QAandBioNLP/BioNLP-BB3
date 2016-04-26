@@ -1,0 +1,6 @@
+Habitat	(339, 346, ((-20, 'OBT:002146'),))	children	(339, 372, ((-20, 'OBT:002307'),))	children less than 2 years of age
+Habitat	(418, 425, ((-20, 'OBT:002146'),))	children	(418, 488, ((-20, 'OBT:002307'), (-20, 'OBT:002187')))	children greater than 9 years of age who had lower respiratory illness
+Habitat	(648, 655, ((-20, 'OBT:002133'),))	patients	(648, 666, ((-20, 'OBT:002187'), (-20, 'OBT:002307')))	patients with WARI
+Habitat	(807, 813, ((-20, 'OBT:002133'),))	Patient	(807, 814, ((-20, 'OBT:002307'), (-20, 'OBT:002187')))	Patient
+Habitat	(904, 911, ((-20, 'OBT:002146'),))	children	(904, 933, ((-20, 'OBT:002307'), (-20, 'OBT:002187')))	children under 5 years of age
+Habitat	(1007, 1012, ((-20, 'OBT:000584'),))	school	(1007, 1048, ((-20, 'OBT:002307'), (-20, 'OBT:002187')))	school age children with wheezing illness

@@ -1,0 +1,32 @@
+T3	Habitat 181 185	food
+T4	Habitat 367 380	food products
+T5	Habitat 784 790	yeasts
+T6	Habitat 929 936	organic
+T7	Habitat 1105 1114	additives
+T8	Habitat 1146 1152	sugars
+T9	Habitat 1181 1185	food
+T10	Habitat 1256 1261	water
+T11	Habitat 1338 1348	microflora
+T12	Habitat 1358 1365	poultry
+T13	Habitat 1373 1377	fish
+T14	Habitat 1379 1385	fruits
+T15	Habitat 1518 1539	agricultural products
+T16	Habitat 1617 1621	food
+T17	Habitat 1690 1694	food
+T18	Habitat 1836 1840	food
+N1	OntoBiotope Annotation:T3 Referent:OBT:000003
+N2	OntoBiotope Annotation:T4 Referent:OBT:000035
+N3	OntoBiotope Annotation:T5 Referent:OBT:001749
+N4	OntoBiotope Annotation:T6 Referent:OBT:000096
+N5	OntoBiotope Annotation:T7 Referent:OBT:000293
+N6	OntoBiotope Annotation:T8 Referent:OBT:000924
+N7	OntoBiotope Annotation:T9 Referent:OBT:000003
+N8	OntoBiotope Annotation:T10 Referent:OBT:000132
+N9	OntoBiotope Annotation:T11 Referent:OBT:000033
+N10	OntoBiotope Annotation:T12 Referent:OBT:002165
+N11	OntoBiotope Annotation:T13 Referent:OBT:000257
+N12	OntoBiotope Annotation:T14 Referent:OBT:001950
+N13	OntoBiotope Annotation:T15 Referent:OBT:000022
+N14	OntoBiotope Annotation:T16 Referent:OBT:000003
+N15	OntoBiotope Annotation:T17 Referent:OBT:000003
+N16	OntoBiotope Annotation:T18 Referent:OBT:000003

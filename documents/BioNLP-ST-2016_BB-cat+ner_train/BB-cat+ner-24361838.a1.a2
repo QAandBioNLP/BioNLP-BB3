@@ -1,29 +1,53 @@
-T3	Bacteria	62	101	Salmonella enterica serovar Typhimurium
-T4	Bacteria	132	154	Salmonella Typhimurium
-T5	Bacteria	279	289	Salmonella
-T6	Bacteria	505	519	S. Typhimurium
-T7	Bacteria	524	532	S. Hadar
-T8	Bacteria	630	644	S. Typhimurium
-T9	Bacteria	941	955	S. Typhimurium
-T10	Bacteria	1452	1466	S. Typhimurium
-T11	Bacteria	1499	1513	S. Typhimurium
-T12	Bacteria	1557	1567	Salmonella
-T13	Bacteria	1634	1648	S. Typhimurium
-T14	Bacteria	1715	1725	Salmonella
-T15	Bacteria	2003	2013	Salmonella
-N1	NCBI_Taxonomy	Annotation:T3	Referent:90371
-N2	NCBI_Taxonomy	Annotation:T4	Referent:90371
-N3	NCBI_Taxonomy	Annotation:T5	Referent:90371
-N4	NCBI_Taxonomy	Annotation:T6	Referent:90371
-N5	NCBI_Taxonomy	Annotation:T7	Referent:149385
-N6	NCBI_Taxonomy	Annotation:T8	Referent:90371
-N7	NCBI_Taxonomy	Annotation:T9	Referent:90371
-N8	NCBI_Taxonomy	Annotation:T10	Referent:90371
-N9	NCBI_Taxonomy	Annotation:T11	Referent:90371
-N10	NCBI_Taxonomy	Annotation:T12	Referent:90371
-N11	NCBI_Taxonomy	Annotation:T12	Referent:149385
-N12	NCBI_Taxonomy	Annotation:T13	Referent:90371
-N13	NCBI_Taxonomy	Annotation:T14	Referent:90371
-N14	NCBI_Taxonomy	Annotation:T14	Referent:149385
-N15	NCBI_Taxonomy	Annotation:T15	Referent:90371
-N16	NCBI_Taxonomy	Annotation:T15	Referent:149385
+T3	Bacteria 62 101	Salmonella enterica serovar Typhimurium
+T4	Habitat 105 113	chickens
+T5	Bacteria 132 154	Salmonella Typhimurium
+T6	Habitat 207 214	chicken
+T7	Habitat 215 221	faecal
+T8	Bacteria 279 289	Salmonella
+T9	Habitat 293 301	chickens
+T10	Bacteria 505 519	S. Typhimurium
+T11	Bacteria 524 532	S. Hadar
+T12	Bacteria 630 644	S. Typhimurium
+T13	Habitat 807 811	host
+T14	Bacteria 941 955	S. Typhimurium
+T15	Habitat 1239 1243	host
+T16	Habitat 1411 1419	chickens
+T17	Bacteria 1452 1466	S. Typhimurium
+T18	Bacteria 1499 1513	S. Typhimurium
+T19	Bacteria 1557 1567	Salmonella
+T20	Bacteria 1634 1648	S. Typhimurium
+T21	Bacteria 1715 1725	Salmonella
+T22	Habitat 1744 1750	organs
+T23	Habitat 1855 1861	caecal
+T24	Habitat 1874 1880	chicks
+T25	Bacteria 2003 2013	Salmonella
+T26	Habitat 2023 2037	caecal content
+T27	Habitat 2041 2049	chickens
+N1	NCBI_Taxonomy Annotation:T3 Referent:90371
+N2	OntoBiotope Annotation:T4 Referent:OBT:000257
+N3	NCBI_Taxonomy Annotation:T5 Referent:90371
+N4	OntoBiotope Annotation:T6 Referent:OBT:000257
+N5	OntoBiotope Annotation:T7 Referent:OBT:000703
+N6	NCBI_Taxonomy Annotation:T8 Referent:90371
+N7	OntoBiotope Annotation:T9 Referent:OBT:000257
+N8	NCBI_Taxonomy Annotation:T10 Referent:90371
+N9	NCBI_Taxonomy Annotation:T11 Referent:149385
+N10	NCBI_Taxonomy Annotation:T12 Referent:90371
+N11	OntoBiotope Annotation:T13 Referent:OBT:000036
+N12	NCBI_Taxonomy Annotation:T14 Referent:90371
+N13	OntoBiotope Annotation:T15 Referent:OBT:000036
+N14	OntoBiotope Annotation:T16 Referent:OBT:000257
+N15	NCBI_Taxonomy Annotation:T17 Referent:90371
+N16	NCBI_Taxonomy Annotation:T18 Referent:90371
+N17	NCBI_Taxonomy Annotation:T19 Referent:90371
+N18	NCBI_Taxonomy Annotation:T19 Referent:149385
+N19	NCBI_Taxonomy Annotation:T20 Referent:90371
+N20	NCBI_Taxonomy Annotation:T21 Referent:90371
+N21	NCBI_Taxonomy Annotation:T21 Referent:149385
+N22	OntoBiotope Annotation:T22 Referent:OBT:000096
+N23	OntoBiotope Annotation:T23 Referent:OBT:001260
+N24	OntoBiotope Annotation:T24 Referent:OBT:000257
+N25	NCBI_Taxonomy Annotation:T25 Referent:90371
+N26	NCBI_Taxonomy Annotation:T25 Referent:149385
+N27	OntoBiotope Annotation:T26 Referent:OBT:001340
+N28	OntoBiotope Annotation:T27 Referent:OBT:000257

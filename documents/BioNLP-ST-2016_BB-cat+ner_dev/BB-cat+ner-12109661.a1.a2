@@ -1,26 +1,66 @@
-T3	Bacteria	10	29	Helicobacter pylori
-T4	Bacteria	165	184	Helicobacter pylori
-T5	Bacteria	250	259	H. pylori
-T6	Bacteria	416	425	H. pylori
-T7	Bacteria	452	461	H. pylori
-T8	Bacteria	555	564	H. pylori
-T9	Bacteria	646	655	H. pylori
-T10	Bacteria	770	779	H. pylori
-T11	Bacteria	947	956	H. pylori
-T12	Bacteria	1048	1057	H. pylori
-T13	Bacteria	1181	1190	H. pylori
-T14	Bacteria	1309	1318	H. pylori
-T15	Bacteria	1552	1561	H. pylori
-N1	NCBI_Taxonomy	Annotation:T3	Referent:210
-N2	NCBI_Taxonomy	Annotation:T4	Referent:210
-N3	NCBI_Taxonomy	Annotation:T5	Referent:210
-N4	NCBI_Taxonomy	Annotation:T6	Referent:210
-N5	NCBI_Taxonomy	Annotation:T7	Referent:210
-N6	NCBI_Taxonomy	Annotation:T8	Referent:210
-N7	NCBI_Taxonomy	Annotation:T9	Referent:210
-N8	NCBI_Taxonomy	Annotation:T10	Referent:210
-N9	NCBI_Taxonomy	Annotation:T11	Referent:210
-N10	NCBI_Taxonomy	Annotation:T12	Referent:210
-N11	NCBI_Taxonomy	Annotation:T13	Referent:210
-N12	NCBI_Taxonomy	Annotation:T14	Referent:210
-N13	NCBI_Taxonomy	Annotation:T15	Referent:210
+T3	Bacteria 10 29	Helicobacter pylori
+T4	Habitat 86 93	gastric
+T5	Habitat 128 135	gastric
+T6	Bacteria 165 184	Helicobacter pylori
+T7	Bacteria 250 259	H. pylori
+T8	Habitat 343 350	gastric
+T9	Bacteria 416 425	H. pylori
+T10	Habitat 435 443	subjects
+T11	Bacteria 452 461	H. pylori
+T12	Habitat 471 479	subjects
+T13	Habitat 527 541	gastric mucosa
+T14	Bacteria 555 564	H. pylori
+T15	Habitat 574 581	monkeys
+T16	Habitat 604 611	monkeys
+T17	Bacteria 646 655	H. pylori
+T18	Habitat 676 684	children
+T19	Habitat 705 719	gastric mucosa
+T20	Bacteria 770 779	H. pylori
+T21	Habitat 802 809	gastric
+T22	Habitat 871 878	gastric
+T23	Bacteria 947 956	H. pylori
+T24	Habitat 965 973	patients
+T25	Habitat 1001 1008	gastric
+T26	Bacteria 1048 1057	H. pylori
+T27	Habitat 1076 1083	gastric
+T28	Habitat 1091 1099	patients
+T29	Bacteria 1181 1190	H. pylori
+T30	Habitat 1231 1238	gastric
+T31	Habitat 1264 1270	people
+T32	Bacteria 1309 1318	H. pylori
+T33	Habitat 1360 1374	gastric mucosa
+T34	Habitat 1400 1407	gastric
+T35	Bacteria 1552 1561	H. pylori
+N1	NCBI_Taxonomy Annotation:T3 Referent:210
+N2	OntoBiotope Annotation:T4 Referent:OBT:000953
+N3	OntoBiotope Annotation:T5 Referent:OBT:000953
+N4	NCBI_Taxonomy Annotation:T6 Referent:210
+N5	NCBI_Taxonomy Annotation:T7 Referent:210
+N6	OntoBiotope Annotation:T8 Referent:OBT:000953
+N7	NCBI_Taxonomy Annotation:T9 Referent:210
+N8	OntoBiotope Annotation:T10 Referent:OBT:001804
+N9	NCBI_Taxonomy Annotation:T11 Referent:210
+N10	OntoBiotope Annotation:T12 Referent:OBT:001804
+N11	OntoBiotope Annotation:T13 Referent:OBT:001760
+N12	NCBI_Taxonomy Annotation:T14 Referent:210
+N13	OntoBiotope Annotation:T15 Referent:OBT:000257
+N14	OntoBiotope Annotation:T16 Referent:OBT:000257
+N15	NCBI_Taxonomy Annotation:T17 Referent:210
+N16	OntoBiotope Annotation:T18 Referent:OBT:002146
+N17	OntoBiotope Annotation:T19 Referent:OBT:001760
+N18	NCBI_Taxonomy Annotation:T20 Referent:210
+N19	OntoBiotope Annotation:T21 Referent:OBT:000953
+N20	OntoBiotope Annotation:T22 Referent:OBT:000953
+N21	NCBI_Taxonomy Annotation:T23 Referent:210
+N22	OntoBiotope Annotation:T24 Referent:OBT:002133
+N23	OntoBiotope Annotation:T25 Referent:OBT:000953
+N24	NCBI_Taxonomy Annotation:T26 Referent:210
+N25	OntoBiotope Annotation:T27 Referent:OBT:000953
+N26	OntoBiotope Annotation:T28 Referent:OBT:002133
+N27	NCBI_Taxonomy Annotation:T29 Referent:210
+N28	OntoBiotope Annotation:T30 Referent:OBT:000953
+N29	OntoBiotope Annotation:T31 Referent:OBT:001804
+N30	NCBI_Taxonomy Annotation:T32 Referent:210
+N31	OntoBiotope Annotation:T33 Referent:OBT:001760
+N32	OntoBiotope Annotation:T34 Referent:OBT:000953
+N33	NCBI_Taxonomy Annotation:T35 Referent:210

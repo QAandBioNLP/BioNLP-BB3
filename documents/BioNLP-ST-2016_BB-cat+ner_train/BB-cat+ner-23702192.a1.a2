@@ -1,4 +1,26 @@
-T6	Bacteria	67	88	Clostridium difficile
-T7	Bacteria	100	121	Clostridium difficile
-N1	NCBI_Taxonomy	Annotation:T6	Referent:1496
-N2	NCBI_Taxonomy	Annotation:T7	Referent:1496
+T6	Bacteria 67 88	Clostridium difficile
+T7	Bacteria 100 121	Clostridium difficile
+T8	Habitat 273 278	colon
+T9	Habitat 505 511	Clinic
+T10	Habitat 550 558	Patients
+T11	Habitat 652 671	intensive care unit
+T12	Habitat 920 928	patients
+T13	Habitat 1388 1397	leukocyte
+T14	Habitat 1646 1654	patients
+T15	Habitat 1786 1796	leukocytes
+T16	Habitat 1800 1805	blood
+T17	Habitat 1855 1867	gastric acid
+T18	Habitat 2002 2010	patients
+N1	NCBI_Taxonomy Annotation:T6 Referent:1496
+N2	NCBI_Taxonomy Annotation:T7 Referent:1496
+N3	OntoBiotope Annotation:T8 Referent:OBT:000930
+N4	OntoBiotope Annotation:T9 Referent:OBT:001801
+N5	OntoBiotope Annotation:T10 Referent:OBT:002133
+N6	OntoBiotope Annotation:T11 Referent:OBT:000213
+N7	OntoBiotope Annotation:T12 Referent:OBT:002133
+N8	OntoBiotope Annotation:T13 Referent:OBT:000316
+N9	OntoBiotope Annotation:T14 Referent:OBT:002133
+N10	OntoBiotope Annotation:T15 Referent:OBT:000316
+N11	OntoBiotope Annotation:T16 Referent:OBT:000316
+N12	OntoBiotope Annotation:T17 Referent:OBT:000455
+N13	OntoBiotope Annotation:T18 Referent:OBT:002133

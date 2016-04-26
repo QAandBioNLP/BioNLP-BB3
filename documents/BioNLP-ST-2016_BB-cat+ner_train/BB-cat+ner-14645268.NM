@@ -1,5 +1,10 @@
 Bacteria	(57, 94, ((-2, '56460'),))	Xanthomonas campestris pv. vesicatoria	(57, 95, ((-2, '456327'),))	Xanthomonas campestris pv. vesicatoria
+Habitat	(132, 136, ((-20, 'OBT:000041'),))	plant	(132, 137, ((-20, 'OBT:000219'),))	plant
 Bacteria	(147, 184, ((-2, '56460'),))	Xanthomonas campestris pv. vesicatoria	(147, 185, ((-2, '456327'),))	Xanthomonas campestris pv. vesicatoria
+Habitat	(287, 291, ((-20, 'OBT:000041'),))	plant	(287, 297, ((-20, 'OBT:000056'), (-20, 'OBT:000162')))	plant cell
 Bacteria	(519, 529, ((-2, '56460'),))	Xanthomonas	(519, 530, ((-2, '456327'),))	Xanthomonas
+Habitat	(675, 679, ((-20, 'OBT:000041'),))	plant	(675, 685, ((-20, 'OBT:000162'), (-20, 'OBT:000056')))	plant cell
+Habitat	(816, 820, ((-20, 'OBT:000041'),))	plant	(816, 821, ((-20, 'OBT:000219'),))	plant
+Habitat	(826, 831, ((-20, 'OBT:000061'),))	animal	(826, 832, ((-20, 'OBT:000218'),))	animal
 Bacteria	(1170, 1187, ((-2, '56460'),))	Xanthomonas avrBs3	(1170, 1181, ((-2, '338'),))	Xanthomonas
 Bacteria	(1478, 1510, ((-2, '56460'),))	X. campestris pv. vesicatoria TTS	(1478, 1507, ((-2, '456327'),))	X. campestris pv. vesicatoria

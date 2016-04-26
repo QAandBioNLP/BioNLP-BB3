@@ -1,2 +1,13 @@
+Habitat	(226, 230, ((-20, 'OBT:000257'),))	mouse	(219, 231, ((-20, 'OBT:000724'), (-20, 'OBT:002153')))	female mouse
 Bacteria	(255, 263, ((-2, '83560'), (-2, '813')))	chlamydia	(255, 264, ((-2, '810'),))	chlamydia
+Habitat	(364, 370, ((-20, 'OBT:000421'),))	oviduct	(364, 371, ((-20, 'OBT:000381'),))	oviduct
+Habitat	(435, 441, ((-20, 'OBT:001760'),))	mucosal	(435, 442, ((-20, 'OBT:000862'),))	mucosal
+Habitat	(516, 519, ((-20, 'OBT:000257'),))	mice	(516, 520, ((-20, 'OBT:002153'),))	mice
+Habitat	(617, 620, ((-20, 'OBT:000257'),))	mice	(617, 621, ((-20, 'OBT:000724'), (-20, 'OBT:002153')))	mice
+Habitat	(654, 657, ((-20, 'OBT:000164'),))	lung	(654, 658, ((-20, 'OBT:000287'),))	lung
+Habitat	(705, 715, ((-20, 'OBT:000316'),))	neutrophils	(705, 716, ((-20, 'OBT:000471'),))	neutrophils
+Habitat	(721, 727, ((-20, 'OBT:000316'),))	T-cells	(721, 728, ((-20, 'OBT:001342'),))	T-cells
+Habitat	(823, 826, ((-20, 'OBT:000257'),))	mice	(808, 827, ((-20, 'OBT:002153'),))	TLR2-deficient mice
+Habitat	(941, 944, ((-20, 'OBT:000164'),))	lung	(941, 945, ((-20, 'OBT:000287'),))	lung
 Bacteria	(953, 961, ((-2, '83560'), (-2, '813')))	Chlamydia	(953, 962, ((-2, '810'),))	Chlamydia
+Habitat	(1003, 1009, ((-20, 'OBT:001760'),))	mucosal	(1003, 1010, ((-20, 'OBT:000862'),))	mucosal

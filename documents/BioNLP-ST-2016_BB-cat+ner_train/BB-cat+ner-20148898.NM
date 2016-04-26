@@ -1,0 +1,16 @@
+Habitat	(29, 38, ((-20, 'OBT:000316'),))	phagocytes	(16, 39, ((-20, 'OBT:000549'),))	professional phagocytes
+Habitat	(63, 66, ((-20, 'OBT:000036'),))	host	(63, 73, ((-20, 'OBT:000056'),))	host cells
+Habitat	(220, 223, ((-20, 'OBT:000036'),))	host	(220, 230, ((-20, 'OBT:000056'),))	host cells
+Habitat	(530, 539, ((-20, 'OBT:000316'),))	phagocytes	(517, 559, ((-20, 'OBT:000549'),))	professional phagocytes in Peyer's patches
+Habitat	(561, 582, ((-20, 'OBT:000119'),))	mesenteric lymph nodes	(561, 583, ((-20, 'OBT:000548'),))	mesenteric lymph nodes
+Habitat	(588, 593, ((-20, 'OBT:002022'),))	spleen	(588, 594, ((-20, 'OBT:000560'),))	spleen
+Habitat	(631, 637, ((-20, 'OBT:000316'),))	T cells	(625, 638, ((-20, 'OBT:001342'),))	B and T cells
+Habitat	(663, 672, ((-20, 'OBT:000316'),))	phagocytes	(650, 673, ((-20, 'OBT:000549'),))	professional phagocytes
+Habitat	(705, 715, ((-20, 'OBT:000316'),))	neutrophils	(705, 716, ((-20, 'OBT:000471'),))	neutrophils
+Habitat	(940, 950, ((-20, 'OBT:002022'),))	splenocytes	(931, 951, ((-20, 'OBT:000224'),))	isolated splenocytes
+Habitat	(1011, 1020, ((-20, 'OBT:000316'),))	phagocytes	(998, 1021, ((-20, 'OBT:000549'),))	professional phagocytes
+Habitat	(1155, 1164, ((-20, 'OBT:000316'),))	phagocytes	(1142, 1165, ((-20, 'OBT:000549'),))	professional phagocytes
+Habitat	(1179, 1189, ((-20, 'OBT:002022'),))	splenocytes	(1170, 1190, ((-20, 'OBT:000224'),))	isolated splenocytes
+Habitat	(1290, 1299, ((-20, 'OBT:000316'),))	phagocytes	(1277, 1300, ((-20, 'OBT:000549'),))	professional phagocytes
+Habitat	(1533, 1542, ((-20, 'OBT:000316'),))	phagocytes	(1533, 1543, ((-20, 'OBT:000549'),))	phagocytes
+Habitat	(1589, 1592, ((-20, 'OBT:000056'),))	cell	(1589, 1593, ((-20, 'OBT:000549'),))	cell

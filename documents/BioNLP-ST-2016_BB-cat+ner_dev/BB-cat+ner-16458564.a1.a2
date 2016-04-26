@@ -1,26 +1,76 @@
-T6	Bacteria	800	816	Escherichia coli
-T7	Bacteria	818	830	Shigella spp
-T8	Bacteria	852	872	Bacteroides fragilis
-T9	Bacteria	941	955	Salmonella spp
-T10	Bacteria	959	974	Vibrio cholerae
-T11	Bacteria	1018	1025	E. coli
-T12	Bacteria	1089	1101	Shigella spp
-T13	Bacteria	1123	1134	B. fragilis
-T14	Bacteria	1189	1196	E. coli
-T15	Bacteria	1201	1213	Shigella spp
-T16	Bacteria	2058	2074	Escherichia coli
-T17	Bacteria	2076	2088	Shigella spp
-T18	Bacteria	2110	2130	Bacteroides fragilis
-N1	NCBI_Taxonomy	Annotation:T6	Referent:562
-N2	NCBI_Taxonomy	Annotation:T7	Referent:620
-N3	NCBI_Taxonomy	Annotation:T8	Referent:817
-N4	NCBI_Taxonomy	Annotation:T9	Referent:590
-N5	NCBI_Taxonomy	Annotation:T10	Referent:666
-N6	NCBI_Taxonomy	Annotation:T11	Referent:562
-N7	NCBI_Taxonomy	Annotation:T12	Referent:620
-N8	NCBI_Taxonomy	Annotation:T13	Referent:817
-N9	NCBI_Taxonomy	Annotation:T14	Referent:562
-N10	NCBI_Taxonomy	Annotation:T15	Referent:620
-N11	NCBI_Taxonomy	Annotation:T16	Referent:562
-N12	NCBI_Taxonomy	Annotation:T17	Referent:620
-N13	NCBI_Taxonomy	Annotation:T18	Referent:817
+T6	Habitat 41 49	children
+T7	Habitat 74 79	paper
+T8	Habitat 210 218	children
+T9	Habitat 307 315	children
+T10	Habitat 733 741	children
+T11	Bacteria 800 816	Escherichia coli
+T12	Bacteria 818 830	Shigella spp
+T13	Bacteria 852 872	Bacteroides fragilis
+T14	Bacteria 941 955	Salmonella spp
+T15	Bacteria 959 974	Vibrio cholerae
+T16	Bacteria 1018 1025	E. coli
+T17	Habitat 1046 1054	children
+T18	Bacteria 1089 1101	Shigella spp
+T19	Bacteria 1123 1134	B. fragilis
+T20	Habitat 1165 1173	children
+T21	Bacteria 1189 1196	E. coli
+T22	Bacteria 1201 1213	Shigella spp
+T23	Habitat 1321 1329	Children
+T24	Habitat 1344 1353	hospitals
+T25	Habitat 1423 1428	stool
+T26	Habitat 1485 1491	mucous
+T27	Habitat 1492 1497	stool
+T28	Habitat 1528 1534	stools
+T29	Habitat 1604 1613	hospitals
+T30	Habitat 1631 1639	children
+T31	Habitat 1682 1690	children
+T32	Habitat 1752 1757	water
+T33	Habitat 1764 1771	latrine
+T34	Habitat 1807 1814	mothers
+T35	Habitat 1864 1872	children
+T36	Habitat 1894 1901	mothers
+T37	Bacteria 2058 2074	Escherichia coli
+T38	Bacteria 2076 2088	Shigella spp
+T39	Bacteria 2110 2130	Bacteroides fragilis
+T40	Habitat 2177 2185	children
+T41	Habitat 2245 2256	fresh water
+T42	Habitat 2276 2287	septic tank
+T43	Habitat 2422 2430	children
+N1	OntoBiotope Annotation:T6 Referent:OBT:002146
+N2	OntoBiotope Annotation:T7 Referent:OBT:000285
+N3	OntoBiotope Annotation:T8 Referent:OBT:002146
+N4	OntoBiotope Annotation:T9 Referent:OBT:002146
+N5	OntoBiotope Annotation:T10 Referent:OBT:002146
+N6	NCBI_Taxonomy Annotation:T11 Referent:562
+N7	NCBI_Taxonomy Annotation:T12 Referent:620
+N8	NCBI_Taxonomy Annotation:T13 Referent:817
+N9	NCBI_Taxonomy Annotation:T14 Referent:590
+N10	NCBI_Taxonomy Annotation:T15 Referent:666
+N11	NCBI_Taxonomy Annotation:T16 Referent:562
+N12	OntoBiotope Annotation:T17 Referent:OBT:002146
+N13	NCBI_Taxonomy Annotation:T18 Referent:620
+N14	NCBI_Taxonomy Annotation:T19 Referent:817
+N15	OntoBiotope Annotation:T20 Referent:OBT:002146
+N16	NCBI_Taxonomy Annotation:T21 Referent:562
+N17	NCBI_Taxonomy Annotation:T22 Referent:620
+N18	OntoBiotope Annotation:T23 Referent:OBT:002146
+N19	OntoBiotope Annotation:T24 Referent:OBT:001835
+N20	OntoBiotope Annotation:T25 Referent:OBT:000703
+N21	OntoBiotope Annotation:T26 Referent:OBT:000640
+N22	OntoBiotope Annotation:T27 Referent:OBT:000703
+N23	OntoBiotope Annotation:T28 Referent:OBT:000703
+N24	OntoBiotope Annotation:T29 Referent:OBT:001835
+N25	OntoBiotope Annotation:T30 Referent:OBT:002146
+N26	OntoBiotope Annotation:T31 Referent:OBT:002146
+N27	OntoBiotope Annotation:T32 Referent:OBT:000132
+N28	OntoBiotope Annotation:T33 Referent:OBT:000579
+N29	OntoBiotope Annotation:T34 Referent:OBT:002298
+N30	OntoBiotope Annotation:T35 Referent:OBT:002146
+N31	OntoBiotope Annotation:T36 Referent:OBT:002298
+N32	NCBI_Taxonomy Annotation:T37 Referent:562
+N33	NCBI_Taxonomy Annotation:T38 Referent:620
+N34	NCBI_Taxonomy Annotation:T39 Referent:817
+N35	OntoBiotope Annotation:T40 Referent:OBT:002146
+N36	OntoBiotope Annotation:T41 Referent:OBT:001697
+N37	OntoBiotope Annotation:T42 Referent:OBT:001924
+N38	OntoBiotope Annotation:T43 Referent:OBT:002146

@@ -1,8 +1,44 @@
-T3	Bacteria	321	348	Yersinia pseudotuberculosis
-T4	Bacteria	467	488	Y. pseudotuberculosis
-T5	Bacteria	846	867	Y. pseudotuberculosis
-T6	Bacteria	1421	1442	Y. pseudotuberculosis
-N1	NCBI_Taxonomy	Annotation:T3	Referent:633
-N2	NCBI_Taxonomy	Annotation:T4	Referent:633
-N3	NCBI_Taxonomy	Annotation:T5	Referent:633
-N4	NCBI_Taxonomy	Annotation:T6	Referent:633
+T3	Habitat 29 39	phagocytes
+T4	Habitat 63 67	host
+T5	Habitat 220 224	host
+T6	Habitat 250 254	host
+T7	Bacteria 321 348	Yersinia pseudotuberculosis
+T8	Habitat 408 412	cell
+T9	Bacteria 467 488	Y. pseudotuberculosis
+T10	Habitat 530 540	phagocytes
+T11	Habitat 561 583	mesenteric lymph nodes
+T12	Habitat 588 594	spleen
+T13	Habitat 631 638	T cells
+T14	Habitat 663 673	phagocytes
+T15	Habitat 705 716	neutrophils
+T16	Bacteria 846 867	Y. pseudotuberculosis
+T17	Habitat 940 951	splenocytes
+T18	Habitat 1011 1021	phagocytes
+T19	Habitat 1155 1165	phagocytes
+T20	Habitat 1179 1190	splenocytes
+T21	Habitat 1290 1300	phagocytes
+T22	Bacteria 1421 1442	Y. pseudotuberculosis
+T23	Habitat 1533 1543	phagocytes
+T24	Habitat 1589 1593	cell
+N1	OntoBiotope Annotation:T3 Referent:OBT:000316
+N2	OntoBiotope Annotation:T4 Referent:OBT:000036
+N3	OntoBiotope Annotation:T5 Referent:OBT:000036
+N4	OntoBiotope Annotation:T6 Referent:OBT:000036
+N5	NCBI_Taxonomy Annotation:T7 Referent:633
+N6	OntoBiotope Annotation:T8 Referent:OBT:000056
+N7	NCBI_Taxonomy Annotation:T9 Referent:633
+N8	OntoBiotope Annotation:T10 Referent:OBT:000316
+N9	OntoBiotope Annotation:T11 Referent:OBT:000119
+N10	OntoBiotope Annotation:T12 Referent:OBT:002022
+N11	OntoBiotope Annotation:T13 Referent:OBT:000316
+N12	OntoBiotope Annotation:T14 Referent:OBT:000316
+N13	OntoBiotope Annotation:T15 Referent:OBT:000316
+N14	NCBI_Taxonomy Annotation:T16 Referent:633
+N15	OntoBiotope Annotation:T17 Referent:OBT:002022
+N16	OntoBiotope Annotation:T18 Referent:OBT:000316
+N17	OntoBiotope Annotation:T19 Referent:OBT:000316
+N18	OntoBiotope Annotation:T20 Referent:OBT:002022
+N19	OntoBiotope Annotation:T21 Referent:OBT:000316
+N20	NCBI_Taxonomy Annotation:T22 Referent:633
+N21	OntoBiotope Annotation:T23 Referent:OBT:000316
+N22	OntoBiotope Annotation:T24 Referent:OBT:000056

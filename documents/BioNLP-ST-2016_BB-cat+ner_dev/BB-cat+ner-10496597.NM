@@ -1,0 +1,13 @@
+Habitat	(36, 49, ((-20, 'OBT:001760'),))	gastric mucosa	(36, 50, ((-20, 'OBT:000965'),))	gastric mucosa
+Habitat	(211, 225, ((-20, 'OBT:001760'),))	gastric mucosal	(211, 253, ((-20, 'OBT:000194'),))	gastric mucosal-associated lymphoid tissue
+Habitat	(255, 258, ((-20, 'OBT:000232'),))	MALT	(255, 259, ((-20, 'OBT:000194'),))	MALT
+Habitat	(317, 323, ((-20, 'OBT:000316'),))	B cells	(306, 324, ((-20, 'OBT:001342'),))	monoclonal B cells
+Habitat	(552, 555, ((-20, 'OBT:000232'),))	MALT	(544, 556, ((-20, 'OBT:000194'),))	gastric MALT
+Habitat	(603, 610, ((-20, 'OBT:002133'),))	patients	(603, 652, ((-20, 'OBT:002238'),))	patients with high-grade primary gastric lymphoma
+Habitat	(636, 642, ((-20, 'OBT:000953'),))	gastric	(603, 724, ((-20, 'OBT:002187'),))	patients with high-grade primary gastric lymphoma, 25 with low-grade MALT lymphoma, 32 with atypical lymphoid infiltrates
+Habitat	(672, 675, ((-20, 'OBT:000232'),))	MALT	(603, 782, ((-20, 'OBT:002216'),))	patients with high-grade primary gastric lymphoma, 25 with low-grade MALT lymphoma, 32 with atypical lymphoid infiltrates, and 39 with Helicobacter pylori-chronic active gastritis
+Habitat	(1055, 1058, ((-20, 'OBT:000232'),))	MALT	(1055, 1059, ((-20, 'OBT:000194'),))	MALT
+Habitat	(1122, 1129, ((-20, 'OBT:002133'),))	patients	(1122, 1160, ((-20, 'OBT:002216'),))	patients with chronic active gastritis
+Habitat	(1438, 1444, ((-20, 'OBT:000316'),))	T cells	(1432, 1445, ((-20, 'OBT:001342'),))	B and T cells
+Habitat	(1807, 1813, ((-20, 'OBT:000316'),))	B cells	(1796, 1814, ((-20, 'OBT:001342'),))	monoclonal B cells
+Habitat	(2034, 2037, ((-20, 'OBT:000232'),))	MALT	(2026, 2038, ((-20, 'OBT:000194'),))	gastric MALT

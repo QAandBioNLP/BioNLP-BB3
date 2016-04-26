@@ -1,2 +1,5 @@
+Habitat	(140, 146, ((-20, 'OBT:000061'),))	animals	(140, 147, ((-20, 'OBT:000218'),))	animals
+Habitat	(152, 157, ((-20, 'OBT:000257'),))	humans	(152, 158, ((-20, 'OBT:001804'),))	humans
 Bacteria	(422, 432, ((-2, '28901'),))	S. enterica	(422, 445, ((-2, '260680'),))	S. enterica Livingstone
 Bacteria	(553, 563, ((-2, '28901'),))	S. enterica	(553, 572, ((-2, '48409'),))	S. enterica Virchow
+Habitat	(909, 915, ((-20, 'OBT:000061'),))	animals	(909, 916, ((-20, 'OBT:000218'),))	animals

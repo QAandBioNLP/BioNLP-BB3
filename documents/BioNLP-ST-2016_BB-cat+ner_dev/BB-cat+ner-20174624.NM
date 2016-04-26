@@ -1,4 +1,26 @@
+Habitat	(0, 10, ((-20, 'OBT:000316'),))	Neutrophils	(0, 11, ((-20, 'OBT:002025'),))	Neutrophils
+Habitat	(148, 152, ((-20, 'OBT:000257'),))	human	(148, 153, ((-20, 'OBT:001804'),))	human
+Habitat	(213, 223, ((-20, 'OBT:000232'),))	macrophages	(213, 224, ((-20, 'OBT:002022'),))	macrophages
+Habitat	(229, 256, ((-20, 'OBT:000316'),))	polymorphonuclear leukocytes	(229, 257, ((-20, 'OBT:000471'),))	polymorphonuclear leukocytes
+Habitat	(259, 269, ((-20, 'OBT:000316'),))	neutrophils	(259, 270, ((-20, 'OBT:002025'),))	neutrophils
+Habitat	(390, 395, ((-20, 'OBT:000257'),))	humans	(390, 396, ((-20, 'OBT:001804'),))	humans
+Habitat	(540, 545, ((-20, 'OBT:000257'),))	murine	(540, 558, ((-20, 'OBT:002022'),))	murine macrophages
+Habitat	(547, 557, ((-20, 'OBT:000232'),))	macrophages	(540, 578, ((-20, 'OBT:001925'),))	murine macrophages and dendritic cells
 Bacteria	(604, 611, ((-2, '629'),))	Yersinia	(604, 612, ((-2, '630'),))	Yersinia
+Habitat	(624, 633, ((-20, 'OBT:000316'),))	neutrophil	(624, 634, ((-20, 'OBT:002025'),))	neutrophil
+Habitat	(804, 808, ((-20, 'OBT:000257'),))	human	(804, 809, ((-20, 'OBT:001804'),))	human
+Habitat	(810, 837, ((-20, 'OBT:000232'),))	monocyte-derived macrophages	(804, 838, ((-20, 'OBT:002022'),))	human monocyte-derived macrophages
+Habitat	(840, 843, ((-20, 'OBT:000232'),))	HMDM	(840, 844, ((-20, 'OBT:002022'),))	HMDM
+Habitat	(850, 860, ((-20, 'OBT:000316'),))	neutrophils	(850, 861, ((-20, 'OBT:002025'),))	neutrophils
+Habitat	(938, 942, ((-20, 'OBT:000257'),))	human	(938, 943, ((-20, 'OBT:001804'),))	human
+Habitat	(944, 954, ((-20, 'OBT:000316'),))	neutrophils	(938, 955, ((-20, 'OBT:002025'),))	human neutrophils
+Habitat	(1142, 1146, ((-20, 'OBT:000257'),))	human	(1142, 1147, ((-20, 'OBT:001804'),))	human
 Bacteria	(1190, 1210, ((-2, '632'),))	Y. pestis strain KIM6	(1190, 1211, ((-2, '187410'),))	Y. pestis strain KIM6
+Habitat	(1282, 1285, ((-20, 'OBT:000056'),))	cell	(1282, 1286, ((-20, 'OBT:000471'),))	cell
 Bacteria	(1458, 1478, ((-2, '632'),))	Y. pestis strain KIM6	(1458, 1479, ((-2, '187410'),))	Y. pestis strain KIM6
+Habitat	(1575, 1582, ((-20, 'OBT:000316'),))	PMN cell	(1575, 1583, ((-20, 'OBT:002025'),))	PMN cell
 Bacteria	(1657, 1670, ((-2, '632'),))	Y. pestis KIM5	(1657, 1671, ((-2, '187410'),))	Y. pestis KIM5
+Habitat	(1763, 1767, ((-20, 'OBT:000257'),))	human	(1763, 1768, ((-20, 'OBT:001804'),))	human
+Habitat	(1769, 1779, ((-20, 'OBT:000316'),))	neutrophils	(1763, 1780, ((-20, 'OBT:002025'),))	human neutrophils
+Habitat	(1903, 1910, ((-20, 'OBT:000316'),))	PMN cell	(1903, 1911, ((-20, 'OBT:002025'),))	PMN cell
+Habitat	(2008, 2012, ((-20, 'OBT:000257'),))	human	(2008, 2027, ((-20, 'OBT:000580'),))	human innate immune

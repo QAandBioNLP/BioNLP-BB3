@@ -1,5 +1,10 @@
 Bacteria	33	36	BCG
+Habitat	37	50	granulomatous
+Habitat	86	99	animal models
+Habitat	370	375	cells
+Habitat	383	396	granulomatous
 Bacteria	472	475	BCG
 Bacteria	560	563	BCG
+Habitat	564	577	granulomatous
 Bacteria	743	746	BCG
 Bacteria	1048	1051	BCG

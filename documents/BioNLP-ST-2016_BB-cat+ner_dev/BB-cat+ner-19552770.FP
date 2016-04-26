@@ -1,2 +1,1 @@
-Bacteria	207	214	Cloacal
-Bacteria	676	683	cloacal
+Habitat	1105	1113	carriers

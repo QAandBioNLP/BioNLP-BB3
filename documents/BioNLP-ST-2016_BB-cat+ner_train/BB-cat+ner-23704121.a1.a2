@@ -1,2 +1,4 @@
-T6	Bacteria	141	162	Clostridium difficile
-N1	NCBI_Taxonomy	Annotation:T6	Referent:1496
+T6	Habitat 70 74	Food
+T7	Bacteria 141 162	Clostridium difficile
+N1	OntoBiotope Annotation:T6 Referent:OBT:000003
+N2	NCBI_Taxonomy Annotation:T7 Referent:1496

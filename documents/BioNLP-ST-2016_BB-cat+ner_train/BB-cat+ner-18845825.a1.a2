@@ -1,10 +1,18 @@
-T3	Bacteria	38	60	Haemophilus influenzae
-T4	Bacteria	140	162	Haemophilus influenzae
-T5	Bacteria	164	168	NTHi
-T6	Bacteria	386	390	NTHi
-T7	Bacteria	428	432	NTHi
-N1	NCBI_Taxonomy	Annotation:T3	Referent:727
-N2	NCBI_Taxonomy	Annotation:T4	Referent:727
-N3	NCBI_Taxonomy	Annotation:T5	Referent:727
-N4	NCBI_Taxonomy	Annotation:T6	Referent:727
-N5	NCBI_Taxonomy	Annotation:T7	Referent:727
+T3	Bacteria 38 60	Haemophilus influenzae
+T4	Habitat 79 87	children
+T5	Bacteria 140 162	Haemophilus influenzae
+T6	Bacteria 164 168	NTHi
+T7	Habitat 188 195	throats
+T8	Habitat 211 219	children
+T9	Bacteria 386 394	NTHi STs
+T10	Bacteria 428 432	NTHi
+T11	Habitat 462 470	children
+N1	NCBI_Taxonomy Annotation:T3 Referent:727
+N2	OntoBiotope Annotation:T4 Referent:OBT:002146
+N3	NCBI_Taxonomy Annotation:T5 Referent:727
+N4	NCBI_Taxonomy Annotation:T6 Referent:727
+N5	OntoBiotope Annotation:T7 Referent:OBT:000374
+N6	OntoBiotope Annotation:T8 Referent:OBT:002146
+N7	NCBI_Taxonomy Annotation:T9 Referent:727
+N8	NCBI_Taxonomy Annotation:T10 Referent:727
+N9	OntoBiotope Annotation:T11 Referent:OBT:002146

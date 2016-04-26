@@ -1,30 +1,80 @@
-T5	Bacteria	29	52	Yersinia YopJ/P-induced
-T6	Bacteria	321	334	Yersinia spp.
-T7	Bacteria	417	425	Yersinia
-T8	Bacteria	446	455	Y. pestis
-T9	Bacteria	460	481	Y. pseudotuberculosis
-T10	Bacteria	493	510	Y. enterocolitica
-T11	Bacteria	604	612	Yersinia
-T12	Bacteria	724	732	Yersinia
-T13	Bacteria	990	998	Yersinia
-T14	Bacteria	1190	1211	Y. pestis strain KIM6
-T15	Bacteria	1458	1479	Y. pestis strain KIM6
-T16	Bacteria	1657	1671	Y. pestis KIM5
-T17	Bacteria	1698	1711	Yersinia YopJ
-T18	Bacteria	1864	1872	Yersinia
-T19	Bacteria	1935	1943	Yersinia
-N1	NCBI_Taxonomy	Annotation:T5	Referent:629
-N2	NCBI_Taxonomy	Annotation:T6	Referent:629
-N3	NCBI_Taxonomy	Annotation:T7	Referent:629
-N4	NCBI_Taxonomy	Annotation:T8	Referent:632
-N5	NCBI_Taxonomy	Annotation:T9	Referent:633
-N6	NCBI_Taxonomy	Annotation:T10	Referent:630
-N7	NCBI_Taxonomy	Annotation:T11	Referent:629
-N8	NCBI_Taxonomy	Annotation:T12	Referent:629
-N9	NCBI_Taxonomy	Annotation:T13	Referent:629
-N10	NCBI_Taxonomy	Annotation:T14	Referent:632
-N11	NCBI_Taxonomy	Annotation:T15	Referent:632
-N12	NCBI_Taxonomy	Annotation:T16	Referent:632
-N13	NCBI_Taxonomy	Annotation:T17	Referent:629
-N14	NCBI_Taxonomy	Annotation:T18	Referent:629
-N15	NCBI_Taxonomy	Annotation:T19	Referent:629
+T5	Habitat 0 11	Neutrophils
+T6	Bacteria 29 52	Yersinia YopJ/P-induced
+T7	Habitat 99 103	cell
+T8	Habitat 148 153	human
+T9	Habitat 154 174	innate immune system
+T10	Habitat 213 224	macrophages
+T11	Habitat 229 257	polymorphonuclear leukocytes
+T12	Habitat 259 270	neutrophils
+T13	Bacteria 321 334	Yersinia spp.
+T14	Habitat 390 396	humans
+T15	Bacteria 417 425	Yersinia
+T16	Bacteria 446 455	Y. pestis
+T17	Bacteria 460 481	Y. pseudotuberculosis
+T18	Bacteria 493 510	Y. enterocolitica
+T19	Habitat 540 546	murine
+T20	Habitat 547 558	macrophages
+T21	Habitat 563 578	dendritic cells
+T22	Bacteria 604 612	Yersinia
+T23	Habitat 624 634	neutrophil
+T24	Bacteria 724 732	Yersinia
+T25	Habitat 804 809	human
+T26	Habitat 810 838	monocyte-derived macrophages
+T27	Habitat 840 844	HMDM
+T28	Habitat 850 861	neutrophils
+T29	Habitat 938 943	human
+T30	Habitat 944 955	neutrophils
+T31	Bacteria 990 998	Yersinia
+T32	Habitat 1142 1147	human
+T33	Bacteria 1190 1211	Y. pestis strain KIM6
+T34	Habitat 1282 1286	cell
+T35	Bacteria 1458 1479	Y. pestis strain KIM6
+T36	Habitat 1575 1583	PMN cell
+T37	Bacteria 1657 1671	Y. pestis KIM5
+T38	Bacteria 1698 1706	Yersinia
+T39	Habitat 1763 1768	human
+T40	Habitat 1769 1780	neutrophils
+T41	Bacteria 1864 1872	Yersinia
+T42	Habitat 1903 1911	PMN cell
+T43	Bacteria 1935 1943	Yersinia
+T44	Habitat 2008 2013	human
+N1	OntoBiotope Annotation:T5 Referent:OBT:000316
+N2	NCBI_Taxonomy Annotation:T6 Referent:629
+N3	OntoBiotope Annotation:T7 Referent:OBT:000056
+N4	OntoBiotope Annotation:T8 Referent:OBT:000257
+N5	OntoBiotope Annotation:T9 Referent:OBT:000580
+N6	OntoBiotope Annotation:T10 Referent:OBT:000232
+N7	OntoBiotope Annotation:T11 Referent:OBT:000316
+N8	OntoBiotope Annotation:T12 Referent:OBT:000316
+N9	NCBI_Taxonomy Annotation:T13 Referent:629
+N10	OntoBiotope Annotation:T14 Referent:OBT:000257
+N11	NCBI_Taxonomy Annotation:T15 Referent:629
+N12	NCBI_Taxonomy Annotation:T16 Referent:632
+N13	NCBI_Taxonomy Annotation:T17 Referent:633
+N14	NCBI_Taxonomy Annotation:T18 Referent:630
+N15	OntoBiotope Annotation:T19 Referent:OBT:000257
+N16	OntoBiotope Annotation:T20 Referent:OBT:000232
+N17	OntoBiotope Annotation:T21 Referent:OBT:000316
+N18	NCBI_Taxonomy Annotation:T22 Referent:629
+N19	OntoBiotope Annotation:T23 Referent:OBT:000316
+N20	NCBI_Taxonomy Annotation:T24 Referent:629
+N21	OntoBiotope Annotation:T25 Referent:OBT:000257
+N22	OntoBiotope Annotation:T26 Referent:OBT:000232
+N23	OntoBiotope Annotation:T27 Referent:OBT:000232
+N24	OntoBiotope Annotation:T28 Referent:OBT:000316
+N25	OntoBiotope Annotation:T29 Referent:OBT:000257
+N26	OntoBiotope Annotation:T30 Referent:OBT:000316
+N27	NCBI_Taxonomy Annotation:T31 Referent:629
+N28	OntoBiotope Annotation:T32 Referent:OBT:000257
+N29	NCBI_Taxonomy Annotation:T33 Referent:632
+N30	OntoBiotope Annotation:T34 Referent:OBT:000056
+N31	NCBI_Taxonomy Annotation:T35 Referent:632
+N32	OntoBiotope Annotation:T36 Referent:OBT:000316
+N33	NCBI_Taxonomy Annotation:T37 Referent:632
+N34	NCBI_Taxonomy Annotation:T38 Referent:629
+N35	OntoBiotope Annotation:T39 Referent:OBT:000257
+N36	OntoBiotope Annotation:T40 Referent:OBT:000316
+N37	NCBI_Taxonomy Annotation:T41 Referent:629
+N38	OntoBiotope Annotation:T42 Referent:OBT:000316
+N39	NCBI_Taxonomy Annotation:T43 Referent:629
+N40	OntoBiotope Annotation:T44 Referent:OBT:000257

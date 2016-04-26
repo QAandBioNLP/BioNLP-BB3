@@ -1,16 +1,26 @@
-T3	Bacteria	13	34	Staphylococcus aureus
-T4	Bacteria	217	238	Staphylococcus aureus
-T5	Bacteria	240	244	MRSA
-T6	Bacteria	391	400	S. aureus
-T7	Bacteria	473	482	S. aureus
-T8	Bacteria	535	539	MRSA
-T9	Bacteria	739	743	MRSA
-T10	Bacteria	948	952	MRSA
-N1	NCBI_Taxonomy	Annotation:T3	Referent:1280
-N2	NCBI_Taxonomy	Annotation:T4	Referent:1280
-N3	NCBI_Taxonomy	Annotation:T5	Referent:1280
-N4	NCBI_Taxonomy	Annotation:T6	Referent:1280
-N5	NCBI_Taxonomy	Annotation:T7	Referent:1280
-N6	NCBI_Taxonomy	Annotation:T8	Referent:1280
-N7	NCBI_Taxonomy	Annotation:T9	Referent:1280
-N8	NCBI_Taxonomy	Annotation:T10	Referent:1280
+T3	Bacteria 13 34	Staphylococcus aureus
+T4	Habitat 81 85	jail
+T5	Habitat 107 111	jail
+T6	Bacteria 217 238	Staphylococcus aureus
+T7	Bacteria 240 244	MRSA
+T8	Habitat 354 358	agar
+T9	Bacteria 391 400	S. aureus
+T10	Bacteria 473 482	S. aureus
+T11	Bacteria 535 539	MRSA
+T12	Habitat 705 712	inmates
+T13	Habitat 714 719	nasal
+T14	Bacteria 739 743	MRSA
+T15	Bacteria 948 952	MRSA
+N1	NCBI_Taxonomy Annotation:T3 Referent:1280
+N2	OntoBiotope Annotation:T4 Referent:OBT:000562
+N3	OntoBiotope Annotation:T5 Referent:OBT:000562
+N4	NCBI_Taxonomy Annotation:T6 Referent:1280
+N5	NCBI_Taxonomy Annotation:T7 Referent:1280
+N6	OntoBiotope Annotation:T8 Referent:OBT:000073
+N7	NCBI_Taxonomy Annotation:T9 Referent:1280
+N8	NCBI_Taxonomy Annotation:T10 Referent:1280
+N9	NCBI_Taxonomy Annotation:T11 Referent:1280
+N10	OntoBiotope Annotation:T12 Referent:OBT:002234
+N11	OntoBiotope Annotation:T13 Referent:OBT:000277
+N12	NCBI_Taxonomy Annotation:T14 Referent:1280
+N13	NCBI_Taxonomy Annotation:T15 Referent:1280

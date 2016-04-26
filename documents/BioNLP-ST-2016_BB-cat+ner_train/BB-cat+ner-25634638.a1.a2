@@ -1,16 +1,24 @@
-T3	Bacteria	76	98	Pseudomonas aeruginosa
-T4	Bacteria	178	200	Pseudomonas aeruginosa
-T5	Bacteria	202	215	P. aeruginosa
-T6	Bacteria	668	681	P. aeruginosa
-T7	Bacteria	849	862	P. aeruginosa
-T8	Bacteria	984	1004	Burkholderia cepacia
-T9	Bacteria	1111	1139	Stenotrophomonas maltophilia
-T10	Bacteria	1141	1164	Mycobacterium abscessus
-N1	NCBI_Taxonomy	Annotation:T3	Referent:287
-N2	NCBI_Taxonomy	Annotation:T4	Referent:287
-N3	NCBI_Taxonomy	Annotation:T5	Referent:287
-N4	NCBI_Taxonomy	Annotation:T6	Referent:287
-N5	NCBI_Taxonomy	Annotation:T7	Referent:287
-N6	NCBI_Taxonomy	Annotation:T8	Referent:292
-N7	NCBI_Taxonomy	Annotation:T9	Referent:40324
-N8	NCBI_Taxonomy	Annotation:T10	Referent:36809
+T3	Bacteria 76 98	Pseudomonas aeruginosa
+T4	Bacteria 178 200	Pseudomonas aeruginosa
+T5	Bacteria 202 215	P. aeruginosa
+T6	Habitat 501 509	patients
+T7	Habitat 590 597	airways
+T8	Habitat 601 612	CF patients
+T9	Bacteria 668 681	P. aeruginosa
+T10	Bacteria 849 862	P. aeruginosa
+T11	Bacteria 984 1004	Burkholderia cepacia
+T12	Habitat 1088 1109	Aspergillus fumigatus
+T13	Bacteria 1111 1139	Stenotrophomonas maltophilia
+T14	Bacteria 1141 1164	Mycobacterium abscessus
+N1	NCBI_Taxonomy Annotation:T3 Referent:287
+N2	NCBI_Taxonomy Annotation:T4 Referent:287
+N3	NCBI_Taxonomy Annotation:T5 Referent:287
+N4	OntoBiotope Annotation:T6 Referent:OBT:002133
+N5	OntoBiotope Annotation:T7 Referent:OBT:000322
+N6	OntoBiotope Annotation:T8 Referent:OBT:002225
+N7	NCBI_Taxonomy Annotation:T9 Referent:287
+N8	NCBI_Taxonomy Annotation:T10 Referent:287
+N9	NCBI_Taxonomy Annotation:T11 Referent:292
+N10	OntoBiotope Annotation:T12 Referent:OBT:000154
+N11	NCBI_Taxonomy Annotation:T13 Referent:40324
+N12	NCBI_Taxonomy Annotation:T14 Referent:36809

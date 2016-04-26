@@ -1,22 +1,44 @@
-T3	Bacteria	30	53	Pseudomonas fluorescens
-T4	Bacteria	559	594	Pseudomonas fluorescens strain, TSS
-T5	Bacteria	663	666	TSS
-T6	Bacteria	726	742	Escherichia coli
-T7	Bacteria	757	760	TSS
-T8	Bacteria	812	815	TSS
-T9	Bacteria	1285	1299	P. fluorescens
-T10	Bacteria	1319	1339	Aeromonas hydrophila
-T11	Bacteria	1440	1454	Vibrio harveyi
-T12	Bacteria	1643	1653	V. harveyi
-T13	Bacteria	1658	1671	A. hydrophila
-N1	NCBI_Taxonomy	Annotation:T3	Referent:294
-N2	NCBI_Taxonomy	Annotation:T4	Referent:294
-N3	NCBI_Taxonomy	Annotation:T5	Referent:294
-N4	NCBI_Taxonomy	Annotation:T6	Referent:562
-N5	NCBI_Taxonomy	Annotation:T7	Referent:294
-N6	NCBI_Taxonomy	Annotation:T8	Referent:294
-N7	NCBI_Taxonomy	Annotation:T9	Referent:294
-N8	NCBI_Taxonomy	Annotation:T10	Referent:644
-N9	NCBI_Taxonomy	Annotation:T11	Referent:669
-N10	NCBI_Taxonomy	Annotation:T12	Referent:669
-N11	NCBI_Taxonomy	Annotation:T13	Referent:644
+T3	Bacteria 30 53	Pseudomonas fluorescens
+T4	Habitat 115 122	vaccine
+T5	Bacteria 559 594	Pseudomonas fluorescens strain, TSS
+T6	Habitat 619 636	Japanese flounder
+T7	Habitat 657 661	farm
+T8	Bacteria 663 666	TSS
+T9	Bacteria 726 742	Escherichia coli
+T10	Bacteria 757 760	TSS
+T11	Bacteria 812 819	TSS, TF
+T12	Habitat 931 935	host
+T13	Habitat 1000 1004	host
+T14	Habitat 1005 1010	blood
+T15	Habitat 1084 1101	Japanese flounder
+T16	Habitat 1139 1146	vaccine
+T17	Habitat 1194 1198	oral
+T18	Habitat 1250 1267	Japanese flounder
+T19	Bacteria 1285 1299	P. fluorescens
+T20	Bacteria 1319 1339	Aeromonas hydrophila
+T21	Bacteria 1440 1454	Vibrio harveyi
+T22	Habitat 1560 1577	Japanese flounder
+T23	Bacteria 1643 1653	V. harveyi
+T24	Bacteria 1658 1671	A. hydrophila
+N1	NCBI_Taxonomy Annotation:T3 Referent:294
+N2	OntoBiotope Annotation:T4 Referent:OBT:000099
+N3	NCBI_Taxonomy Annotation:T5 Referent:294
+N4	OntoBiotope Annotation:T6 Referent:OBT:000257
+N5	OntoBiotope Annotation:T7 Referent:OBT:000068
+N6	NCBI_Taxonomy Annotation:T8 Referent:294
+N7	NCBI_Taxonomy Annotation:T9 Referent:562
+N8	NCBI_Taxonomy Annotation:T10 Referent:294
+N9	NCBI_Taxonomy Annotation:T11 Referent:294
+N10	OntoBiotope Annotation:T12 Referent:OBT:000036
+N11	OntoBiotope Annotation:T13 Referent:OBT:000036
+N12	OntoBiotope Annotation:T14 Referent:OBT:000316
+N13	OntoBiotope Annotation:T15 Referent:OBT:000257
+N14	OntoBiotope Annotation:T16 Referent:OBT:000099
+N15	OntoBiotope Annotation:T17 Referent:OBT:001292
+N16	OntoBiotope Annotation:T18 Referent:OBT:000257
+N17	NCBI_Taxonomy Annotation:T19 Referent:294
+N18	NCBI_Taxonomy Annotation:T20 Referent:644
+N19	NCBI_Taxonomy Annotation:T21 Referent:669
+N20	OntoBiotope Annotation:T22 Referent:OBT:000257
+N21	NCBI_Taxonomy Annotation:T23 Referent:669
+N22	NCBI_Taxonomy Annotation:T24 Referent:644

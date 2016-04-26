@@ -1,0 +1,10 @@
+Habitat	(54, 61, ((-20, 'OBT:002146'),))	children	(46, 62, ((-20, 'OBT:002146'), (-20, 'OBT:001894')))	healthy children
+Habitat	(265, 272, ((-20, 'OBT:002146'),))	children	(249, 273, ((-20, 'OBT:000033'),))	normal flora of children
+Habitat	(323, 328, ((-20, 'OBT:000374'),))	throat	(323, 357, ((-20, 'OBT:000001'),))	throat and nasopharyngeal cultures
+Habitat	(406, 413, ((-20, 'OBT:002146'),))	children	(395, 435, ((-20, 'OBT:002146'), (-20, 'OBT:002154')))	cohorts of children, ages 6 to 42 months
+Habitat	(588, 595, ((-20, 'OBT:002146'),))	children	(588, 622, ((-20, 'OBT:002146'), (-20, 'OBT:002154')))	children ages 6 months to 14 years
+Habitat	(782, 785, ((-20, 'OBT:002154'),))	baby	(777, 798, ((-20, 'OBT:001801'),))	well-baby-care clinic
+Habitat	(873, 878, ((-20, 'OBT:000374'),))	throat	(873, 888, ((-20, 'OBT:000001'),))	throat cultures
+Habitat	(1310, 1317, ((-20, 'OBT:002146'),))	children	(1300, 1318, ((-20, 'OBT:002146'), (-20, 'OBT:002216')))	colonized children
+Habitat	(1417, 1424, ((-20, 'OBT:002133'),))	patients	(1408, 1425, ((-20, 'OBT:002307'),))	surgical patients
+Habitat	(1535, 1538, ((-20, 'OBT:002154'),))	baby	(1530, 1551, ((-20, 'OBT:001801'),))	well-baby-care clinic

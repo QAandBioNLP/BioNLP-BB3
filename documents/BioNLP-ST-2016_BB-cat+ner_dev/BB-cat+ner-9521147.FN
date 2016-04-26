@@ -1,6 +1,12 @@
 Bacteria	151	155	Ara-
+Habitat	156	164	clinical
+Habitat	434	442	clinical
+Habitat	766	832	patients with different clinical spectra and with other infections
 Bacteria	1180	1184	Ara-
+Habitat	1185	1193	clinical
 Bacteria	1198	1202	Ara-
 Bacteria	1212	1216	Ara+
+Habitat	1349	1374	patients with melioidosis
+Habitat	1379	1396	hyperimmune mouse
 Bacteria	1489	1493	Ara-
 Bacteria	1498	1502	Ara+

@@ -1,2 +1,20 @@
-T3	Bacteria	1020	1042	Legionella pneumophila
-N1	NCBI_Taxonomy	Annotation:T3	Referent:446
+T3	Habitat 92 96	cell
+T4	Habitat 203 207	cell
+T5	Habitat 308 312	cell
+T6	Habitat 494 498	cell
+T7	Habitat 704 714	macrophage
+T8	Habitat 715 719	cell
+T9	Bacteria 1020 1042	Legionella pneumophila
+T10	Habitat 1062 1066	host
+T11	Habitat 1067 1071	cell
+T12	Habitat 1373 1377	cell
+N1	OntoBiotope Annotation:T3 Referent:OBT:000056
+N2	OntoBiotope Annotation:T4 Referent:OBT:000056
+N3	OntoBiotope Annotation:T5 Referent:OBT:000056
+N4	OntoBiotope Annotation:T6 Referent:OBT:000056
+N5	OntoBiotope Annotation:T7 Referent:OBT:000232
+N6	OntoBiotope Annotation:T8 Referent:OBT:000056
+N7	NCBI_Taxonomy Annotation:T9 Referent:446
+N8	OntoBiotope Annotation:T10 Referent:OBT:000036
+N9	OntoBiotope Annotation:T11 Referent:OBT:000056
+N10	OntoBiotope Annotation:T12 Referent:OBT:000056

@@ -1,10 +1,44 @@
-T3	Bacteria	30	48	Vibrio salmonicida
-T4	Bacteria	110	128	Vibrio salmonicida
-T5	Bacteria	332	338	Vibrio
-T6	Bacteria	440	454	V. salmonicida
-T7	Bacteria	644	658	V. salmonicida
-N1	NCBI_Taxonomy	Annotation:T3	Referent:40269
-N2	NCBI_Taxonomy	Annotation:T4	Referent:40269
-N3	NCBI_Taxonomy	Annotation:T5	Referent:662
-N4	NCBI_Taxonomy	Annotation:T6	Referent:40269
-N5	NCBI_Taxonomy	Annotation:T7	Referent:40269
+T3	Habitat 16 20	fish
+T4	Bacteria 30 48	Vibrio salmonicida
+T5	Habitat 52 61	fish farm
+T6	Habitat 62 71	sediments
+T7	Habitat 96 100	fish
+T8	Bacteria 110 128	Vibrio salmonicida
+T9	Habitat 132 141	fish farm
+T10	Habitat 142 151	sediments
+T11	Habitat 269 275	rabbit
+T12	Bacteria 332 338	Vibrio
+T13	Habitat 374 391	intestinal tracts
+T14	Habitat 403 407	fish
+T15	Habitat 429 438	sediments
+T16	Bacteria 440 454	V. salmonicida
+T17	Habitat 471 479	sediment
+T18	Habitat 594 602	sediment
+T19	Habitat 630 639	fish farm
+T20	Bacteria 644 658	V. salmonicida
+T21	Habitat 680 689	sediments
+T22	Habitat 708 712	fish
+T23	Habitat 794 800	rabbit
+T24	Habitat 871 877	rabbit
+N1	OntoBiotope Annotation:T3 Referent:OBT:000257
+N2	NCBI_Taxonomy Annotation:T4 Referent:40269
+N3	OntoBiotope Annotation:T5 Referent:OBT:000295
+N4	OntoBiotope Annotation:T6 Referent:OBT:000704
+N5	OntoBiotope Annotation:T7 Referent:OBT:000257
+N6	NCBI_Taxonomy Annotation:T8 Referent:40269
+N7	OntoBiotope Annotation:T9 Referent:OBT:000295
+N8	OntoBiotope Annotation:T10 Referent:OBT:000704
+N9	OntoBiotope Annotation:T11 Referent:OBT:000257
+N10	NCBI_Taxonomy Annotation:T12 Referent:662
+N11	OntoBiotope Annotation:T13 Referent:OBT:001893
+N12	OntoBiotope Annotation:T14 Referent:OBT:000257
+N13	OntoBiotope Annotation:T15 Referent:OBT:000704
+N14	NCBI_Taxonomy Annotation:T16 Referent:40269
+N15	OntoBiotope Annotation:T17 Referent:OBT:000704
+N16	OntoBiotope Annotation:T18 Referent:OBT:000704
+N17	OntoBiotope Annotation:T19 Referent:OBT:000295
+N18	NCBI_Taxonomy Annotation:T20 Referent:40269
+N19	OntoBiotope Annotation:T21 Referent:OBT:000704
+N20	OntoBiotope Annotation:T22 Referent:OBT:000257
+N21	OntoBiotope Annotation:T23 Referent:OBT:000257
+N22	OntoBiotope Annotation:T24 Referent:OBT:000257

@@ -1,16 +1,28 @@
-T3	Bacteria	66	92	Mycobacterium tuberculosis
-T4	Bacteria	459	485	Mycobacterium tuberculosis
-T5	Bacteria	487	490	Mtb
-T6	Bacteria	751	754	Mtb
-T7	Bacteria	788	791	Mtb
-T8	Bacteria	893	896	Mtb
-T9	Bacteria	1024	1027	Mtb
-T10	Bacteria	1105	1108	Mtb
-N1	NCBI_Taxonomy	Annotation:T3	Referent:1773
-N2	NCBI_Taxonomy	Annotation:T4	Referent:1773
-N3	NCBI_Taxonomy	Annotation:T5	Referent:1773
-N4	NCBI_Taxonomy	Annotation:T6	Referent:1773
-N5	NCBI_Taxonomy	Annotation:T7	Referent:1773
-N6	NCBI_Taxonomy	Annotation:T8	Referent:1773
-N7	NCBI_Taxonomy	Annotation:T9	Referent:1773
-N8	NCBI_Taxonomy	Annotation:T10	Referent:1773
+T3	Bacteria 66 92	Mycobacterium tuberculosis
+T4	Habitat 241 245	host
+T5	Bacteria 459 485	Mycobacterium tuberculosis
+T6	Bacteria 487 490	Mtb
+T7	Habitat 719 723	mice
+T8	Bacteria 751 754	Mtb
+T9	Bacteria 788 791	Mtb
+T10	Habitat 814 820	T cell
+T11	Bacteria 893 896	Mtb
+T12	Habitat 906 911	human
+T13	Habitat 912 917	blood
+T14	Habitat 918 926	monocyte
+T15	Bacteria 1024 1027	Mtb
+T16	Bacteria 1105 1108	Mtb
+N1	NCBI_Taxonomy Annotation:T3 Referent:1773
+N2	OntoBiotope Annotation:T4 Referent:OBT:000036
+N3	NCBI_Taxonomy Annotation:T5 Referent:1773
+N4	NCBI_Taxonomy Annotation:T6 Referent:1773
+N5	OntoBiotope Annotation:T7 Referent:OBT:000257
+N6	NCBI_Taxonomy Annotation:T8 Referent:1773
+N7	NCBI_Taxonomy Annotation:T9 Referent:1773
+N8	OntoBiotope Annotation:T10 Referent:OBT:000316
+N9	NCBI_Taxonomy Annotation:T11 Referent:1773
+N10	OntoBiotope Annotation:T12 Referent:OBT:000257
+N11	OntoBiotope Annotation:T13 Referent:OBT:000316
+N12	OntoBiotope Annotation:T14 Referent:OBT:000316
+N13	NCBI_Taxonomy Annotation:T15 Referent:1773
+N14	NCBI_Taxonomy Annotation:T16 Referent:1773

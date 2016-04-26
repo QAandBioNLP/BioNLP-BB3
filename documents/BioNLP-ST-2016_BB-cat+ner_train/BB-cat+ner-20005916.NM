@@ -1,0 +1,14 @@
+Habitat	(60, 76, ((-20, 'OBT:000747'),))	peripheral nerves	(60, 77, ((-20, 'OBT:000566'),))	peripheral nerves
+Habitat	(259, 263, ((-20, 'OBT:000467'),))	nerve	(259, 264, ((-20, 'OBT:000566'),))	nerve
+Habitat	(279, 291, ((-20, 'OBT:000747'),))	Schwann cells	(279, 292, ((-20, 'OBT:000565'),))	Schwann cells
+Habitat	(298, 308, ((-20, 'OBT:000284'),))	glial cells	(298, 320, ((-20, 'OBT:000565'),))	glial cells of the PNS
+Habitat	(533, 545, ((-20, 'OBT:000747'),))	Schwann cells	(533, 546, ((-20, 'OBT:000565'),))	Schwann cells
+Habitat	(629, 633, ((-20, 'OBT:000467'),))	nerve	(629, 641, ((-20, 'OBT:000507'),))	nerve injury
+Habitat	(855, 866, ((-20, 'OBT:000747'),))	Schwann cell	(855, 867, ((-20, 'OBT:000565'),))	Schwann cell
+Habitat	(918, 922, ((-20, 'OBT:000467'),))	nerve	(918, 923, ((-20, 'OBT:000566'),))	nerve
+Habitat	(1007, 1011, ((-20, 'OBT:000257'),))	human	(1007, 1012, ((-20, 'OBT:001804'),))	human
+Habitat	(1080, 1092, ((-20, 'OBT:000747'),))	Schwann cells	(1080, 1110, ((-20, 'OBT:000565'),))	Schwann cells of the adult PNS
+Habitat	(1252, 1264, ((-20, 'OBT:000747'),))	Schwann cells	(1241, 1265, ((-20, 'OBT:000565'),))	myelinated Schwann cells
+Habitat	(1633, 1638, ((-20, 'OBT:000284'),))	myelin	(1633, 1650, ((-20, 'OBT:000565'),))	myelin-free cells
+Habitat	(1832, 1835, ((-20, 'OBT:000056'),))	cell	(1832, 1836, ((-20, 'OBT:000565'),))	cell
+Habitat	(2013, 2025, ((-20, 'OBT:000747'),))	Schwann cells	(2007, 2026, ((-20, 'OBT:000565'),))	adult Schwann cells

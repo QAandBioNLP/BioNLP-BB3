@@ -1,4 +1,5 @@
 Bacteria	29	42	Campylobacter
+Habitat	46	56	partridges
 Bacteria	119	137	Campylobacter spp.
 Bacteria	400	418	Campylobacter spp.
 Bacteria	480	498	Campylobacter spp.
@@ -7,5 +8,6 @@ Bacteria	757	775	Campylobacter coli
 Bacteria	857	877	Campylobacter jejuni
 Bacteria	892	910	Campylobacter lari
 Bacteria	1117	1135	Campylobacter spp.
+Habitat	1162	1176	animal species
 Bacteria	1243	1261	Campylobacter coli
 Bacteria	1348	1361	Campylobacter

@@ -1,13 +1,22 @@
 Bacteria	10	29	Helicobacter pylori
+Habitat	86	93	gastric
+Habitat	128	135	gastric
 Bacteria	165	184	Helicobacter pylori
 Bacteria	250	259	H. pylori
+Habitat	343	350	gastric
 Bacteria	416	425	H. pylori
 Bacteria	452	461	H. pylori
 Bacteria	555	564	H. pylori
 Bacteria	646	655	H. pylori
+Habitat	676	684	children
 Bacteria	770	779	H. pylori
+Habitat	802	809	gastric
+Habitat	871	878	gastric
 Bacteria	947	956	H. pylori
+Habitat	1001	1008	gastric
 Bacteria	1048	1057	H. pylori
 Bacteria	1181	1190	H. pylori
+Habitat	1231	1238	gastric
 Bacteria	1309	1318	H. pylori
+Habitat	1400	1407	gastric
 Bacteria	1552	1561	H. pylori

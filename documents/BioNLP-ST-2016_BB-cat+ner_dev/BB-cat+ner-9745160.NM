@@ -1,0 +1,9 @@
+Habitat	(59, 72, ((-20, 'OBT:000935'),))	duodenal ulcer	(59, 67, ((-20, 'OBT:001293'),))	duodenal
+Habitat	(664, 671, ((-20, 'OBT:002133'),))	patients	(664, 730, ((-20, 'OBT:002216'), (-20, 'OBT:002236')))	patients with active duodenal ulcer disease and H pylori infection
+Habitat	(685, 698, ((-20, 'OBT:000935'),))	duodenal ulcer	(685, 693, ((-20, 'OBT:001293'),))	duodenal
+Habitat	(1436, 1440, ((-20, 'OBT:000538'),))	ulcer	(1436, 1441, ((-20, 'OBT:000935'),))	ulcer
+Habitat	(1488, 1495, ((-20, 'OBT:002133'),))	patients	(1488, 1496, ((-20, 'OBT:002216'), (-20, 'OBT:002236')))	patients
+Habitat	(1560, 1567, ((-20, 'OBT:002133'),))	patients	(1560, 1568, ((-20, 'OBT:002216'), (-20, 'OBT:002236')))	patients
+Habitat	(1883, 1890, ((-20, 'OBT:002133'),))	patients	(1883, 1891, ((-20, 'OBT:002216'), (-20, 'OBT:002236')))	patients
+Habitat	(1985, 1992, ((-20, 'OBT:002133'),))	patients	(1985, 2023, ((-20, 'OBT:002216'), (-20, 'OBT:002236'), (-20, 'OBT:002186')))	patients with PPI-based triple therapy
+Habitat	(2065, 2072, ((-20, 'OBT:002133'),))	patients	(2065, 2107, ((-20, 'OBT:002216'), (-20, 'OBT:002236')))	patients with bismuth-based triple therapy

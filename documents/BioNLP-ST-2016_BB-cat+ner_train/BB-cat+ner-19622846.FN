@@ -1,1 +1,6 @@
 Bacteria	45	49	MRSA
+Habitat	81	85	jail
+Habitat	107	134	jail environmental surfaces
+Habitat	283	319	primary and secondary mannitol salts
+Habitat	705	712	inmates
+Habitat	857	880	correctional facilities

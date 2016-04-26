@@ -1,26 +1,56 @@
-T6	Bacteria	29	42	Campylobacter
-T7	Bacteria	119	137	Campylobacter spp.
-T8	Bacteria	207	214	Cloacal
-T9	Bacteria	400	418	Campylobacter spp.
-T10	Bacteria	480	498	Campylobacter spp.
-T11	Bacteria	615	633	Campylobacter spp.
-T12	Bacteria	676	683	cloacal
-T13	Bacteria	757	775	Campylobacter coli
-T14	Bacteria	857	877	Campylobacter jejuni
-T15	Bacteria	892	910	Campylobacter lari
-T16	Bacteria	1117	1135	Campylobacter spp.
-T17	Bacteria	1243	1261	Campylobacter coli
-T18	Bacteria	1348	1361	Campylobacter
-N1	NCBI_Taxonomy	Annotation:T6	Referent:194
-N2	NCBI_Taxonomy	Annotation:T7	Referent:194
-N3	NCBI_Taxonomy	Annotation:T8	Referent:547
-N4	NCBI_Taxonomy	Annotation:T9	Referent:194
-N5	NCBI_Taxonomy	Annotation:T10	Referent:194
-N6	NCBI_Taxonomy	Annotation:T11	Referent:194
-N7	NCBI_Taxonomy	Annotation:T12	Referent:547
-N8	NCBI_Taxonomy	Annotation:T13	Referent:195
-N9	NCBI_Taxonomy	Annotation:T14	Referent:197
-N10	NCBI_Taxonomy	Annotation:T15	Referent:201
-N11	NCBI_Taxonomy	Annotation:T16	Referent:194
-N12	NCBI_Taxonomy	Annotation:T17	Referent:195
-N13	NCBI_Taxonomy	Annotation:T18	Referent:194
+T6	Bacteria 29 42	Campylobacter
+T7	Habitat 46 56	partridges
+T8	Habitat 58 71	Perdix perdix
+T9	Bacteria 119 137	Campylobacter spp.
+T10	Habitat 161 171	partridges
+T11	Habitat 173 186	Perdix perdix
+T12	Bacteria 207 214	Cloacal
+T13	Habitat 224 234	partridges
+T14	Habitat 274 278	male
+T15	Habitat 290 295	birds
+T16	Habitat 309 313	bird
+T17	Habitat 314 318	farm
+T18	Bacteria 400 418	Campylobacter spp.
+T19	Bacteria 480 498	Campylobacter spp.
+T20	Bacteria 615 633	Campylobacter spp.
+T21	Bacteria 676 683	cloacal
+T22	Bacteria 757 775	Campylobacter coli
+T23	Bacteria 857 877	Campylobacter jejuni
+T24	Bacteria 892 910	Campylobacter lari
+T25	Habitat 937 947	partridges
+T26	Habitat 1068 1073	birds
+T27	Habitat 1105 1113	carriers
+T28	Bacteria 1117 1135	Campylobacter spp.
+T29	Habitat 1140 1145	human
+T30	Habitat 1162 1176	animal species
+T31	Bacteria 1243 1261	Campylobacter coli
+T32	Habitat 1285 1295	partridges
+T33	Bacteria 1348 1361	Campylobacter
+N1	NCBI_Taxonomy Annotation:T6 Referent:194
+N2	OntoBiotope Annotation:T7 Referent:OBT:002065
+N3	OntoBiotope Annotation:T8 Referent:OBT:000257
+N4	NCBI_Taxonomy Annotation:T9 Referent:194
+N5	OntoBiotope Annotation:T10 Referent:OBT:002065
+N6	OntoBiotope Annotation:T11 Referent:OBT:000257
+N7	NCBI_Taxonomy Annotation:T12 Referent:547
+N8	OntoBiotope Annotation:T13 Referent:OBT:002065
+N9	OntoBiotope Annotation:T14 Referent:OBT:000608
+N10	OntoBiotope Annotation:T15 Referent:OBT:000257
+N11	OntoBiotope Annotation:T16 Referent:OBT:001181
+N12	OntoBiotope Annotation:T17 Referent:OBT:000068
+N13	NCBI_Taxonomy Annotation:T18 Referent:194
+N14	NCBI_Taxonomy Annotation:T19 Referent:194
+N15	NCBI_Taxonomy Annotation:T20 Referent:194
+N16	NCBI_Taxonomy Annotation:T21 Referent:547
+N17	NCBI_Taxonomy Annotation:T22 Referent:195
+N18	NCBI_Taxonomy Annotation:T23 Referent:197
+N19	NCBI_Taxonomy Annotation:T24 Referent:201
+N20	OntoBiotope Annotation:T25 Referent:OBT:002065
+N21	OntoBiotope Annotation:T26 Referent:OBT:000257
+N22	OntoBiotope Annotation:T27 Referent:OBT:000364
+N23	NCBI_Taxonomy Annotation:T28 Referent:194
+N24	OntoBiotope Annotation:T29 Referent:OBT:000257
+N25	OntoBiotope Annotation:T30 Referent:OBT:000218
+N26	NCBI_Taxonomy Annotation:T31 Referent:195
+N27	OntoBiotope Annotation:T32 Referent:OBT:002065
+N28	NCBI_Taxonomy Annotation:T33 Referent:194

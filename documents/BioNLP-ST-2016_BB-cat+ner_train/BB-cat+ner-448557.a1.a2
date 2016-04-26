@@ -1,4 +1,30 @@
-T3	Bacteria	750	771	Mycoplasma pneumoniae
-T4	Bacteria	950	971	Mycoplasma pneumoniae
-N1	NCBI_Taxonomy	Annotation:T3	Referent:2104
-N2	NCBI_Taxonomy	Annotation:T4	Referent:2104
+T3	Habitat 178 189	respiratory
+T4	Habitat 256 267	respiratory
+T5	Habitat 339 347	children
+T6	Habitat 418 426	children
+T7	Habitat 469 480	respiratory
+T8	Habitat 648 656	patients
+T9	Habitat 668 679	respiratory
+T10	Bacteria 750 771	Mycoplasma pneumoniae
+T11	Habitat 807 814	Patient
+T12	Habitat 904 912	children
+T13	Bacteria 950 971	Mycoplasma pneumoniae
+T14	Habitat 1007 1013	school
+T15	Habitat 1018 1026	children
+T16	Habitat 1146 1157	researchers
+T17	Habitat 1193 1204	respiratory
+N1	OntoBiotope Annotation:T3 Referent:OBT:000164
+N2	OntoBiotope Annotation:T4 Referent:OBT:000164
+N3	OntoBiotope Annotation:T5 Referent:OBT:002146
+N4	OntoBiotope Annotation:T6 Referent:OBT:002146
+N5	OntoBiotope Annotation:T7 Referent:OBT:000164
+N6	OntoBiotope Annotation:T8 Referent:OBT:002133
+N7	OntoBiotope Annotation:T9 Referent:OBT:000164
+N8	NCBI_Taxonomy Annotation:T10 Referent:2104
+N9	OntoBiotope Annotation:T11 Referent:OBT:002133
+N10	OntoBiotope Annotation:T12 Referent:OBT:002146
+N11	NCBI_Taxonomy Annotation:T13 Referent:2104
+N12	OntoBiotope Annotation:T14 Referent:OBT:000584
+N13	OntoBiotope Annotation:T15 Referent:OBT:002146
+N14	OntoBiotope Annotation:T16 Referent:OBT:002265
+N15	OntoBiotope Annotation:T17 Referent:OBT:000164

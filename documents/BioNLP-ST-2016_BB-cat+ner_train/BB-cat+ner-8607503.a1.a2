@@ -1,8 +1,50 @@
-T6	Bacteria	7	22	Vibrio cholerae
-T7	Bacteria	191	206	Vibrio cholerae
-T8	Bacteria	347	358	V. cholerae
-T9	Bacteria	1479	1490	V. cholerae
-N1	NCBI_Taxonomy	Annotation:T6	Referent:666
-N2	NCBI_Taxonomy	Annotation:T7	Referent:666
-N3	NCBI_Taxonomy	Annotation:T8	Referent:666
-N4	NCBI_Taxonomy	Annotation:T9	Referent:666
+T6	Bacteria 7 22	Vibrio cholerae
+T7	Habitat 37 45	patients
+T8	Habitat 92 106	medical center
+T9	Habitat 172 180	patients
+T10	Bacteria 191 206	Vibrio cholerae
+T11	Habitat 314 319	blood
+T12	Bacteria 347 358	V. cholerae
+T13	Habitat 404 414	laboratory
+T14	Habitat 448 456	Patients
+T15	Habitat 569 577	patients
+T16	Habitat 582 586	male
+T17	Habitat 670 675	Child
+T18	Habitat 692 697	Child
+T19	Habitat 813 821	seawater
+T20	Habitat 866 876	nosocomial
+T21	Habitat 957 964	ascites
+T22	Habitat 987 996	abdominal
+T23	Habitat 1049 1055	bullae
+T24	Habitat 1166 1173	ascites
+T25	Habitat 1381 1389	patients
+T26	Habitat 1415 1423	Patients
+T27	Bacteria 1479 1490	V. cholerae
+T28	Habitat 1524 1535	raw seafood
+T29	Habitat 1546 1557	skin wounds
+T30	Habitat 1561 1571	salt water
+N1	NCBI_Taxonomy Annotation:T6 Referent:666
+N2	OntoBiotope Annotation:T7 Referent:OBT:002133
+N3	OntoBiotope Annotation:T8 Referent:OBT:001423
+N4	OntoBiotope Annotation:T9 Referent:OBT:002133
+N5	NCBI_Taxonomy Annotation:T10 Referent:666
+N6	OntoBiotope Annotation:T11 Referent:OBT:000316
+N7	NCBI_Taxonomy Annotation:T12 Referent:666
+N8	OntoBiotope Annotation:T13 Referent:OBT:000609
+N9	OntoBiotope Annotation:T14 Referent:OBT:002133
+N10	OntoBiotope Annotation:T15 Referent:OBT:002133
+N11	OntoBiotope Annotation:T16 Referent:OBT:000608
+N12	OntoBiotope Annotation:T17 Referent:OBT:002146
+N13	OntoBiotope Annotation:T18 Referent:OBT:002146
+N14	OntoBiotope Annotation:T19 Referent:OBT:002038
+N15	OntoBiotope Annotation:T20 Referent:OBT:000009
+N16	OntoBiotope Annotation:T21 Referent:OBT:000119
+N17	OntoBiotope Annotation:T22 Referent:OBT:000119
+N18	OntoBiotope Annotation:T23 Referent:OBT:000874
+N19	OntoBiotope Annotation:T24 Referent:OBT:000119
+N20	OntoBiotope Annotation:T25 Referent:OBT:002133
+N21	OntoBiotope Annotation:T26 Referent:OBT:002133
+N22	NCBI_Taxonomy Annotation:T27 Referent:666
+N23	OntoBiotope Annotation:T28 Referent:OBT:000792
+N24	OntoBiotope Annotation:T29 Referent:OBT:002130
+N25	OntoBiotope Annotation:T30 Referent:OBT:001495

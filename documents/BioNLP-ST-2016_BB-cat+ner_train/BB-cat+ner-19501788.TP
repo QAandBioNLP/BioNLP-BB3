@@ -1,8 +1,9 @@
 Bacteria	30	53	Pseudomonas fluorescens
+Habitat	115	122	vaccine
 Bacteria	559	594	Pseudomonas fluorescens strain, TSS
 Bacteria	663	666	TSS
 Bacteria	726	742	Escherichia coli
-Bacteria	812	815	TSS
+Habitat	1194	1198	oral
 Bacteria	1285	1299	P. fluorescens
 Bacteria	1319	1339	Aeromonas hydrophila
 Bacteria	1440	1454	Vibrio harveyi

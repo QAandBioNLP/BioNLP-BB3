@@ -1,12 +1,28 @@
-T5	Bacteria	57	70	Campylobacter
-T6	Bacteria	214	227	Campylobacter
-T7	Bacteria	432	445	Campylobacter
-T8	Bacteria	1002	1020	Campylobacter coli
-T9	Bacteria	1407	1420	Campylobacter
-T10	Bacteria	1558	1571	Campylobacter
-N1	NCBI_Taxonomy	Annotation:T5	Referent:194
-N2	NCBI_Taxonomy	Annotation:T6	Referent:194
-N3	NCBI_Taxonomy	Annotation:T7	Referent:194
-N4	NCBI_Taxonomy	Annotation:T8	Referent:195
-N5	NCBI_Taxonomy	Annotation:T9	Referent:194
-N6	NCBI_Taxonomy	Annotation:T10	Referent:194
+T5	Bacteria 57 70	Campylobacter
+T6	Habitat 95 102	poultry
+T7	Bacteria 214 227	Campylobacter
+T8	Habitat 303 310	poultry
+T9	Habitat 331 336	human
+T10	Bacteria 432 445	Campylobacter
+T11	Habitat 456 463	poultry
+T12	Bacteria 1002 1020	Campylobacter coli
+T13	Habitat 1388 1395	chicken
+T14	Bacteria 1407 1420	Campylobacter
+T15	Bacteria 1558 1571	Campylobacter
+T16	Habitat 1613 1617	host
+T17	Habitat 1644 1650	humans
+T18	Habitat 1786 1794	chickens
+N1	NCBI_Taxonomy Annotation:T5 Referent:194
+N2	OntoBiotope Annotation:T6 Referent:OBT:002165
+N3	NCBI_Taxonomy Annotation:T7 Referent:194
+N4	OntoBiotope Annotation:T8 Referent:OBT:002165
+N5	OntoBiotope Annotation:T9 Referent:OBT:000257
+N6	NCBI_Taxonomy Annotation:T10 Referent:194
+N7	OntoBiotope Annotation:T11 Referent:OBT:002165
+N8	NCBI_Taxonomy Annotation:T12 Referent:195
+N9	OntoBiotope Annotation:T13 Referent:OBT:000257
+N10	NCBI_Taxonomy Annotation:T14 Referent:194
+N11	NCBI_Taxonomy Annotation:T15 Referent:194
+N12	OntoBiotope Annotation:T16 Referent:OBT:000036
+N13	OntoBiotope Annotation:T17 Referent:OBT:000257
+N14	OntoBiotope Annotation:T18 Referent:OBT:000257

@@ -1,6 +1,14 @@
-T3	Bacteria	57	77	Klebsiella pneumonia
-T4	Bacteria	321	341	Klebsiella pneumonia
-T5	Bacteria	608	628	Klebsiella pneumonia
-N1	NCBI_Taxonomy	Annotation:T3	Referent:573
-N2	NCBI_Taxonomy	Annotation:T4	Referent:573
-N3	NCBI_Taxonomy	Annotation:T5	Referent:573
+T3	Bacteria 57 77	Klebsiella pneumonia
+T4	Bacteria 321 341	Klebsiella pneumonia
+T5	Habitat 375 381	humans
+T6	Habitat 386 393	animals
+T7	Habitat 600 606	humans
+T8	Bacteria 608 628	Klebsiella pneumonia
+T9	Habitat 642 650	placenta
+N1	NCBI_Taxonomy Annotation:T3 Referent:573
+N2	NCBI_Taxonomy Annotation:T4 Referent:573
+N3	OntoBiotope Annotation:T5 Referent:OBT:000257
+N4	OntoBiotope Annotation:T6 Referent:OBT:000061
+N5	OntoBiotope Annotation:T7 Referent:OBT:000257
+N6	NCBI_Taxonomy Annotation:T8 Referent:573
+N7	OntoBiotope Annotation:T9 Referent:OBT:000577

@@ -6,6 +6,7 @@ Bacteria	263	284	Staphylococcus aureus
 Bacteria	286	290	MRSA
 Bacteria	316	328	Enterococcus
 Bacteria	330	333	VRE
+Habitat	401	408	patient
 Bacteria	553	557	MRSA
 Bacteria	562	565	VRE
 Bacteria	658	662	MRSA
@@ -13,7 +14,9 @@ Bacteria	834	837	VRE
 Bacteria	1268	1272	MRSA
 Bacteria	1290	1293	VRE
 Bacteria	1413	1417	MRSA
+Habitat	1428	1436	patients
 Bacteria	1454	1457	VRE
+Habitat	1468	1476	patients
 Bacteria	1523	1527	MRSA
 Bacteria	1532	1535	VRE
 Bacteria	1599	1603	MRSA

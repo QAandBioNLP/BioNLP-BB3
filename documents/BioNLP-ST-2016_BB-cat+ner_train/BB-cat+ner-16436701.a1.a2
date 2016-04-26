@@ -1,2 +1,8 @@
-T3	Bacteria	224	248	Escherichia coli O157:H7
-N1	NCBI_Taxonomy	Annotation:T3	Referent:83334
+T3	Habitat 124 128	frog
+T4	Habitat 210 214	food
+T5	Bacteria 224 248	Escherichia coli O157:H7
+T6	Habitat 1005 1016	apple juice
+N1	OntoBiotope Annotation:T3 Referent:OBT:000921
+N2	OntoBiotope Annotation:T4 Referent:OBT:000003
+N3	NCBI_Taxonomy Annotation:T5 Referent:83334
+N4	OntoBiotope Annotation:T6 Referent:OBT:001750

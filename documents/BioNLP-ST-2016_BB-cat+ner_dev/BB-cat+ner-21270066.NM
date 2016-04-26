@@ -1,0 +1,4 @@
+Habitat	(263, 270, ((-20, 'OBT:002133'),))	Patients	(263, 271, ((-20, 'OBT:002216'), (-20, 'OBT:002294')))	Patients
+Habitat	(392, 398, ((-20, 'OBT:001801'),))	clinics	(347, 399, ((-20, 'OBT:002294'), (-20, 'OBT:002311'), (-20, 'OBT:002216')))	MSM attending sexually transmitted infection clinics
+Habitat	(578, 585, ((-20, 'OBT:002133'),))	patients	(565, 634, ((-20, 'OBT:002311'), (-20, 'OBT:002294'), (-20, 'OBT:002236')))	HIV-infected patients presenting with isolated perianal ulcer disease
+Habitat	(1131, 1135, ((-20, 'OBT:000538'),))	ulcer	(1113, 1144, ((-20, 'OBT:002294'), (-20, 'OBT:002236'), (-20, 'OBT:002311')))	MSM with perianal ulcer disease

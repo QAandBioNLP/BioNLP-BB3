@@ -1,0 +1,11 @@
+Habitat	(31, 40, ((-20, 'OBT:000316'),))	neutrophil	(31, 41, ((-20, 'OBT:002025'),))	neutrophil
+Habitat	(135, 140, ((-20, 'OBT:000257'),))	cattle	(135, 141, ((-20, 'OBT:002302'),))	cattle
+Habitat	(157, 160, ((-20, 'OBT:000257'),))	cows	(149, 161, ((-20, 'OBT:002312'),))	healthy cows
+Habitat	(163, 172, ((-20, 'OBT:000316'),))	neutrophil	(163, 173, ((-20, 'OBT:002025'),))	neutrophil
+Habitat	(403, 413, ((-20, 'OBT:000316'),))	neutrophils	(403, 414, ((-20, 'OBT:002025'),))	neutrophils
+Habitat	(519, 529, ((-20, 'OBT:000316'),))	neutrophils	(519, 530, ((-20, 'OBT:002025'),))	neutrophils
+Habitat	(635, 638, ((-20, 'OBT:000257'),))	cows	(635, 639, ((-20, 'OBT:002312'),))	cows
+Habitat	(685, 695, ((-20, 'OBT:000316'),))	neutrophils	(685, 696, ((-20, 'OBT:002025'),))	neutrophils
+Habitat	(1265, 1274, ((-20, 'OBT:000316'),))	neutrophil	(1265, 1275, ((-20, 'OBT:002025'),))	neutrophil
+Habitat	(1313, 1323, ((-20, 'OBT:000316'),))	neutrophils	(1313, 1324, ((-20, 'OBT:002025'),))	neutrophils
+Habitat	(1494, 1500, ((-20, 'OBT:000061'),))	animals	(1476, 1501, ((-20, 'OBT:002312'), (-20, 'OBT:000563')))	severely diseased animals

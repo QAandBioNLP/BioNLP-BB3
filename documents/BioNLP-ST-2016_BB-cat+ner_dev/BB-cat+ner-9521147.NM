@@ -1,2 +1,5 @@
 Bacteria	(41, 65, ((-2, '28450'),))	Burkholderia pseudomallei	(36, 66, ((-2, '95163'),))	Ara+ Burkholderia pseudomallei
 Bacteria	(272, 282, ((-2, '286'),))	Pseudomonas	(272, 297, ((-2, '28450'),))	Pseudomonas) pseudomallei
+Habitat	(766, 773, ((-20, 'OBT:002133'),))	patients	(756, 832, ((-20, 'OBT:000571'),))	sera from patients with different clinical spectra and with other infections
+Habitat	(1349, 1356, ((-20, 'OBT:002133'),))	patients	(1339, 1374, ((-20, 'OBT:000571'),))	sera from patients with melioidosis
+Habitat	(1391, 1395, ((-20, 'OBT:000257'),))	mouse	(1379, 1401, ((-20, 'OBT:000571'),))	hyperimmune mouse sera

@@ -1,16 +1,50 @@
-T3	Bacteria	53	63	Mycoplasma
-T4	Bacteria	476	496	Mycoplasma agassizii
-T5	Bacteria	501	523	Mycoplasma testudineum
-T6	Bacteria	640	652	M. agassizii
-T7	Bacteria	827	841	M. testudineum
-T8	Bacteria	1172	1186	M. testudineum
-T9	Bacteria	1329	1341	M. agassizii
-T10	Bacteria	1346	1360	M. testudineum
-N1	NCBI_Taxonomy	Annotation:T3	Referent:2093
-N2	NCBI_Taxonomy	Annotation:T4	Referent:33922
-N3	NCBI_Taxonomy	Annotation:T5	Referent:244584
-N4	NCBI_Taxonomy	Annotation:T6	Referent:33922
-N5	NCBI_Taxonomy	Annotation:T7	Referent:244584
-N6	NCBI_Taxonomy	Annotation:T8	Referent:244584
-N7	NCBI_Taxonomy	Annotation:T9	Referent:33922
-N8	NCBI_Taxonomy	Annotation:T10	Referent:244584
+T3	Habitat 17 40	upper respiratory tract
+T4	Bacteria 53 63	Mycoplasma
+T5	Habitat 87 96	tortoises
+T6	Habitat 98 117	Gopherus polyphemus
+T7	Habitat 145 168	Upper respiratory tract
+T8	Habitat 191 206	gopher tortoise
+T9	Habitat 208 227	Gopherus polyphemus
+T10	Habitat 412 420	tortoise
+T11	Bacteria 476 496	Mycoplasma agassizii
+T12	Bacteria 501 523	Mycoplasma testudineum
+T13	Habitat 586 594	tortoise
+T14	Bacteria 640 652	M. agassizii
+T15	Habitat 656 666	individual
+T16	Bacteria 827 841	M. testudineum
+T17	Habitat 925 934	tortoises
+T18	Habitat 1018 1027	tortoises
+T19	Habitat 1086 1095	tortoises
+T20	Habitat 1138 1147	tortoises
+T21	Bacteria 1172 1186	M. testudineum
+T22	Habitat 1274 1283	tortoises
+T23	Bacteria 1329 1341	M. agassizii
+T24	Bacteria 1346 1360	M. testudineum
+T25	Habitat 1406 1415	tortoises
+T26	Habitat 1643 1651	tortoise
+T27	Habitat 1732 1741	tortoises
+N1	OntoBiotope Annotation:T3 Referent:OBT:000261
+N2	NCBI_Taxonomy Annotation:T4 Referent:2093
+N3	OntoBiotope Annotation:T5 Referent:OBT:000257
+N4	OntoBiotope Annotation:T6 Referent:OBT:000257
+N5	OntoBiotope Annotation:T7 Referent:OBT:000261
+N6	OntoBiotope Annotation:T8 Referent:OBT:000257
+N7	OntoBiotope Annotation:T9 Referent:OBT:000257
+N8	OntoBiotope Annotation:T10 Referent:OBT:001351
+N9	NCBI_Taxonomy Annotation:T11 Referent:33922
+N10	NCBI_Taxonomy Annotation:T12 Referent:244584
+N11	OntoBiotope Annotation:T13 Referent:OBT:001351
+N12	NCBI_Taxonomy Annotation:T14 Referent:33922
+N13	OntoBiotope Annotation:T15 Referent:OBT:001804
+N14	NCBI_Taxonomy Annotation:T16 Referent:244584
+N15	OntoBiotope Annotation:T17 Referent:OBT:000257
+N16	OntoBiotope Annotation:T18 Referent:OBT:000257
+N17	OntoBiotope Annotation:T19 Referent:OBT:000257
+N18	OntoBiotope Annotation:T20 Referent:OBT:000257
+N19	NCBI_Taxonomy Annotation:T21 Referent:244584
+N20	OntoBiotope Annotation:T22 Referent:OBT:000257
+N21	NCBI_Taxonomy Annotation:T23 Referent:33922
+N22	NCBI_Taxonomy Annotation:T24 Referent:244584
+N23	OntoBiotope Annotation:T25 Referent:OBT:000257
+N24	OntoBiotope Annotation:T26 Referent:OBT:001351
+N25	OntoBiotope Annotation:T27 Referent:OBT:000257

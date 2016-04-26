@@ -1,20 +1,26 @@
-T3	Bacteria	0	21	Arhodomonas aquaeolei
-T4	Bacteria	112	133	Arhodomonas aquaeolei
-T5	Bacteria	677	688	Arhodomonas
-T6	Bacteria	766	780	Proteobacteria
-T7	Bacteria	851	863	A. aquaeolei
-T8	Bacteria	891	913	purple sulfur bacteria
-T9	Bacteria	926	944	Ectothiorhodospira
-T10	Bacteria	949	959	Chromatium
-T11	Bacteria	1261	1272	strain HA-1
-T12	Bacteria	1276	1286	ATCC 49307
-N1	NCBI_Taxonomy	Annotation:T3	Referent:2369
-N2	NCBI_Taxonomy	Annotation:T4	Referent:2369
-N3	NCBI_Taxonomy	Annotation:T5	Referent:2369
-N4	NCBI_Taxonomy	Annotation:T6	Referent:1224
-N5	NCBI_Taxonomy	Annotation:T7	Referent:2369
-N6	NCBI_Taxonomy	Annotation:T8	Referent:1046
-N7	NCBI_Taxonomy	Annotation:T9	Referent:1051
-N8	NCBI_Taxonomy	Annotation:T10	Referent:1047
-N9	NCBI_Taxonomy	Annotation:T11	Referent:2369
-N10	NCBI_Taxonomy	Annotation:T12	Referent:2369
+T3	Bacteria 0 21	Arhodomonas aquaeolei
+T4	Habitat 105 110	brine
+T5	Bacteria 112 133	Arhodomonas aquaeolei
+T6	Habitat 171 190	petroleum reservoir
+T7	Habitat 622 629	organic
+T8	Bacteria 677 688	Arhodomonas
+T9	Bacteria 766 780	Proteobacteria
+T10	Bacteria 851 863	A. aquaeolei
+T11	Bacteria 891 913	purple sulfur bacteria
+T12	Bacteria 926 944	Ectothiorhodospira
+T13	Bacteria 949 959	Chromatium
+T14	Bacteria 1261 1272	strain HA-1
+T15	Bacteria 1276 1286	ATCC 49307
+N1	NCBI_Taxonomy Annotation:T3 Referent:2369
+N2	OntoBiotope Annotation:T4 Referent:OBT:001920
+N3	NCBI_Taxonomy Annotation:T5 Referent:2369
+N4	OntoBiotope Annotation:T6 Referent:OBT:001243
+N5	OntoBiotope Annotation:T7 Referent:OBT:000096
+N6	NCBI_Taxonomy Annotation:T8 Referent:2369
+N7	NCBI_Taxonomy Annotation:T9 Referent:1224
+N8	NCBI_Taxonomy Annotation:T10 Referent:2369
+N9	NCBI_Taxonomy Annotation:T11 Referent:1046
+N10	NCBI_Taxonomy Annotation:T12 Referent:1051
+N11	NCBI_Taxonomy Annotation:T13 Referent:1047
+N12	NCBI_Taxonomy Annotation:T14 Referent:2369
+N13	NCBI_Taxonomy Annotation:T15 Referent:2369

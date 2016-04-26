@@ -1,16 +1,26 @@
-T6	Bacteria	119	138	Helicobacter pylori
-T7	Bacteria	140	148	H.pylori
-T8	Bacteria	206	214	H.pylori
-T9	Bacteria	470	478	H.pylori
-T10	Bacteria	741	749	H.pylori
-T11	Bacteria	936	944	H.pylori
-T12	Bacteria	1381	1389	H.pylori
-T13	Bacteria	1713	1721	H.pylori
-N1	NCBI_Taxonomy	Annotation:T6	Referent:210
-N2	NCBI_Taxonomy	Annotation:T7	Referent:210
-N3	NCBI_Taxonomy	Annotation:T8	Referent:210
-N4	NCBI_Taxonomy	Annotation:T9	Referent:210
-N5	NCBI_Taxonomy	Annotation:T10	Referent:210
-N6	NCBI_Taxonomy	Annotation:T11	Referent:210
-N7	NCBI_Taxonomy	Annotation:T12	Referent:210
-N8	NCBI_Taxonomy	Annotation:T13	Referent:210
+T6	Habitat 77 85	children
+T7	Bacteria 119 138	Helicobacter pylori
+T8	Bacteria 140 148	H.pylori
+T9	Bacteria 206 214	H.pylori
+T10	Habitat 228 236	children
+T11	Habitat 288 296	children
+T12	Bacteria 470 478	H.pylori
+T13	Habitat 513 521	patients
+T14	Bacteria 741 749	H.pylori
+T15	Habitat 815 823	children
+T16	Bacteria 936 944	H.pylori
+T17	Bacteria 1381 1389	H.pylori
+T18	Bacteria 1713 1721	H.pylori
+N1	OntoBiotope Annotation:T6 Referent:OBT:002146
+N2	NCBI_Taxonomy Annotation:T7 Referent:210
+N3	NCBI_Taxonomy Annotation:T8 Referent:210
+N4	NCBI_Taxonomy Annotation:T9 Referent:210
+N5	OntoBiotope Annotation:T10 Referent:OBT:002146
+N6	OntoBiotope Annotation:T11 Referent:OBT:002146
+N7	NCBI_Taxonomy Annotation:T12 Referent:210
+N8	OntoBiotope Annotation:T13 Referent:OBT:002133
+N9	NCBI_Taxonomy Annotation:T14 Referent:210
+N10	OntoBiotope Annotation:T15 Referent:OBT:002146
+N11	NCBI_Taxonomy Annotation:T16 Referent:210
+N12	NCBI_Taxonomy Annotation:T17 Referent:210
+N13	NCBI_Taxonomy Annotation:T18 Referent:210

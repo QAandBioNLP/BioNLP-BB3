@@ -1,23 +1,31 @@
-T3	Bacteria	38	59	Chlamydia trachomatis
-T4	Bacteria	64	75	C. psittaci
-T5	Bacteria	258	279	Chlamydia trachomatis
-T6	Bacteria	284	295	C. psittaci
-T7	Bacteria	413	427	C. trachomatis
-T8	Bacteria	478	489	C. psittaci
-T9	Bacteria	526	540	C. trachomatis
-T10	Bacteria	646	657	C. psittaci
-T11	Bacteria	688	702	C. trachomatis
-T12	Bacteria	1083	1094	C. psittaci
-T13	Bacteria	1188	1198	chlamydiae
-N1	NCBI_Taxonomy	Annotation:T3	Referent:813
-N2	NCBI_Taxonomy	Annotation:T4	Referent:83554
-N3	NCBI_Taxonomy	Annotation:T5	Referent:813
-N4	NCBI_Taxonomy	Annotation:T6	Referent:83554
-N5	NCBI_Taxonomy	Annotation:T7	Referent:813
-N6	NCBI_Taxonomy	Annotation:T8	Referent:83554
-N7	NCBI_Taxonomy	Annotation:T9	Referent:813
-N8	NCBI_Taxonomy	Annotation:T10	Referent:83554
-N9	NCBI_Taxonomy	Annotation:T11	Referent:813
-N10	NCBI_Taxonomy	Annotation:T12	Referent:83554
-N11	NCBI_Taxonomy	Annotation:T13	Referent:813
-N12	NCBI_Taxonomy	Annotation:T13	Referent:83554
+T3	Bacteria 38 59	Chlamydia trachomatis
+T4	Bacteria 64 75	C. psittaci
+T5	Habitat 140 144	host
+T6	Habitat 180 190	individual
+T7	Bacteria 258 279	Chlamydia trachomatis
+T8	Bacteria 284 295	C. psittaci
+T9	Bacteria 413 427	C. trachomatis
+T10	Bacteria 478 489	C. psittaci
+T11	Habitat 495 499	host
+T12	Bacteria 526 540	C. trachomatis
+T13	Bacteria 646 657	C. psittaci
+T14	Bacteria 688 702	C. trachomatis
+T15	Habitat 724 732	trachoma
+T16	Bacteria 1083 1094	C. psittaci
+T17	Bacteria 1188 1198	chlamydiae
+N1	NCBI_Taxonomy Annotation:T3 Referent:813
+N2	NCBI_Taxonomy Annotation:T4 Referent:83554
+N3	OntoBiotope Annotation:T5 Referent:OBT:000036
+N4	OntoBiotope Annotation:T6 Referent:OBT:001804
+N5	NCBI_Taxonomy Annotation:T7 Referent:813
+N6	NCBI_Taxonomy Annotation:T8 Referent:83554
+N7	NCBI_Taxonomy Annotation:T9 Referent:813
+N8	NCBI_Taxonomy Annotation:T10 Referent:83554
+N9	OntoBiotope Annotation:T11 Referent:OBT:000036
+N10	NCBI_Taxonomy Annotation:T12 Referent:813
+N11	NCBI_Taxonomy Annotation:T13 Referent:83554
+N12	NCBI_Taxonomy Annotation:T14 Referent:813
+N13	OntoBiotope Annotation:T15 Referent:OBT:000318
+N14	NCBI_Taxonomy Annotation:T16 Referent:83554
+N15	NCBI_Taxonomy Annotation:T17 Referent:813
+N16	NCBI_Taxonomy Annotation:T17 Referent:83554

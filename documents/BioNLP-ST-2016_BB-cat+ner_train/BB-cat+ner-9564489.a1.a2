@@ -1,2 +1,4 @@
-T2	Bacteria	35	57	Mycobacterium kansasii
-N1	NCBI_Taxonomy	Annotation:T2	Referent:1768
+T2	Bacteria 35 57	Mycobacterium kansasii
+T3	Habitat 63 70	patient
+N1	NCBI_Taxonomy Annotation:T2 Referent:1768
+N2	OntoBiotope Annotation:T3 Referent:OBT:002133
