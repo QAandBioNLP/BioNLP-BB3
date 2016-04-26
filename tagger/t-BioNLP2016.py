@@ -148,6 +148,19 @@ testcases_expansion = [
                 ['Pseudomonas fluorescens strain, TSS, spp, BLAH']
         ],
 
+        ['strain expansion does not catch things that look like protein names',
+                'from Listeria monocytogenes ActA protein interacts',
+                ['Listeria monocytogenes']
+        ],
+        ['strain expansion does not catch things that look like operons',
+                'from Listeria monocytogenes ActAB protein interacts',
+                ['Listeria monocytogenes']
+        ],
+        ['strain expansion is case insensitive',
+                'the nitrogen-fixing soil Anabaena sp. Strain L-31 exhibited significantly superior abilities',
+                ['Anabaena sp. Strain L-31']
+        ],
+
 
 # dictionary related
         ['gram positive should not be tagged',
@@ -244,6 +257,18 @@ testcases_acronyms = [
         ['acronyms not following strain is not expanded',
             'pertaining to the Three Letter Acronym (TLA) blah words something Staphylococcus aureus and vancomycin-resistant TLA lampposts',
             ['Staphylococcus aureus',]
+        ],
+        ['acronyms expand MRSA with strain exp',
+            'colonization with methicillin-resistant Staphylococcus aureus (MRSA) and vancomycin-resistant MRSA strain MOL42 words',
+            ['Staphylococcus aureus', 'MRSA', 'MRSA strain MOL42']
+        ],
+        ['acronyms expand MRSA with strain exp punc',
+            'colonization with methicillin-resistant Staphylococcus aureus (MRSA): and vancomycin-resistant MRSA strain MOL42 words',
+            ['Staphylococcus aureus', 'MRSA', 'MRSA strain MOL42']
+        ],
+        ['acronyms expand MRSA with strain exp not when acronym as tmesis',
+            'to enterohemorrhagic E. coli (EHEC) O157:H7 is much larger than in EHEC strain MOL42 words',
+            ['E. coli (EHEC) O157:H7', 'EHEC strain MOL42',]
         ],
 ]
 

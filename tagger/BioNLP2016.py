@@ -153,7 +153,7 @@ def expand_acronyms(results, document, tagger):
 
     acronym_regex=re.compile('^\s[(](.+)[)]') # anything one or more characters long inside brackets
     space_regex = re.compile('\s')
-    strain_regex = re.compile('^(species|sp\.?|subspecies|subsp\.?|ssp\.?|spp\.?|strain|str\.?|serotype|serovar|bv\.?|biovar|pv\.?|genomosp\.?|genomovar\.?|genosp\.?|cf\.?|clone|isolate|ATCC|type|var\.?)$')
+    strain_regex = re.compile('^(species|sp\.?|subspecies|subsp\.?|ssp\.?|spp\.?|strain|str\.?|serotype|serovar|bv\.?|biovar|pv\.?|genomosp\.?|genomovar\.?|genosp\.?|cf\.?|clone|isolate|ATCC|type|var\.?)$', re.IGNORECASE)
     acronym_name_regex = re.compile('^[A-Z][A-z0-9:\-_]+$') # exclude parens, percent
     punc = '!"#$%&\'\*\+,\-\./:;<=>\?@\[\\]^_`{|}~()' # TODO does not include unicode punctuation
     english_regex = re.compile('^[' + punc + ']*[A-z][a-z' + punc + ']*[' + punc + ']*$')
@@ -204,19 +204,131 @@ def expand_acronyms(results, document, tagger):
             start, end = m.span()
             if start > position: # only allow acronym after its definition
                 this = (start+1, end-2, entitylist)
+                if is_bacteria(this):
+                    # check to see if there is anything that looks like a strain after the acronym match that it could be extended to
+                    max_extend = 20
+                    extended = document[end:end+1+max_extend]
+                    words = space_regex.split(extended)
+                    ext_result, newend = expand_strain_words(words, end-2)
+                    ok = True
+                    if ext_result:
+                        for r in ext_result:
+                            if r == '':
+                                ok = False # this is dumb
+                        if ok:
+                            this = (start+1, newend, entitylist)
+
                 expanded_results = insert_in_order(expanded_results, this)
 
     return expanded_results
         
+def expand_strain_words(words, end):
+    sppunc = ':;!?).,-'
+    strain_regex = re.compile('^(species|sp\.?|subspecies|subsp\.?|ssp\.?|spp\.?|strain|str\.?|serotype|serovar|bv\.?|biovar|pv\.?|genomosp\.?|genomovar\.?|genosp\.?|cf\.?|clone|isolate|ATCC|type|var\.?)[' + sppunc + ']?$', re.IGNORECASE)
+    space_regex = re.compile('\s')
+    punc = '!"#$%&\'\*\+,\-\./:;<=>\?@\[\\]^_`{|}~()' # TODO does not include unicode punctuation
+    punc_space_regex = re.compile('^[' + punc + ']+[\s]+.*$')
+    protein_regex = re.compile('^[A-Z][a-z][a-z][A-Z]+$')
+
+    english_restricted_regex = re.compile('^[' + punc + ']*[a-z][a-z' + punc + ']*[' + punc + ']*$')
+    english_regex = re.compile('^[' + punc + ']*[A-z][a-z' + punc + ']*[' + punc + ']*$')
+    stop_perc_regex = re.compile('%')
+    stop_conc_regex = re.compile('(g/)|(/m)|(/l)|(cfu/)|(CFU/)')
+    stop_parens_regex = re.compile('[()]') # acronyms will be caught by acronym expansion
+    acronym_regex=re.compile('[(](.+)[)]') # anything one or more characters long inside brackets
+
+    ext_result = []
+    newend = end
+    in_sp = False
+    count_words = 0
+    sp_tmp = ""
+    sp_orig = 0 # number of spaces due to punctuation
+    # strain names may be multiple words long, but are never allowed to contain english words
+
+    for word in words:
+        orig_word = word
+
+        # is the word a strain separator like sp. ?
+        sp = strain_regex.search(word)
+        if sp:
+            in_sp = True
+            word = word.rstrip(',')
+            word = word.rstrip(':')
+            word = word.rstrip(';')
+            word = word.rstrip('!')
+            word = word.rstrip('?')
+            word = word.rstrip(')')
+            word = word.rstrip('-')
+            sp_tmp = word
+            if word != orig_word:
+                sp_orig += len(orig_word) - len(word)
+        else:
+
+            # do not allow anything that looks like a concentration in percentage or mg/kg etc
+            perc = stop_perc_regex.search(word)
+            conc = stop_conc_regex.search(word)
+            parens = stop_parens_regex.search(word)
+            if perc or conc or parens:
+                break
+
+            # if the word is now empty, skip it
+            if not word:
+                continue
+            
+            if in_sp and sp_tmp == "type":
+                wd = english_restricted_regex.search(word)
+            else:
+                wd = english_regex.search(word)
+            prot = protein_regex.search(word)
+            if not wd and not prot:
+                    # then it can be a strain name
+                    if in_sp:
+                        ext_result.append(sp_tmp)
+                        newend += len(sp_tmp) + 1 + sp_orig # plus one for the space 
+                        sp_tmp = ""
+                        in_sp = False
+                    if word:
+                        if acronym_regex.search(word): # must not be an acronym to be included in the name
+                            continue
+                        #strip any puncutuation off the RHS of the strain match
+                        orig_word = orig_word.rstrip(".")
+                        orig_word = orig_word.rstrip(",")
+                        orig_word = orig_word.rstrip(":")
+                        orig_word = orig_word.rstrip(";")
+                        orig_word = orig_word.rstrip("!")
+                        orig_word = orig_word.rstrip("?")
+                        orig_word = orig_word.rstrip(")")
+                        orig_word = orig_word.rstrip("-")
+                        ext_result.append(orig_word)
+                        newend += len(orig_word) + 1
+            else:
+                # done looking for a strain name
+                if in_sp:
+                    # only add the strain separator "species" if something follows it, else ignore it
+                    if sp_tmp == "species" or sp_tmp == "strain":
+                        sp_tmp = ""
+                        in_sp = False
+                    else:
+                        ext_result.append(sp_tmp)
+                        newend += len(sp_tmp) + 1  # plus one for the space 
+                        sp_tmp = ""
+                        in_sp = False
+
+                break
+
+    return ext_result, newend
+
+
 def expand_strain(results, document):
     max_extend = 60 # constant to determine the max number of characters following an organism match that might be part of the strain name
     expanded_results = []
 
     sppunc = ':;!?).,-'
-    strain_regex = re.compile('^(species|sp\.?|subspecies|subsp\.?|ssp\.?|spp\.?|strain|str\.?|serotype|serovar|bv\.?|biovar|pv\.?|genomosp\.?|genomovar\.?|genosp\.?|cf\.?|clone|isolate|ATCC|type|var\.?)[' + sppunc + ']?$')
+    strain_regex = re.compile('^(species|sp\.?|subspecies|subsp\.?|ssp\.?|spp\.?|strain|str\.?|serotype|serovar|bv\.?|biovar|pv\.?|genomosp\.?|genomovar\.?|genosp\.?|cf\.?|clone|isolate|ATCC|type|var\.?)[' + sppunc + ']?$', re.IGNORECASE)
     space_regex = re.compile('\s')
     punc = '!"#$%&\'\*\+,\-\./:;<=>\?@\[\\]^_`{|}~()' # TODO does not include unicode punctuation
     punc_space_regex = re.compile('^[' + punc + ']+[\s]+.*$')
+    protein_regex = re.compile('^[A-Z][a-z][a-z][A-Z]+$')
 
     english_restricted_regex = re.compile('^[' + punc + ']*[a-z][a-z' + punc + ']*[' + punc + ']*$')
     english_regex = re.compile('^[' + punc + ']*[A-z][a-z' + punc + ']*[' + punc + ']*$')
@@ -242,88 +354,13 @@ def expand_strain(results, document):
         # store the new expanded result
         #species = document[start:end+1]
         species = get_name(result, document)
-        ext_result = [species]
 
         # look at the text following the match to see if it contains a strain name
         extended = document[end+1+1:end+1+max_extend] # skip the space (or dash or whatever) on the LHS, take what might contain a strain on the RHS
-        newend = end
         words = space_regex.split(extended)
-        in_sp = False
-        count_words = 0
-        sp_tmp = ""
-        sp_orig = 0 # number of spaces due to punctuation
-        # strain names may be multiple words long, but are never allowed to contain english words
-        for word in words:
-            orig_word = word
-
-            # is the word a strain separator like sp. ?
-            sp = strain_regex.search(word)
-            if sp:
-                in_sp = True
-                word = word.rstrip(',')
-                word = word.rstrip(':')
-                word = word.rstrip(';')
-                word = word.rstrip('!')
-                word = word.rstrip('?')
-                word = word.rstrip(')')
-                word = word.rstrip('-')
-                sp_tmp = word
-                if word != orig_word:
-                    sp_orig += len(orig_word) - len(word)
-            else:
-
-                # do not allow anything that looks like a concentration in percentage or mg/kg etc
-                perc = stop_perc_regex.search(word)
-                conc = stop_conc_regex.search(word)
-                parens = stop_parens_regex.search(word)
-                if perc or conc or parens:
-                    break
-
-                # if the word is now empty, skip it
-                if not word:
-                    continue
-                
-                if in_sp and sp_tmp == "type":
-                    wd = english_restricted_regex.search(word)
-                else:
-                    wd = english_regex.search(word)
-                if not wd:
-                    # then it can be a strain name
-                    if in_sp:
-                        ext_result.append(sp_tmp)
-                        newend += len(sp_tmp) + 1 + sp_orig # plus one for the space 
-                        sp_tmp = ""
-                        in_sp = False
-                    if word:
-                        if acronym_regex.search(word): # must not be an acronym to be included in the name
-                            continue
-                        #strip any puncutuation off the RHS of the strain match
-                        orig_word = orig_word.rstrip(".")
-                        orig_word = orig_word.rstrip(",")
-                        orig_word = orig_word.rstrip(":")
-                        orig_word = orig_word.rstrip(";")
-                        orig_word = orig_word.rstrip("!")
-                        orig_word = orig_word.rstrip("?")
-                        orig_word = orig_word.rstrip(")")
-                        orig_word = orig_word.rstrip("-")
-                        ext_result.append(orig_word)
-                        newend += len(orig_word) + 1
-                else:
-                    # done looking for a strain name
-                    if in_sp:
-                        # only add the strain separator "species" if something follows it, else ignore it
-                        if sp_tmp == "species" or sp_tmp == "strain":
-                            sp_tmp = ""
-                            in_sp = False
-                        else:
-                            ext_result.append(sp_tmp)
-                            newend += len(sp_tmp) + 1  # plus one for the space 
-                            sp_tmp = ""
-                            in_sp = False
-
-                    break
+        ext_result, newend = expand_strain_words(words, end)
     
-        out = " ".join(ext_result)
+        out = " ".join([species] + ext_result)
 
         newresult = (start, newend, entitylist)
         expanded_results.append(newresult)
@@ -373,11 +410,11 @@ def print_results(results, document, inputfile, tindex):
         if is_bacteria(result):
             entity_type = "Bacteria"
             name = get_name(result, document)
-            text += "T" + str(text_index) + "\t" + entity_type + "\t" + str(start) + "\t" + str(end + 1) + "\t" + name.encode('utf8') + "\n"
+            text += "T" + str(text_index) + "\t" + entity_type + " " + str(start) + " " + str(end + 1) + "\t" + name.encode('utf8') + "\n"
         else:
             entity_type = "Habitat"
             name = get_name(result, document)
-            text += "T" + str(text_index) + "\t" + entity_type + "\t" + str(start) + "\t" + str(end + 1) + "\t" + name.encode('utf8') + "\n"
+            text += "T" + str(text_index) + "\t" + entity_type + " " + str(start) + " " + str(end + 1) + "\t" + name.encode('utf8') + "\n"
     
         for entity in entitylist:
             norm_type = "OntoBiotope"
@@ -385,7 +422,7 @@ def print_results(results, document, inputfile, tindex):
             if entity_type == -2:
                 norm_type = "NCBI_Taxonomy"
     
-            norm += "N" + str(norm_index) + "\t" + norm_type + "\t" + "Annotation:T" + str(text_index) + "\t" + "Referent:" + str(entity_id) + "\n"
+            norm += "N" + str(norm_index) + "\t" + norm_type + " " + "Annotation:T" + str(text_index) + " " + "Referent:" + str(entity_id) + "\n"
             norm_index += 1
     
         text_index += 1
@@ -404,7 +441,7 @@ def include_dots(results, document):
         start, end, entitylist = result
         name = get_name(result, document)
         last = name.split(" ")[-1]
-        strain_regex = re.compile('^(sp|subsp|ssp|spp|str|bv|pv|genomosp|genomovar|genosp|cf|var)$')
+        strain_regex = re.compile('^(sp|subsp|ssp|spp|str|bv|pv|genomosp|genomovar|genosp|cf|var)$', re.IGNORECASE)
         sp = strain_regex.search(last)
         if sp:
             if document[int(end)+1:int(end)+2] == ".":
@@ -448,6 +485,8 @@ def entity_in_array(entity, array):
 
 def resolve_general_norm(results, groups, genus):
     # for each term, if it is a more general instance of a specific term that has been mentioned previously, then resolve to the specific term instead
+    if groups == []:
+        return results
     resolved = []
     seen = {}
     for result in results:
@@ -516,6 +555,7 @@ def evaluate_results_h(results, annotated, ip='', document='', ignore_normalizat
                         habitat_overlap = 0
                         habitat_FN = 0
                         habitat_FP = 0
+                        habitat_NM = 0
 
                         while idx_tag < len(results) and idx_ann < len(annotated):
                             start, end, entity = results[idx_tag]
@@ -529,7 +569,7 @@ def evaluate_results_h(results, annotated, ip='', document='', ignore_normalizat
                             #print "looking at " + str(results[idx_tag])
                             #print " annotaion " + str(annotated[idx_ann])
 
-                            include_habitat = False
+                            include_habitat = True
                             if not include_habitat:
                                 if not is_bacteria(results[idx_tag]):
                                     idx_tag += 1
@@ -548,21 +588,19 @@ def evaluate_results_h(results, annotated, ip='', document='', ignore_normalizat
                                     else:
                                         entity_type = "Habitat"
                                         habitat_TP += 1
+                                        TP.write(entity_type + "\t" + str(start) + "\t" + str(end ) + "\t" + name.encode('utf8') + "\n")
                                 else:
                                     if is_bacteria(results[idx_tag]):
                                         #coords match but normalized wrong bacteria
                                         entity_type = "Bacteria"
-                                        #bacteria_FP += 1
-                                        #bacteria_FN += 1
-					bacteria_NM += 1
-                                        #FP.write(entity_type + "\t" + str(start) + "\t" + str(end ) + "\t" + name.encode('utf8') + "\n")
-                                        #FN.write(entity_type + "\t" + str(an_start) + "\t" + str(an_end) + "\t" + an_name.encode('utf8') + "\n")
+                                        bacteria_NM += 1
                                         NM.write(entity_type + "\t" + str(results[idx_tag]) + "\t" + name.encode('utf8') + "\t" + str(annotated[idx_ann]) + "\t" + an_name.encode('utf8') + "\n")
                                     else:
                                         #coords match but normalized wrong habitat
                                         entity_type = "Habitat"
                                         habitat_FP += 1
                                         habitat_FN += 1
+                                        NM.write(entity_type + "\t" + str(results[idx_tag]) + "\t" + name.encode('utf8') + "\t" + str(annotated[idx_ann]) + "\t" + an_name.encode('utf8') + "\n")
                                 idx_tag += 1
                                 idx_ann += 1
                             elif coords_overlap(start, end, an_start, an_end):
@@ -576,20 +614,19 @@ def evaluate_results_h(results, annotated, ip='', document='', ignore_normalizat
                                     else:
                                         entity_type = "Habitat"
                                         habitat_overlap += 1
+                                        OL.write("actual: " + entity_type + "\t" + str(start) + "\t" + str(end ) + "\t" + name.encode('utf8') + "\n")
+                                        OL.write("expect: " + entity_type + "\t" + str(an_start) + "\t" + str(an_end ) + "\t" + an_name.encode('utf8') + "\n")
                                 else:
                                     #coords overlap but normalized don't match
                                     if is_bacteria(results[idx_tag]):
                                         entity_type = "Bacteria"
-                                        #bacteria_FP += 1
-                                        #bacteria_FN += 1
                                         bacteria_NM += 1
-                                        #FP.write(entity_type + "\t" + str(start) + "\t" + str(end ) + "\t" + name.encode('utf8') + "\n")
-                                        #FN.write(entity_type + "\t" + str(an_start) + "\t" + str(an_end) + "\t" + an_name.encode('utf8') + "\n")
                                         NM.write(entity_type + "\t" + str(results[idx_tag]) + "\t" + name.encode('utf8') + "\t" + str(annotated[idx_ann]) + "\t" + an_name.encode('utf8') + "\n")
                                     else:
                                         entity_type = "Habitat"
                                         habitat_FP += 1
                                         habitat_FN += 1
+                                        NM.write(entity_type + "\t" + str(results[idx_tag]) + "\t" + name.encode('utf8') + "\t" + str(annotated[idx_ann]) + "\t" + an_name.encode('utf8') + "\n")
                                 idx_tag += 1
                                 idx_ann += 1
                             else:
@@ -603,6 +640,7 @@ def evaluate_results_h(results, annotated, ip='', document='', ignore_normalizat
                                     else:
                                         entity_type = "Habitat"
                                         habitat_FN += 1
+                                        FN.write(entity_type + "\t" + str(an_start) + "\t" + str(an_end) + "\t" + an_name.encode('utf8') + "\n")
                                     idx_ann += 1
                                 elif an_start > start:
                                     # tagger tagged something not in the annotated file
@@ -613,6 +651,7 @@ def evaluate_results_h(results, annotated, ip='', document='', ignore_normalizat
                                     else:
                                         entity_type = "Habitat"
                                         habitat_FP += 1
+                                        FP.write(entity_type + "\t" + str(start) + "\t" + str(end ) + "\t" + name.encode('utf8') + "\n")
                                     idx_tag += 1
                                 else:
                                     print "Warning: this should not happen."
@@ -630,6 +669,7 @@ def evaluate_results_h(results, annotated, ip='', document='', ignore_normalizat
                             else:
                                 entity_type = "Habitat"
                                 habitat_FP += 1
+                                FP.write(entity_type + "\t" + str(start) + "\t" + str(end ) + "\t" + name.encode('utf8') + "\n")
                             idx_tag += 1
 
                         while idx_ann < (len(annotated)):
@@ -642,6 +682,7 @@ def evaluate_results_h(results, annotated, ip='', document='', ignore_normalizat
                             else:
                                 entity_type = "Habitat"
                                 habitat_FN += 1
+                                FN.write(entity_type + "\t" + str(an_start) + "\t" + str(an_end) + "\t" + an_name.encode('utf8') + "\n")
                             idx_ann += 1
 
 
@@ -679,7 +720,7 @@ def print_eval(results):
     print "\tprecision: " + str((bacteria_TP) / float(bacteria_TP + bacteria_overlap + bacteria_FP))
     print "\tsensitivity: " + str((bacteria_TP) / float(bacteria_TP + bacteria_overlap + bacteria_FN))
 
-    include_habitat = False
+    include_habitat = True
     if include_habitat:
         print "Habitat eval"
         print "\tTP: " + str(habitat_TP)
@@ -767,7 +808,6 @@ def run_bionlp(mytagger, document, document_id, allow_overlap, groups, genus):
     entity_types = []
     results = mytagger.get_matches(string_to_bytes(document), str(document_id), entity_types, allow_overlap=allow_overlap)
 
-
     # run the tagger again with all things in brackets replaced with spaces
     parens_document = replace_parens(document)
     p_results = mytagger.get_matches(string_to_bytes(parens_document), str(document_id), entity_types, allow_overlap=allow_overlap)
@@ -780,6 +820,7 @@ def run_bionlp(mytagger, document, document_id, allow_overlap, groups, genus):
     results = include_dots(u_span_results, u_document) # if the tagger returns sp without . and the next char is a . then include it
     results = resolve_normalization(results) # if the tagger returns two normalizations, pick one
     results = resolve_general_norm(results, groups, genus) # if a general term is later refered to by a specific term, normalize to the specific term only if it is on the list of taxids under genus
+
     expanded_results = expand_strain(results, u_document)
     expanded_results = expand_acronyms(expanded_results, u_document, mytagger)
     return expanded_results, u_document
@@ -819,15 +860,15 @@ def main():
                 dest='bacteria_genus',
                 help="all taxids under bacteria genera")
     parser.add_argument('-a', '--habitat_entities',
-                required=False,
+                required=True,
                 dest='habitat_entities',
                 help="habitat entities list")
     parser.add_argument('-o', '--habitat_names',
-                required=False,
+                required=True,
                 dest='habitat_names',
                 help="habitat names dictionary")
     parser.add_argument('-s', '--habitat_global',
-                required=False,
+                required=True,
                 dest='habitat_stopwords',
                 help="habitat stopword dictionary")
     parser.add_argument('-u', '--evaluate',
@@ -840,7 +881,7 @@ def main():
     
     
     document_id = 1
-    habitat = False
+    habitat = True
 
     if args.inputfile and args.bacteria_entities and args.bacteria_names and args.bacteria_stopwords:
         # start a tagger for bacteria
@@ -862,7 +903,9 @@ def main():
 
             if habitat:
                 allow_overlap = True
-                habitat_expanded_results, habitat_u_document = run_bionlp(habitat_tagger, document, document_id, allow_overlap)
+                habitat_groups = []
+                habitat_genus = []
+                habitat_expanded_results, habitat_u_document = run_bionlp(habitat_tagger, document, document_id, allow_overlap, habitat_groups, habitat_genus)
 
                 if habitat_u_document != bacteria_u_document:
                     print "Warning: documents returned are not identical"
