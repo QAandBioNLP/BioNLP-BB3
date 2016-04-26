@@ -25,24 +25,24 @@ Dictionaries and output distributed under CC-BY 4.0.
 
 This distribution contains the following files:
 
-tagger/BioNLP2016.py -- Python wrapper which is the main executable for the contest.  Reads contest formatted txt files, and writes .a1 and .a2 files.
-tagger/t-BioNLP2016.py -- Small test suite for the Python code
-tagger/tagger.py -- Swig-based library to interface with the C++ tagger
-tagger/tagger_swig.i
-tagger/chkcoord.py -- Small script to verify that the coordinates of manual annotated a1 files give the correct strings when referenced against the .txt input
-tagger/__init__.py
-tagger/tagger.cxx -- C++ tagger
-tagger/tagger_core.h
-tagger/acronyms.h
-tagger/tagger.h
-tagger/tokens.h
-tagger/tagger_types.h
-tagger/hash.h
-tagger/file.h
-tagger/tightvector.h
-tagger/Makefile
-tagger/LICENSE
-README -- this file
+* tagger/BioNLP2016.py -- Python wrapper which is the main executable for the contest.  Reads contest formatted txt files, and writes .a1 and .a2 files.
+* tagger/t-BioNLP2016.py -- Small test suite for the Python code
+* tagger/tagger.py -- Swig-based library to interface with the C++ tagger
+* tagger/tagger_swig.i
+* tagger/chkcoord.py -- Small script to verify that the coordinates of manual annotated a1 files give the correct strings when referenced against the .txt input
+* tagger/__init__.py
+* tagger/tagger.cxx -- C++ tagger
+* tagger/tagger_core.h
+* tagger/acronyms.h
+* tagger/tagger.h
+* tagger/tokens.h
+* tagger/tagger_types.h
+* tagger/hash.h
+* tagger/file.h
+* tagger/tightvector.h
+* tagger/Makefile
+* tagger/LICENSE
+* README -- this file
 
 
 
@@ -57,27 +57,32 @@ and extract them into the documents directory.
 
 A dictionary is provided for bacteria.  
 
-dict/bacteria_names.tsv
-dict/bacteria_entities.tsv
-dict/bacteria_stopwords.tsv
-dict/bacteria_groups.tsv
-dict/bacteria_genus
+* dict/bacteria_names.tsv
+* dict/bacteria_entities.tsv
+* dict/bacteria_stopwords.tsv
+* dict/bacteria_groups.tsv
+* dict/bacteria_genus
+
+A dictionary is now also provided for habitats.  
+
+* dict/habitat_names.tsv
+* dict/habitat_entities.tsv
+* dict/habitat_stopwords.tsv
+
+All the dictionary files are shipped gzipped.
 
 
 ## Output
 
 Under documents, this distribution also contains the precalculated output files for BioNLP BB3 Entity categorization training and dev sets.
 
-documents/*/*.a1.a2 predicted output
+* documents/*/*.a1.a2 predicted output
 
-documents/*/*.FN False negatives, according to manual annotations
-documents/*/*.FP False positives
-documents/*/*.OL Overlaps -- these would be true positives if the boundaries didn't matter, otherwise each counts as one false negative and one false positive
-documents/*/*.NM Normalization errors -- these would be true positives if the normalization didn't matter, otherwise each counts as one false negative and one false positive
-documents/*/*.TP True positives
-
-documents/BioNLP-ST-2016_BB-cat+ner_train/EVAL_train -- summary of performance on the training set
-documents/BioNLP-ST-2016_BB-cat+ner_dev/EVAL_dev -- summary of performance on the dev set
+* documents/*/*.FN False negatives, according to manual annotations
+* documents/*/*.FP False positives
+* documents/*/*.OL Overlaps -- these would be true positives if the boundaries didn't matter, otherwise each counts as one false negative and one false positive
+* documents/*/*.NM Normalization errors -- these would be true positives if the normalization didn't matter, otherwise each counts as one false negative and one false positive
+* documents/*/*.TP True positives
 
 
 ## Install 
@@ -93,7 +98,7 @@ This code is known not to not compile out of the box on Mac OS X, but it is rumo
 
 Run the tagger on a directory of files:
 
-python tagger/BioNLP2016.py -f documents/BioNLP-ST-2016_BB-cat+ner_train/*.a1 -e dict/bacteria_entities.tsv -n dict/bacteria_names.tsv -g dict/bacteria_stopwords.tsv -r dict/bacteria_groups.tsv -b dict/bacteria_genus -u > documents/BioNLP-ST-2016_BB-cat+ner_train/EVAL_train
+python tagger/BioNLP2016.py -f documents/BioNLP-ST-2016_BB-cat+ner_dev/*.a1 -e dict/bacteria_entities.tsv -n dict/bacteria_names.tsv -g dict/bacteria_stopwords.tsv -r dict/bacteria_groups.tsv -b dict/bacteria_genus -u -a dict/habitat_entities.tsv -o dict/habitat_names.tsv -s dict/habitat_global.tsv
 
 This will write the output files described above.
 
@@ -104,5 +109,5 @@ Run the test suite:
 
 python tagger/t-BioNLP2016.py
 
-All tests are expected to pass.
+All 84 tests are expected to pass.
 
