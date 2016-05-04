@@ -1,0 +1,147 @@
+OBT:001902	fish	Hyperotreti	-2	117565
+OBT:001902	fish	Hyperoartia	-2	117569
+OBT:001902	fish	Coelacanthimorpha	-2	118072
+OBT:000628	reptile	Crocodylia	-2	1294634
+OBT:001922	algae	Chlorokybophyceae	-2	131213
+OBT:001922	algae	Klebsormidiophyceae	-2	131220
+OBT:001922	algae	Rhodophyta	-2	2763
+OBT:001922	algae	Chrysophyceae	-2	2825
+OBT:001922	algae	Haptophyceae	-2	2830
+OBT:001922	algae	Xanthophyceae	-2	2833
+OBT:001922	algae	Dinophyceae	-2	2864
+OBT:001922	algae	Phaeophyceae	-2	2870
+OBT:001922	algae	Chlorarachniophyceae	-2	29197
+OBT:001922	algae	Cryptophyta	-2	3027
+OBT:001922	algae	Euglenida	-2	3035
+OBT:001922	algae	Chlorophyta	-2	3041
+OBT:001922	algae	Coleochaetophyceae	-2	304573
+OBT:001922	algae	Charophyceae	-2	304574
+OBT:001138	conifer	Coniferophyta	-2	3312
+OBT:000218	animal	Metazoa	-2	33208
+OBT:000722	crucifer	Brassicaceae	-2	3700
+OBT:001922	algae	Glaucocystophyceae	-2	38254
+OBT:001922	algae	Raphidophyceae	-2	38410
+OBT:001922	algae	Dictyochophyceae	-2	39119
+OBT:001295	mammalian	Mammalia	-2	40674
+OBT:001922	algae	Eustigmatophyceae	-2	5747
+OBT:000372	sponge	Porifera	-2	6040
+OBT:000612	nematode	Nematoda	-2	6231
+OBT:000903	mollusc	Mollusca	-2	6447
+OBT:002021	cephalopod	Cephalopoda	-2	6605
+OBT:000517	arthropod	Arthropoda	-2	6656
+OBT:000888	crustacean	Crustacea	-2	6657
+OBT:000887	arachnid	Arachnida	-2	6854
+OBT:000874	insect	Hexapoda	-2	6960
+OBT:000257	vertebrate	Vertebrata	-2	7742
+OBT:001902	fish	Chondrichthyes	-2	7777
+OBT:001902	fish	Dipnoi	-2	7878
+OBT:001902	fish	Actinopterygii	-2	7898
+OBT:001922	algae	Phaeothamniophyceae	-2	82162
+OBT:000628	reptile	Testudines	-2	8459
+OBT:000628	reptile	Lepidosauria	-2	8504
+OBT:001181	bird	Aves	-2	8782
+OBT:001922	algae	Mesostigmatophyceae	-2	96475
+OBT:001565	rodent	Rodentia	-2	9989
+OBT:000318	terrestrial plant	Embryophyta	-2	3193
+OBT:000036	eukaryote host	Eukaryota	-2	2759
+OBT:001922	algae	PX clade	-2	569578
+OBT:000154	fungi	fungi	-2	4751
+OBT:000373	Glomus vesiculiferum	Glomus vesiculiferum	-2	29921
+OBT:000388	amoebas	amoebas	-2	5774
+OBT:000612	nematode	nematode	-2	6231
+OBT:000674	pea family	pea family	-2	3803
+OBT:000737	Tasmanian devil	Tasmanian devil	-2	9305
+OBT:000739	leopard	leopard	-2	9691
+OBT:000744	lynx	lynx	-2	13124
+OBT:000746	midge	midge	-2	7154
+OBT:000754	panda	panda	-2	212257
+OBT:000789	Asteraceae	Asteraceae	-2	4210
+OBT:000991	potato	potato	-2	4113
+OBT:001003	pupa	pupa	-2	96459
+OBT:001007	elkhorn coral	elkhorn coral	-2	6131
+OBT:001041	bee	bee	-2	34735
+OBT:001135	tea tree	tea tree	-2	164405
+OBT:001140	Brassica	Brassica	-2	3705
+OBT:001147	Arabidopsis	Arabidopsis	-2	3701
+OBT:001164	Achillea millefolium	Achillea millefolium	-2	13329
+OBT:001165	Osmitopsis asteriscoides	Osmitopsis asteriscoides	-2	379267
+OBT:001179	Allium	Allium	-2	4678
+OBT:001239	sugar-beet	sugar-beet	-2	3555
+OBT:001317	smooth cord grass	smooth cord grass	-2	29706
+OBT:001481	honey bee	honey bee	-2	7460
+OBT:001514	fruit fly	fruit fly	-2	7215
+OBT:001527	apple tree	apple tree	-2	3750
+OBT:001539	Arabidopsis thaliana	Arabidopsis thaliana	-2	3702
+OBT:001542	Aeschynomene indica	Aeschynomene indica	-2	48135
+OBT:001565	rodent	rodent	-2	9989
+OBT:001654	lobster	lobster	-2	6693
+OBT:001658	ferret	ferret	-2	9669
+OBT:001747	primate	primate	-2	9443
+OBT:001749	yeast	yeast	-2	4932
+OBT:001768	murine	murine	-2	10090
+OBT:001770	Ornithodoros moubata	Ornithodoros moubata	-2	6938
+OBT:001772	human louse	human louse	-2	121225
+OBT:001773	rabbit	rabbit	-2	9986
+OBT:001778	kangaroo	kangaroo	-2	9322
+OBT:001798	Drosophila melanogaster	Drosophila melanogaster	-2	7227
+OBT:001800	waterfowl	waterfowl	-2	8830
+OBT:001804	human	human	-2	9606
+OBT:001849	deer tick	deer tick	-2	6945
+OBT:001855	guinea pig	guinea pig	-2	10141
+OBT:001859	sugar cane	sugar cane	-2	128810
+OBT:001859	sugar cane	sugar cane	-2	4547
+OBT:001865	mouse	mouse	-2	10088
+OBT:001866	rat	rat	-2	10116
+OBT:001875	human body louse	human body louse	-2	121224
+OBT:001890	brown dog tick	brown dog tick	-2	34632
+OBT:001891	Brugia malayi	Brugia malayi	-2	6279
+OBT:001903	human head louse	human head louse	-2	121226
+OBT:001965	Damselfish	Damselfish	-2	91607
+OBT:002005	catfish	catfish	-2	71179
+OBT:002072	dog	dog	-2	9615
+OBT:002085	garden lettuce	garden lettuce	-2	4236
+OBT:002099	monkey	monkey	-2	9479
+OBT:002099	monkey	monkey	-2	9527
+OBT:002101	tsetse fly	tsetse fly	-2	1658668
+OBT:002101	tsetse fly	tsetse fly	-2	37001
+OBT:002101	tsetse fly	tsetse fly	-2	37002
+OBT:002101	tsetse fly	tsetse fly	-2	515523
+OBT:002101	tsetse fly	tsetse fly	-2	515524
+OBT:002101	tsetse fly	tsetse fly	-2	66280
+OBT:002101	tsetse fly	tsetse fly	-2	66294
+OBT:002101	tsetse fly	tsetse fly	-2	691747
+OBT:002101	tsetse fly	tsetse fly	-2	7393
+OBT:002101	tsetse fly	tsetse fly	-2	7394
+OBT:002101	tsetse fly	tsetse fly	-2	7395
+OBT:002101	tsetse fly	tsetse fly	-2	7396
+OBT:002101	tsetse fly	tsetse fly	-2	7397
+OBT:002101	tsetse fly	tsetse fly	-2	7398
+OBT:002105	garlic	garlic	-2	4682
+OBT:002107	onion	onion	-2	4679
+OBT:002112	Euprymna scolopes	Euprymna scolopes	-2	6613
+OBT:002116	donkey	donkey	-2	9793
+OBT:002127	deer	deer	-2	9850
+OBT:002139	laboratory rat	laboratory rat	-2	10116
+OBT:002143	Glossina	Glossina	-2	44049
+OBT:002143	Glossina	Glossina	-2	7393
+OBT:002156	red deer	red deer	-2	9860
+OBT:002162	soybean	soybean	-2	3847
+OBT:002164	Medicago	Medicago	-2	3877
+OBT:002169	mung bean	mung bean	-2	157791
+OBT:002169	mung bean	mung bean	-2	3916
+OBT:002181	cabbage	cabbage	-2	3716
+OBT:002184	fenugreek	fenugreek	-2	78534
+OBT:002200	duck	duck	-2	8839
+OBT:002208	goose	goose	-2	8847
+OBT:002209	turkey	turkey	-2	9103
+OBT:002219	Alfalfa	Alfalfa	-2	3879
+OBT:002223	swine	swine	-2	9823
+OBT:002227	horse	horse	-2	9796
+OBT:002229	chicken	chicken	-2	9031
+OBT:002257	pig	pig	-2	9823
+OBT:002292	goat	goat	-2	9925
+OBT:002295	cauliflower	cauliflower	-2	3715
+OBT:002300	sheep	sheep	-2	9940
+OBT:002302	cattle	cattle	-2	9913
+OBT:002304	bovine	bovine	-2	9913
+OBT:002312	cow	cow	-2	9913

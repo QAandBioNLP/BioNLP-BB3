@@ -1,0 +1,284 @@
+OBT:001255	food processing factory	Food processing factory	-27	ENVO:00003863
+OBT:000069	field	agricultural field	-27	ENVO:00000114
+OBT:001799	livestock	livestock-associated habitat	-27	ENVO:02000005
+OBT:000163	needle	hypodermic needle	-27	ENVO:02000000
+OBT:001697	freshwater	Fresh water	-27	ENVO:00002011
+OBT:000342	hydrothermal vent	Hydrothermal vent	-27	ENVO:00000215
+OBT:000078 	marine environment	Marine environment	-27	ENVO:01000320
+OBT:001495	saline water	Saline water	-27	ENVO:00002010
+OBT:000034	volcanic area	Volcanic field	-27	ENVO:00000354
+OBT:000134	acid environment	acidic environment	-27	ENVO:01000315
+OBT:000012	agricultural habitat	cultivated environment	-27	ENVO:01000311
+OBT:000057	environmental matter	environmental material	-27	ENVO:00010483
+OBT:000038	extreme environment	extreme habitat	-27	ENVO:00002020
+OBT:000052	hospital environment	hospital	-27	ENVO:00002173
+OBT:000197	organic matter	organic material	-27	ENVO:01000155
+OBT:000843 	power plant	power plant	-27	ENVO:00002214
+OBT:000558	processed food	processed food product	-27	ENVO:0010092
+OBT:000048	subterrestrial habitat	subterrestrial habitat	-27	ENVO:00000572
+OBT:000049	terrestrial habitat	terrestrial habitat	-27	ENVO:00002009
+OBT:000504	animal product and primary derivative thereof	animal food product	-27	ENVO:0010000
+OBT:000418	plant product and primary derivative thereof	plant food product	-27	ENVO:00002216
+OBT:000068	farm	farm	-27	ENVO:00000078
+OBT:000133	soil	Soil	-27	ENVO:00001998
+OBT:000703 	feces	feces	-27	ENVO:00002003
+OBT:000059	air	air	-27	ENVO:00002005
+OBT:000704	sediment	Sediment	-27	ENVO:00002007
+OBT:000037	biofilm	Biofilm	-27	ENVO:00002034
+OBT:000853	warehouse	warehouse	-27	ENVO:00003963
+OBT:000030	aerosol	Aerosol	-27	ENVO:00010505
+OBT:000314	excreta	excreta	-27	ENVO:02000022
+OBT:000309	chyme	chyme	-27	ENVO:02000026
+OBT:000064	aquatic environment	Aquatic environment	-27	ENVO:01000317
+OBT:001496	brackish water	Brackish water	-27	ENVO:00002019
+OBT:000019	animal feed	animal feed	-27	ENVO:02000047
+OBT:000030	aerosol	aerosol	-27	ENVO:00010505
+OBT:000037	biofilm	biofilm	-27	ENVO:00002034
+OBT:000058	fish pond	fish pond	-27	ENVO:00000056
+OBT:000064	aquatic environment	aquatic environment	-27	ENVO:01000317
+OBT:000071	bioreactor	bioreactor	-27	ENVO:00002123
+OBT:000078	marine environment	marine environment	-27	ENVO:01000320
+OBT:000130	solfatara	solfatara	-27	ENVO:00000217
+OBT:000131	endolithic environment	endolithic environment	-27	ENVO:01000303
+OBT:000133	soil	soil	-27	ENVO:00001998
+OBT:000135	alkaline environment	alkaline environment	-27	ENVO:01000316
+OBT:000136	high pressure environment	high pressure environment	-27	ENVO:01000304
+OBT:000137	haline environment	haline environment	-27	ENVO:01000310
+OBT:000138	high temperature environment	high temperature environment	-27	ENVO:01000305
+OBT:000140	high osmolarity environment	high osmolarity environment	-27	ENVO:01000314
+OBT:000141	aerobic bioreactor	aerobic bioreactor	-27	ENVO:00002126
+OBT:000142	anaerobic bioreactor	anaerobic bioreactor	-27	ENVO:00002124
+OBT:000143	ditch water	ditch water	-27	ENVO:00002158
+OBT:000146	mire	mire	-27	ENVO:00000043
+OBT:000191	water well	water well	-27	ENVO:01000002
+OBT:000199	pasture	pasture	-27	ENVO:00000266
+OBT:000201	slough	slough	-27	ENVO:00000043
+OBT:000221	nest	nest	-27	ENVO:00005803
+OBT:000228	garden	garden	-27	ENVO:00000011
+OBT:000264	surface soil	surface soil	-27	ENVO:02000059
+OBT:000267	seabed	seabed	-27	ENVO:00000482
+OBT:000296	harbor	harbor	-27	ENVO:00000463
+OBT:000297	intertidal zone	intertidal zone	-27	ENVO:00000316
+OBT:000298	limestone	limestone	-27	ENVO:00002053
+OBT:000300	rock	rock	-27	ENVO:00001995
+OBT:000329	mound	mound	-27	ENVO:00000180
+OBT:000332	desert	desert	-27	ENVO:00000097
+OBT:000332	desert	desert	-27	ENVO:01000179
+OBT:000342	hydrothermal vent	hydrothermal vent	-27	ENVO:00000215
+OBT:000348	wetland	wetland	-27	ENVO:00000043
+OBT:000353	waste water	waste water	-27	ENVO:00002001
+OBT:000354	wood	wood	-27	ENVO:00002040
+OBT:000355	sandstone	sandstone	-27	ENVO:00002055
+OBT:000356	extreme high temperature environment	extreme high temperature environment	-27	ENVO:01000318
+OBT:000357	anaerobic dechlorinating bioreactor	anaerobic dechlorinating bioreactor	-27	ENVO:00002125
+OBT:000358	jungle	jungle	-27	ENVO:00000109
+OBT:000359	alpine soil	alpine soil	-27	ENVO:00005741
+OBT:000360	upland	upland	-27	ENVO:00000182
+OBT:000362	mountain	mountain	-27	ENVO:00000081
+OBT:000363	ornithogenic soil	ornithogenic soil	-27	ENVO:00005782
+OBT:000365	volcanic soil	volcanic soil	-27	ENVO:00005785
+OBT:000366	permafrost	permafrost	-27	ENVO:00000134
+OBT:000367	compost	compost	-27	ENVO:00002170
+OBT:000371	surface water	surface water	-27	ENVO:00002042
+OBT:000427	organic waste	organic waste	-27	ENVO:00002873
+OBT:000435	anaerobic sludge blanket reactor	anaerobic sludge blanket reactor	-27	ENVO:00002213
+OBT:000436	thermophilic anaerobic methanogenic reactor	thermophilic anaerobic methanogenic reactor	-27	ENVO:00002211
+OBT:000437	sulfide-oxidizing bioreactor	sulfide-oxidizing bioreactor	-27	ENVO:00002210
+OBT:000438	forest soil	forest soil	-27	ENVO:00002261
+OBT:000450	silage	silage	-27	ENVO:00003030
+OBT:000461	humus	humus	-27	ENVO:01000000
+OBT:000462	bulk soil	bulk soil	-27	ENVO:00005802
+OBT:000463	cold seep	cold seep	-27	ENVO:01000263
+OBT:000470	savannah	savannah	-27	ENVO:00000261
+OBT:000474	microbial mat	microbial mat	-27	ENVO:01000008
+OBT:000477	garden soil	garden soil	-27	ENVO:00002263
+OBT:000478	sandy soil	sandy soil	-27	ENVO:00002229
+OBT:000482	industrial building	industrial building	-27	ENVO:00003861
+OBT:000486	dune soil	dune soil	-27	ENVO:00002260
+OBT:000493	barn	barn	-27	ENVO:00000077
+OBT:000496	volcano	volcano	-27	ENVO:00000247
+OBT:000510	muddy water	muddy water	-27	ENVO:00005793
+OBT:000530	coast	coast	-27	ENVO:00000303
+OBT:000553	sea ice	sea ice	-27	ENVO:00002200
+OBT:000619	silt	silt	-27	ENVO:01000016
+OBT:000620	clay	clay	-27	ENVO:00002982
+OBT:000621	sawmill	sawmill	-27	ENVO:00004638
+OBT:000635	shoreline	shoreline	-27	ENVO:00000486
+OBT:000636	tropical soil	tropical soil	-27	ENVO:00005778
+OBT:000638	shore	shore	-27	ENVO:00000304
+OBT:000664	swamp	swamp	-27	ENVO:00000233
+OBT:000669	backwater	backwater	-27	ENVO:00000472
+OBT:000675	sewage	sewage	-27	ENVO:00002018
+OBT:000677	mine drainage	mine drainage	-27	ENVO:00001996
+OBT:000684	drainage canal	drainage canal	-27	ENVO:00000042
+OBT:000694	creosote	creosote	-27	ENVO:2000001
+OBT:000696	marsh	marsh	-27	ENVO:00000035
+OBT:000701	saline wetland	saline wetland	-27	ENVO:00000240
+OBT:000702	freshwater wetland	freshwater wetland	-27	ENVO:00000243
+OBT:000704	sediment	sediment	-27	ENVO:00002007
+OBT:000707	irrigation ditch	irrigation ditch	-27	ENVO:00000139
+OBT:000708	drainage ditch	drainage ditch	-27	ENVO:00000140
+OBT:000710	leachate	leachate	-27	ENVO:00002141
+OBT:000711	treated wood	treated wood	-27	ENVO:00002135
+OBT:000716	drilling bore water	drilling bore water	-27	ENVO:00002159
+OBT:000723	sand	sand	-27	ENVO:01000017
+OBT:000733	bog	bog	-27	ENVO:00000043
+OBT:000734	coastal wetland	coastal wetland	-27	ENVO:00000230
+OBT:000760	quarry	quarry	-27	ENVO:00000284
+OBT:000775	animal waste	animal waste	-27	ENVO:00002276
+OBT:000782	pond water	pond water	-27	ENVO:00002228
+OBT:000787	enriched soil	enriched soil	-27	ENVO:00003082
+OBT:000788	grass silage	grass silage	-27	ENVO:00003071
+OBT:000798	burnt soil	burnt soil	-27	ENVO:00005760
+OBT:000799	mud volcano	mud volcano	-27	ENVO:00000402
+OBT:000809	moor	moor	-27	ENVO:00000231
+OBT:000810	backswamp	backswamp	-27	ENVO:00000043
+OBT:000812	barrier flat	barrier flat	-27	ENVO:00000043
+OBT:000814	terrestial wetland	terrestial wetland	-27	ENVO:00000043
+OBT:000815	sandy beach	sandy beach	-27	ENVO:00002199
+OBT:000816	vegetable garden soil	vegetable garden soil	-27	ENVO:00005779
+OBT:000826	poultry litter	poultry litter	-27	ENVO:00002192
+OBT:000829	waste treatment plant	waste treatment plant	-27	ENVO:00002272
+OBT:000832	forest	forest	-27	ENVO:00000111
+OBT:000832	forest	forest	-27	ENVO:01000174
+OBT:000834	black smoker	black smoker	-27	ENVO:00000218
+OBT:000837	drinking water reservoir	drinking water reservoir	-27	ENVO:00000449
+OBT:000842	tidal creek	tidal creek	-27	ENVO:00000041
+OBT:000847	heat stressed soil	heat stressed soil	-27	ENVO:00005781
+OBT:000856	lake	lake	-27	ENVO:00000020
+OBT:000857	dry soil	dry soil	-27	ENVO:00005748
+OBT:000858	estuary	estuary	-27	ENVO:00000045
+OBT:000860	potato silage	potato silage	-27	ENVO:00003978
+OBT:000875	mud	mud	-27	ENVO:01000001
+OBT:000881	creek	creek	-27	ENVO:00000023
+OBT:000882	pond	pond	-27	ENVO:00000033
+OBT:000883	river	river	-27	ENVO:00000022
+OBT:000914	crude oil	crude oil	-27	ENVO:00002984
+OBT:000947	brackish pond	brackish pond	-27	ENVO:00000541
+OBT:000988	poultry deep litter	poultry deep litter	-27	ENVO:00003908
+OBT:001001	red clay	red clay	-27	ENVO:02000045
+OBT:001051	gold mine	gold mine	-27	ENVO:00002168
+OBT:001062	sewage plant	sewage plant	-27	ENVO:00003043
+OBT:001074	oil reservoir	oil reservoir	-27	ENVO:00002185
+OBT:001077	peatland	peatland	-27	ENVO:00000044
+OBT:001079	raised mire	raised mire	-27	ENVO:00000185
+OBT:001080	peat cut	peat cut	-27	ENVO:00000157
+OBT:001081	tundra mire	tundra mire	-27	ENVO:00000187
+OBT:001082	dambo	dambo	-27	ENVO:00000236
+OBT:001083	carr	carr	-27	ENVO:00000235
+OBT:001084	mudflat	mudflat	-27	ENVO:00000192
+OBT:001086	paisa mire	paisa mire	-27	ENVO:00000188
+OBT:001089	anaerobic sediment	anaerobic sediment	-27	ENVO:00002045
+OBT:001090	oil seep	oil seep	-27	ENVO:00002063
+OBT:001095	borax leachate	borax leachate	-27	ENVO:00002142
+OBT:001096	arsenate treated wood	arsenate treated wood	-27	ENVO:00002136
+OBT:001098	anaerobic mud	anaerobic mud	-27	ENVO:00002133
+OBT:001105	sea sand	sea sand	-27	ENVO:00002118
+OBT:001132	methane seep	methane seep	-27	ENVO:01000263
+OBT:001144	meromictic lake	meromictic lake	-27	ENVO:00000199
+OBT:001158	saw mill	saw mill	-27	ENVO:00004638
+OBT:001175	agricultural soil	agricultural soil	-27	ENVO:00002259
+OBT:001176	sphagnum bog	sphagnum bog	-27	ENVO:00002268
+OBT:001194	pulp-bleaching waste water	pulp-bleaching waste water	-27	ENVO:00002193
+OBT:001213	animal manure	animal manure	-27	ENVO:00003031
+OBT:001247	sandy sediment	sandy sediment	-27	ENVO:01000118
+OBT:001252	tannery	tannery	-27	ENVO:00003323
+OBT:001255	food processing factory	food processing factory	-27	ENVO:00003863
+OBT:001256	biofilter	biofilter	-27	ENVO:00002152
+OBT:001268	pine forest	pine forest	-27	ENVO:01000196
+OBT:001274	thermal spring	thermal spring	-27	ENVO:00000051
+OBT:001279	marine mud	marine mud	-27	ENVO:00005795
+OBT:001283	rye grass silage	rye grass silage	-27	ENVO:00003900
+OBT:001284	tobacco warehouse	tobacco warehouse	-27	ENVO:00003964
+OBT:001287	hotspring	hotspring	-27	ENVO:00000051
+OBT:001307	sludge	sludge	-27	ENVO:00002044
+OBT:001314	borehole	borehole	-27	ENVO:00002226
+OBT:001475	acid hot spring	acid hot spring	-27	ENVO:00002120
+OBT:001492	fluvial dambo	fluvial dambo	-27	ENVO:00000238
+OBT:001493	tidal mudflat	tidal mudflat	-27	ENVO:00000241
+OBT:001495	saline water	saline water	-27	ENVO:00002010
+OBT:001496	brackish water	brackish water	-27	ENVO:00002019
+OBT:001498	ground water	ground water	-27	ENVO:00002041
+OBT:001503	marine sediment	marine sediment	-27	ENVO:00002113
+OBT:001504	arable soil	arable soil	-27	ENVO:00005742
+OBT:001512	rice paddy	rice paddy	-27	ENVO:00000296
+OBT:001571	oligotrophic water	oligotrophic water	-27	ENVO:00002223
+OBT:001572	eutrophic water	eutrophic water	-27	ENVO:00002224
+OBT:001573	mesotrophic water	mesotrophic water	-27	ENVO:00002225
+OBT:001601	fresh animal manure	fresh animal manure	-27	ENVO:00003032
+OBT:001628	greenhouse soil	greenhouse soil	-27	ENVO:00005780
+OBT:001632	beach sand	beach sand	-27	ENVO:00002138
+OBT:001637	compost biofilter	compost biofilter	-27	ENVO:00002153
+OBT:001641	oil sludge	oil sludge	-27	ENVO:00002060
+OBT:001646	anaerobic digester sludge	anaerobic digester sludge	-27	ENVO:00003965
+OBT:001651	chemocline	chemocline	-27	ENVO:00002270
+OBT:001659	field soil	field soil	-27	ENVO:00005755
+OBT:001664	alkaline hotspring	alkaline hotspring	-27	ENVO:00002119
+OBT:001665	neutral hotspring	neutral hotspring	-27	ENVO:00002181
+OBT:001667	stable manure	stable manure	-27	ENVO:00003927
+OBT:001697	freshwater	freshwater	-27	ENVO:00000873
+OBT:001697	freshwater	freshwater	-27	ENVO:00002011
+OBT:001704	activated sludge	activated sludge	-27	ENVO:00002046
+OBT:001719	aphotic zone	aphotic zone	-27	ENVO:00000210
+OBT:001720	photic zone	photic zone	-27	ENVO:00000209
+OBT:001761	stream sediment	stream sediment	-27	ENVO:00002127
+OBT:001764	calcareous ooze	calcareous ooze	-27	ENVO:02000046
+OBT:001775	siliceous ooze	siliceous ooze	-27	ENVO:02000044
+OBT:001785	brine pool	brine pool	-27	ENVO:00000369
+OBT:001793	ocean trench	ocean trench	-27	ENVO:00000275
+OBT:001796	lake sediment	lake sediment	-27	ENVO:00000546
+OBT:001797	hypersaline water	hypersaline water	-27	ENVO:00002012
+OBT:001823	coarse beach sand	coarse beach sand	-27	ENVO:00002148
+OBT:001830	aquifer	aquifer	-27	ENVO:00012408
+OBT:001838	brewery	brewery	-27	ENVO:00003885
+OBT:001840	creamery	creamery	-27	ENVO:00003967
+OBT:001861	soda lake sediment	soda lake sediment	-27	ENVO:00002209
+OBT:001881	coal mine lake sediment	coal mine lake sediment	-27	ENVO:00002147
+OBT:001882	contaminated sediment	contaminated sediment	-27	ENVO:00002114
+OBT:001883	contaminated soil	contaminated soil	-27	ENVO:00002116
+OBT:001888	marine wetland	marine wetland	-27	ENVO:00000043
+OBT:001904	intertidal sediment	intertidal sediment	-27	ENVO:00002179
+OBT:001915	sake brewery	sake brewery	-27	ENVO:00003911
+OBT:001920	brine	brine	-27	ENVO:00003044
+OBT:001930	acid mine drainage	acid mine drainage	-27	ENVO:00001997
+OBT:001939	radioactive sediment	radioactive sediment	-27	ENVO:00002154
+OBT:001945	soda lake	soda lake	-27	ENVO:00000019
+OBT:001945	soda lake	soda lake	-27	ENVO:00002121
+OBT:001953	inorganically contaminated sediment	inorganically contaminated sediment	-27	ENVO:00002203
+OBT:001954	contaminated water	contaminated water	-27	ENVO:00002186
+OBT:001959	humus-rich acidic ash soil	humus-rich acidic ash soil	-27	ENVO:00005763
+OBT:001960	salt contaminated soil	salt contaminated soil	-27	ENVO:00005775
+OBT:001975	pyritic acid mine drainage	pyritic acid mine drainage	-27	ENVO:00002195
+OBT:001981	roadside soil	roadside soil	-27	ENVO:00005743
+OBT:001982	high-level radioactive sediment	high-level radioactive sediment	-27	ENVO:00002155
+OBT:001986	tidal marsh	tidal marsh	-27	ENVO:00000054
+OBT:001995	nitrobenzene contaminated sediment	nitrobenzene contaminated sediment	-27	ENVO:00002182
+OBT:001996	naphthalene contaminated sediment	naphthalene contaminated sediment	-27	ENVO:00002180
+OBT:001998	metal contaminated soil	metal contaminated soil	-27	ENVO:00003081
+OBT:001999	anoxic water	anoxic water	-27	ENVO:01000173
+OBT:002002	wastewater treatment plant	wastewater treatment plant	-27	ENVO:00002043
+OBT:002006	fertilized soil	fertilized soil	-27	ENVO:00005754
+OBT:002039	freshwater marsh	freshwater marsh	-27	ENVO:00000053
+OBT:002040	saline marsh	saline marsh	-27	ENVO:00000054
+OBT:002041	chromate contaminated soil	chromate contaminated soil	-27	ENVO:00002145
+OBT:002049	agricultural wastewater treatment plant	agricultural wastewater treatment plant	-27	ENVO:2000003
+OBT:002052	salicylate enriched soil	salicylate enriched soil	-27	ENVO:00003092
+OBT:002053	pantothenate enriched soil	pantothenate enriched soil	-27	ENVO:00003088
+OBT:002055	urea enriched soil	urea enriched soil	-27	ENVO:00005753
+OBT:002070	saltern	saltern	-27	ENVO:00000055
+OBT:002074	coastal water	coastal water	-27	ENVO:00002150
+OBT:002089	peat	peat	-27	ENVO:00005774
+OBT:002090	pig manure	pig manure	-27	ENVO:00003860
+OBT:002091	horse manure	horse manure	-27	ENVO:00003859
+OBT:002095	farmyard manure	farmyard manure	-27	ENVO:00003884
+OBT:002104	lagoon	lagoon	-27	ENVO:00000038
+OBT:002108	chicken yard waste	chicken yard waste	-27	ENVO:00002266
+OBT:002125	saline lake	saline lake	-27	ENVO:00000019
+OBT:002129	freshwater lake	freshwater lake	-27	ENVO:00000021
+OBT:002129	freshwater lake	freshwater lake	-27	ENVO:01000252
+OBT:002248	xylene contaminated soil	xylene contaminated soil	-27	ENVO:00002146
+OBT:002250	creosote contaminated soil	creosote contaminated soil	-27	ENVO:00002117
+OBT:002254	oil contaminated soil	oil contaminated soil	-27	ENVO:00002875
+OBT:002258	quinate enriched soil	quinate enriched soil	-27	ENVO:00003095
+OBT:002306	acetamide enriched soil	acetamide enriched soil	-27	ENVO:00003087
+OBT:001175	agricultural soil	agricultural soil	-27	ENVO:00002259

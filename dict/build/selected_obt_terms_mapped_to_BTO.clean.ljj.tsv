@@ -1,0 +1,196 @@
+OBT:002047	stem cortex	Stem cortex	-25	BTO:0002327
+OBT:001868	bone	bone	-25	BTO:0000140
+OBT:000401	ear	ear	-25	BTO:0000368
+OBT:000703 	feces	feces	-25	BTO:0000440
+OBT:000277	nose	nose	-25	BTO:0000840
+OBT:001877	root	root	-25	BTO:0001188
+OBT:000282	skin	skin	-25	BTO:0001253
+OBT:001935	stem	stem	-25	BTO:0001300
+OBT:000075	adipocyte	adipocyte	-25	BTO:0000443
+OBT:000093	exoskeleton	exoskeleton	-25	BTO:0004659
+OBT:000119	abdomen	abdomen	-25	BTO:0000020
+OBT:000164	respiratory tract	respiratory tract	-25	BTO:0000203
+OBT:000217	germ cell	germ cell	-25	BTO:0000535
+OBT:000220	finger	finger	-25	BTO:0004669
+OBT:000224	immune cell	immune cell	-25	BTO:0000751
+OBT:000232	immune system	immune system	-25	BTO:0005810
+OBT:000238	peritoneal cavity	peritoneal cavity	-25	BTO:0001782
+OBT:000240	enterocyte	enterocyte	-25	BTO:0000398
+OBT:000253	conjunctiva	conjunctiva	-25	BTO:0003415
+OBT:000260	endometrium	endometrium	-25	BTO:0001422
+OBT:000262	pharyngeal mucosa	pharyngeal mucosa	-25	BTO:0001047
+OBT:000275	nasal epithelia	nasal epithelia	-25	BTO:0000108
+OBT:000276	nasal cavity	nasal cavity	-25	BTO:0002096
+OBT:000284	spinal cord	spinal cord	-25	BTO:0001279
+OBT:000286	gastrointestinal tract	gastrointestinal tract	-25	BTO:0000511
+OBT:000287	lung	lung	-25	BTO:0000763
+OBT:000288	cervix	cervix	-25	BTO:0001421
+OBT:000290	urethra	urethra	-25	BTO:0001426
+OBT:000302	lymph	lymph	-25	BTO:0000855
+OBT:000304	synovial fluid	synovial fluid	-25	BTO:0001339
+OBT:000306	cerebrospinal fluid	cerebrospinal fluid	-25	BTO:0000237
+OBT:000307	vitreous humor	vitreous humor	-25	BTO:0001451
+OBT:000308	pleural fluid	pleural fluid	-25	BTO:0003080
+OBT:000310	blood plasma	blood plasma	-25	BTO:0000131
+OBT:000315	amniotic fluid	amniotic fluid	-25	BTO:0000068
+OBT:000316	blood	blood	-25	BTO:0000089
+OBT:000330	nasopharynx	nasopharynx	-25	BTO:0000662
+OBT:000334	heart valve	heart valve	-25	BTO:0000564
+OBT:000336	gall bladder	gall bladder	-25	BTO:0000493
+OBT:000374	throat	throat	-25	BTO:0000828
+OBT:000382	gill	gill	-25	BTO:0000518
+OBT:000398	blood vessel	blood vessel	-25	BTO:0001102
+OBT:000403	outer ear	outer ear	-25	BTO:0002100
+OBT:000405	middle ear	middle ear	-25	BTO:0002099
+OBT:000409	prepuce	prepuce	-25	BTO:0001113
+OBT:000414	ovary	ovary	-25	BTO:0000975
+OBT:000421	urogenital tract	urogenital tract	-25	BTO:0003091
+OBT:000426	hemolymph	hemolymph	-25	BTO:0000572
+OBT:000456	peritoneal fluid	peritoneal fluid	-25	BTO:0001031
+OBT:000458	vitreous fluid	vitreous fluid	-25	BTO:0001451
+OBT:000465	testis	testis	-25	BTO:0001363
+OBT:000467	nervous system	nervous system	-25	BTO:0001484
+OBT:000471	leukocyte	leukocyte	-25	BTO:0000751
+OBT:000473	circulatory system	circulatory system	-25	BTO:0000088
+OBT:000509	bronchus	bronchus	-25	BTO:0001340
+OBT:000515	urinary tract	urinary tract	-25	BTO:0001244
+OBT:000521	uterus	uterus	-25	BTO:0001424
+OBT:000528	vagina	vagina	-25	BTO:0000243
+OBT:000535	alveolar epithelium	alveolar epithelium	-25	BTO:0003511
+OBT:000537	light organ	light organ	-25	BTO:0001477
+OBT:000540	pancreas	pancreas	-25	BTO:0000988
+OBT:000542	pancreatic duct	pancreatic duct	-25	BTO:0002362
+OBT:000548	lymph node	lymph node	-25	BTO:0000784
+OBT:000549	phagocyte	phagocyte	-25	BTO:0001044
+OBT:000560	spleen	spleen	-25	BTO:0001281
+OBT:000564	cornea	cornea	-25	BTO:0000286
+OBT:000565	glial cell	glial cell	-25	BTO:0002606
+OBT:000566	nerve	nerve	-25	BTO:0000925
+OBT:000567	inner ear	inner ear	-25	BTO:0000630
+OBT:000568	ureter	ureter	-25	BTO:0001409
+OBT:000571	blood serum	blood serum	-25	BTO:0000133
+OBT:000572	head kidney	head kidney	-25	BTO:0005189
+OBT:000573	bladder	bladder	-25	BTO:0000123
+OBT:000574	meninges	meninges	-25	BTO:0000144
+OBT:000575	chest	chest	-25	BTO:0001368
+OBT:000577	placenta	placenta	-25	BTO:0001078
+OBT:000581	embryonic structure	embryonic structure	-25	BTO:0000174
+OBT:000593	joint	joint	-25	BTO:0001686
+OBT:000599	root cap	root cap	-25	BTO:0000039
+OBT:000627	twig	twig	-25	BTO:0001411
+OBT:000632	skeleton	skeleton	-25	BTO:0001486
+OBT:000642	saliva	saliva	-25	BTO:0001202
+OBT:000643	sebum	sebum	-25	BTO:0001981
+OBT:000646	sweat	sweat	-25	BTO:0001254
+OBT:000648	meristem	meristem	-25	BTO:0000852
+OBT:000659	epithelium	epithelium	-25	BTO:0000416
+OBT:000672	hindgut	hindgut	-25	BTO:0000510
+OBT:000688	vascular tissue	vascular tissue	-25	BTO:0001432
+OBT:000706	urine	urine	-25	BTO:0001419
+OBT:000727	semen	semen	-25	BTO:0001230
+OBT:000728	foregut	foregut	-25	BTO:0000507
+OBT:000729	gastric antrum	gastric antrum	-25	BTO:0001732
+OBT:000740	sputum	sputum	-25	BTO:0001297
+OBT:000747	peripheral nervous system	peripheral nervous system	-25	BTO:0001028
+OBT:000751	cuticle	cuticle	-25	BTO:0001600
+OBT:000761	mammary gland	mammary gland	-25	BTO:0000817
+OBT:000764	endodermis	endodermis	-25	BTO:0000388
+OBT:000767	muscle	muscle	-25	BTO:0000887
+OBT:000768	epidermis	epidermis	-25	BTO:0000404
+OBT:000769	parenchyma	parenchyma	-25	BTO:0001539
+OBT:000770	sclerenchyma	sclerenchyma	-25	BTO:0001222
+OBT:000800	mesentery	mesentery	-25	BTO:0001380
+OBT:000806	hoof	hoof	-25	BTO:0003994
+OBT:000808	artery	artery	-25	BTO:0000573
+OBT:000821	trunk	trunk	-25	BTO:0001493
+OBT:000831	central nervous system	central nervous system	-25	BTO:0000227
+OBT:000861	fat body	fat body	-25	BTO:0000442
+OBT:000873	breast	breast	-25	BTO:0000149
+OBT:000897	wood	wood	-25	BTO:0005516
+OBT:000908	midgut	midgut	-25	BTO:0000863
+OBT:000910	mucous membrane	mucous membrane	-25	BTO:0000886
+OBT:000918	yolk sac	yolk sac	-25	BTO:0001471
+OBT:000919	gastric body	gastric body	-25	BTO:0000505
+OBT:000920	anus	anus	-25	BTO:0001680
+OBT:000923	peritoneum	peritoneum	-25	BTO:0001472
+OBT:000927	granulocyte	granulocyte	-25	BTO:0000539
+OBT:000930	colon	colon	-25	BTO:0000269
+OBT:000951	appendix	appendix	-25	BTO:0000084
+OBT:000952	rectum	rectum	-25	BTO:0001158
+OBT:000953	stomach	stomach	-25	BTO:0001307
+OBT:000965	gastric mucosa	gastric mucosa	-25	BTO:0001308
+OBT:001053	mesenteric artery	mesenteric artery	-25	BTO:0000779
+OBT:001072	xylem	xylem	-25	BTO:0001468
+OBT:001120	trichome	trichome	-25	BTO:0001395
+OBT:001121	transverse colon	transverse colon	-25	BTO:0000272
+OBT:001123	sigmoid colon	sigmoid colon	-25	BTO:0000645
+OBT:001151	petiole	petiole	-25	BTO:0001041
+OBT:001152	hydathode	hydathode	-25	BTO:0004957
+OBT:001167	tooth	tooth	-25	BTO:0000397
+OBT:001170	bud	bud	-25	BTO:0001639
+OBT:001171	periodontium	periodontium	-25	BTO:0001021
+OBT:001178	salivary gland	salivary gland	-25	BTO:0001203
+OBT:001180	pericarp	pericarp	-25	BTO:0001017
+OBT:001183	palisade layer	palisade layer	-25	BTO:0000987
+OBT:001185	stigma	stigma	-25	BTO:0001303
+OBT:001186	style	style	-25	BTO:0001313
+OBT:001187	anther	anther	-25	BTO:0000079
+OBT:001188	sepal	sepal	-25	BTO:0001547
+OBT:001189	petal	petal	-25	BTO:0001040
+OBT:001193	pollen tube	pollen tube	-25	BTO:0001276
+OBT:001257	dental plaque	dental plaque	-25	BTO:0000338
+OBT:001258	oesophagus	oesophagus	-25	BTO:0000959
+OBT:001260	caecum	caecum	-25	BTO:0000166
+OBT:001261	gizzard	gizzard	-25	BTO:0000520
+OBT:001262	reticulum	reticulum	-25	BTO:0000347
+OBT:001263	fore-stomach	fore-stomach	-25	BTO:0000480
+OBT:001264	omasum	omasum	-25	BTO:0000348
+OBT:001266	abomasum	abomasum	-25	BTO:0000024
+OBT:001289	jejunum	jejunum	-25	BTO:0000657
+OBT:001290	ileum	ileum	-25	BTO:0000620
+OBT:001292	mouth	mouth	-25	BTO:0001090
+OBT:001293	duodenum	duodenum	-25	BTO:0000365
+OBT:001294	phloem	phloem	-25	BTO:0001058
+OBT:001296	aorta	aorta	-25	BTO:0000135
+OBT:001341	rumen	rumen	-25	BTO:0001194
+OBT:001342	lymphocyte	lymphocyte	-25	BTO:0000775
+OBT:001348	coronary artery	coronary artery	-25	BTO:0000290
+OBT:001352	eosinophil	eosinophil	-25	BTO:0000399
+OBT:001353	basophil	basophil	-25	BTO:0000129
+OBT:001563	endosperm	endosperm	-25	BTO:0000390
+OBT:001564	testa	testa	-25	BTO:0001227
+OBT:001566	nucellus	nucellus	-25	BTO:0001777
+OBT:001568	integument	integument	-25	BTO:0000634
+OBT:001570	pollen	pollen	-25	BTO:0001097
+OBT:001746	erythrocyte	erythrocyte	-25	BTO:0000424
+OBT:001760	kidney	kidney	-25	BTO:0000671
+OBT:001767	heart	heart	-25	BTO:0000562
+OBT:001794	bone marrow	bone marrow	-25	BTO:0000141
+OBT:001809	embryonic axis	embryonic axis	-25	BTO:0000380
+OBT:001812	egg cell	egg cell	-25	BTO:0003801
+OBT:001828	brain	brain	-25	BTO:0000142
+OBT:001852	liver	liver	-25	BTO:0000759
+OBT:001863	pharynx	pharynx	-25	BTO:0001049
+OBT:001872	endothelium	endothelium	-25	BTO:0000393
+OBT:001893	intestine	intestine	-25	BTO:0000648
+OBT:001900	hypocotyl	hypocotyl	-25	BTO:0000613
+OBT:001901	shoot apex	shoot apex	-25	BTO:0000247
+OBT:001925	dendritic cell	dendritic cell	-25	BTO:0002042
+OBT:001932	flower	flower	-25	BTO:0000469
+OBT:001944	root nodule	root nodule	-25	BTO:0001190
+OBT:001947	pericycle	pericycle	-25	BTO:0001465
+OBT:001949	radicle	radicle	-25	BTO:0001152
+OBT:001950	fruit	fruit	-25	BTO:0000486
+OBT:001951	plumule	plumule	-25	BTO:0001495
+OBT:001974	intestinal epithelium	intestinal epithelium	-25	BTO:0000781
+OBT:001979	stem nodule	stem nodule	-25	BTO:0001816
+OBT:002020	intestinal mucosa	intestinal mucosa	-25	BTO:0000642
+OBT:002022	macrophage	macrophage	-25	BTO:0000801
+OBT:002023	monocyte	monocyte	-25	BTO:0000876
+OBT:002025	neutrophil	neutrophil	-25	BTO:0000130
+OBT:002026	mast cell	mast cell	-25	BTO:0000830
+OBT:002047	stem cortex	stem cortex	-25	BTO:0002327
+OBT:002048	leaf epidermis	leaf epidermis	-25	BTO:0000718
+OBT:002117	peritrophic membrane	peritrophic membrane	-25	BTO:0001038
+OBT:002193	large intestine	large intestine	-25	BTO:0000706
+OBT:002194	small intestine	small intestine	-25	BTO:0000651
